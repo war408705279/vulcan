@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "constants/*": ["./src/constants/*"],
+      "utils/*": ["./src/utils/*"],
+      "apis/*": ["./src/apis/*"],
+      "hooks/*": ["./src/hooks/*"],
+      "stores/*": ["./src/stores/*"]
+    },
+    "lib": ["DOM", "ES2015", "ES2016", "ES2017"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "typings"
+    ],
+  },
+  "include": ["./src/**/*", "./typings/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
