@@ -1,9 +1,12 @@
-# 七牛小程序
+# :seven: :cow:小程序
+
+![Vulcan](./vulcan.jpg "Live long and prosper")
 
 ```bash
 Vulcan: 瓦肯星、火神星、祝融星
 《星际迷航》中 Mr.Spock 的出生星球
 瓦肯人以信仰严谨的逻辑和推理、去除情感的干扰闻名
+Live long and prosper
 ```
 
 基于 [Remax](https://github.com/remaxjs/remax) 开发的跨平台小程序
