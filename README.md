@@ -57,14 +57,14 @@ yarn dev wechat
 
 ### 目录结构
 
-项目的主体代码都放在 `./src` 中，相当于一般 `React` 项目中的根目录。其文件划分基本类似 `Portal React` 的项目，目前具体划分如下：
+项目的主体代码都放在 `./src` 中，相当于一般 `React` 项目中的根目录。其文件划分基本类似 `Portal React / www-2020 React` 项目，目前具体划分如下：
 
 ```shell
 /
 ├── apis # 接口相关
 ├── components # 自定义组件
 ├── constants # 常量相关
-├── hooks
+├── hooks # 各种 hooks
 ├── pages # 小程序页面
 ├── stores
 └── utils # 各种 tools
@@ -73,7 +73,7 @@ yarn dev wechat
 
 - `apis` / `components` / `constants` / `hooks` / `stores` / `utils`
 
-  类似 `Portal React` 项目中的规范所定义的功能
+  类似 `Portal React / www-2020 React` 项目中的规范所定义的功能
 
 - `pages`
 
