@@ -5,13 +5,13 @@
 ```bash
 Vulcan: 瓦肯星、火神星、祝融星
 《星际迷航》中 Mr.Spock 的出生星球
-瓦肯人以信仰严谨的逻辑和推理、去除情感的干扰闻名
-Live long and prosper
+瓦肯人以信仰严谨的逻辑和推理闻名
+在进行瓦肯举手礼的时候通常还伴随着一句话：Live long and prosper（生生不息，繁荣昌盛）
 ```
 
 基于 [Remax](https://github.com/remaxjs/remax) 开发的跨平台小程序
 
-目前只有微信（wechat）版本，后续再添加其他版本
+目前只有微信（`wechat`）版本，后续再添加其他版本
 
 ## 文档
 
@@ -37,7 +37,7 @@ yarn
 
 ```bash
 # 选定要进行开发的平台，如 wechat，并调试
-$ npm run dev wechat
+npm run dev wechat
 # or
 yarn dev wechat
 ```
@@ -95,9 +95,9 @@ yarn dev wechat
 
 ```bash
 # 选定要构建的平台，如 wechat，并执行构建
-$ npm run build wechat
+npm run build wechat
 # or
-$ yarn build wechat
+yarn build wechat
 ```
 
 使用小程序开发者工具打开项目下的 `dist/[target]` 目录（例如微信小程序，目录为 `dist/wechat`），上传代码即可
