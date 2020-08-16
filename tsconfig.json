@@ -14,7 +14,8 @@
       "utils/*": ["./src/utils/*"],
       "apis/*": ["./src/apis/*"],
       "hooks/*": ["./src/hooks/*"],
-      "stores/*": ["./src/stores/*"]
+      "stores/*": ["./src/stores/*"],
+      "components/*": ["./src/components/*"]
     },
     "lib": ["DOM", "ES2015", "ES2016", "ES2017"],
     "experimentalDecorators": true,
