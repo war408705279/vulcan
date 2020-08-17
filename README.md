@@ -1,4 +1,4 @@
-# :seven: :cow: 小程序版 Portal
+# :seven: :cow:小程序版 Portal
 
 基于 [Remax](https://github.com/remaxjs/remax) 开发的跨平台小程序
 

@@ -1,8 +1,8 @@
 {
-  "name": "qiniu-miniprogram",
+  "name": "qiniu-portal-miniprogram",
   "private": true,
   "version": "1.0.0",
-  "description": "Qiniu Miniprogram",
+  "description": "Qiniu Portal Miniprogram",
   "main": "index.js",
   "keywords": [
     "Qiniu",
@@ -10,7 +10,7 @@
     "mobile",
     "portal"
   ],
-  "author": "404 not found",
+  "author": "Qiniu",
   "license": "MIT",
   "scripts": {
     "dev": "remax build -w -t",
