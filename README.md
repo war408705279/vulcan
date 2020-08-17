@@ -1,13 +1,4 @@
-# :seven: :cow:小程序
-
-![Vulcan](./vulcan.jpg "Live long and prosper")
-
-```bash
-Vulcan: 瓦肯星、火神星、祝融星
-《星际迷航》中 Mr.Spock 的出生星球
-瓦肯人以信仰严谨的逻辑和推理闻名
-在进行瓦肯举手礼的时候通常还伴随着一句话：Live long and prosper（生生不息，繁荣昌盛）
-```
+# :seven: :cow: 小程序版 Portal
 
 基于 [Remax](https://github.com/remaxjs/remax) 开发的跨平台小程序
 
@@ -60,15 +51,15 @@ yarn dev wechat
 项目的主体代码都放在 `./src` 中，相当于一般 `React` 项目中的根目录。其文件划分基本类似 `Portal React / www-2020 React` 项目，目前具体划分如下：
 
 ```shell
-/
-├── apis # 接口相关
-├── components # 自定义组件
-├── constants # 常量相关
-├── hooks # 各种 hooks
-├── pages # 小程序页面
-├── stores
-└── utils # 各种 tools
-└── ... # 后续有需要再添加新的目录
+./src
+  ├── apis # 接口相关
+  ├── components # 自定义组件
+  ├── constants # 常量相关
+  ├── hooks # 各种 hooks
+  ├── pages # 小程序页面
+  ├── stores
+  ├── utils # 各种 tools
+  └── ... # 后续有需要再添加新的目录
 ```
 
 - `apis` / `components` / `constants` / `hooks` / `stores` / `utils`
