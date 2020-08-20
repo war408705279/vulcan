@@ -2,14 +2,13 @@
  * @file index page
  */
 
-import React from 'react'
-import { useNativeEffect } from 'remax'
+import React, { useEffect } from 'react'
 
 import { View, Text, Button } from 'remax/one'
 
 import Demo from 'components/Demo'
 
-import { useApi } from 'hooks/api'
+import { useApi } from 'utils/hooks/api'
 
 import { getUserInfo } from 'apis/user'
 
@@ -19,9 +18,9 @@ export default () => {
   const { $: userInfo, loading, call: callGetUserinfo } = useApi(getUserInfo)
   const name = userInfo && userInfo['name'] || 'nobody'
 
-  useNativeEffect(() => {
+  useEffect(() => {
     callGetUserinfo()
-  }, [])
+  }, [callGetUserinfo])
 
   return (
     <View

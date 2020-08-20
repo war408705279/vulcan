@@ -14,10 +14,6 @@ export type FetchOptions = Omit<WechatMiniprogram.RequestOption, 'url' | 'succes
 
 function getHeader(header: object) {
   return {
-    // 为服务端渲染时发出的请求添加 Referer 信息，以免被 API proxy 拒掉
-    // TODO: wx.request 官方文档中提到 header 中不能设置 Referer
-    // https://developers.weixin.qq.com/miniprogram/dev/api/network/request/wx.request.html
-    // Referer: host,
     // TODO: Add token
     Authorization: 'Bearer xxx',
     'Content-Type': 'application/json',

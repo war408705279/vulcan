@@ -22,7 +22,6 @@ module.exports = {
           constants: path.resolve(__dirname, 'src/constants'),
           utils: path.resolve(__dirname, 'src/utils'),
           apis: path.resolve(__dirname, 'src/apis'),
-          hooks: path.resolve(__dirname, 'src/hooks'),
           stores: path.resolve(__dirname, 'src/stores'),
           components: path.resolve(__dirname, 'src/components')
         }

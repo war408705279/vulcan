@@ -13,7 +13,6 @@
       "constants/*": ["./src/constants/*"],
       "utils/*": ["./src/utils/*"],
       "apis/*": ["./src/apis/*"],
-      "hooks/*": ["./src/hooks/*"],
       "stores/*": ["./src/stores/*"],
       "components/*": ["./src/components/*"]
     },

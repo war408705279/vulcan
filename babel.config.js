@@ -1,9 +1,6 @@
 // babel.config.js
 module.exports = {
-  plugins: [['import', {
-    libraryName: 'antd',
-    style: true
-  }]],
+  plugins: [],
   presets: [
     [
       'remax',
