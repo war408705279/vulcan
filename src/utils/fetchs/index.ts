@@ -3,7 +3,7 @@
  * @todo 支付宝，头条，百度 ... platform fetch
  */
 
-import { isWechat } from 'constants/platform'
+import { isWechat } from '@/constants/platform'
 
 import {
   fetch as wechatFetch,

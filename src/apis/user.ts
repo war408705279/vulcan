@@ -2,8 +2,8 @@
  * @file user api
  */
 
-import { fetch } from 'utils/fetchs'
-import { apiPrefix as basePrefix } from 'constants/api'
+import { fetch } from '@/utils/fetchs'
+import { apiPrefix as basePrefix } from '@/constants/api'
 
 const apiPrefix = `${basePrefix}/user`
 

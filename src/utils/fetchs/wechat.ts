@@ -4,11 +4,11 @@
 
 import { request as wechatRequest } from 'remax/wechat'
 
-import { ICommonFetchResult } from 'constants/api'
+import { ICommonFetchResult } from '@/constants/api'
 
-import { promisify } from 'utils/promise'
+import { promisify } from '@/utils/promise'
 
-import { toCamelCase, toSnakeCase } from 'utils/transform'
+import { toCamelCase, toSnakeCase } from '@/utils/transform'
 
 export type FetchOptions = Omit<WechatMiniprogram.RequestOption, 'url' | 'success' | 'fail'>
 

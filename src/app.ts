@@ -1,5 +1,5 @@
 import React from 'react'
-import 'utils/polyfills'
+import '@/utils/polyfills'
 
 import './app.less'
 
