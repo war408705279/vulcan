@@ -26,5 +26,74 @@ module.exports = {
           'public': path.resolve(__dirname, 'public')
         })
         .end()
+    config.module
+      .rule('css-less-img')
+      .test(/\.(eot|ttf|woff|woff2|png|jpe?g|gif)$/i)
+      .issuer({
+        test: /\.(css|less)$/
+      })
+      .use('file-loader')
+      .loader(require.resolve('file-loader'))
+      .options({
+        name: '[name].[hash].[ext]',
+        esModule: false
+      })
+    config.module
+      .rule('js-ts-svg')
+      .test(/\.svg$/i)
+      .issuer({
+        test: /\.(js|ts)x?$/
+      })
+      .use('svgr-webpack')
+      .loader(require.resolve('@svgr/webpack'))
+      .options({
+        svgoConfig: {
+          plugins: {
+            removeViewBox: false
+          }
+        }
+      })
+    config.module
+      .rule('css-less-svg')
+      .test(/\.svg$/i)
+      .issuer({
+        test: /\.(css|less)$/
+      })
+      .use('file-loader')
+      .loader(require.resolve('file-loader'))
+      .options({
+        name: '[name].[hash].[ext]',
+        esModule: false
+      })
+      .end()
+      .use('svgo-loader')
+      .loader('svgo-loader')
+    config.module
+      .rule('js-ts-file-svg')
+      .test(/\.file\.svg$/i)
+      .issuer({
+        test: /\.(js|ts)x?$/
+      })
+      .use('file-loader')
+      .loader(require.resolve('file-loader'))
+      .options({
+        name: '[name].[hash].[ext]',
+        esModule: false
+      })
+      .end()
+      .use('svgo-loader')
+      .loader('svgo-loader')
+    config.module
+      .rule('js-ts-img')
+      .test(/\.(png|jpe?g|gif)$/i)
+      .issuer({
+        test: /\.(js|ts)x?$/
+      })
+      .use('file-loader')
+      .loader(require.resolve('file-loader'))
+      .options({
+        name: '[name].[hash].[ext]',
+        esModule: false
+      })
   }
 }

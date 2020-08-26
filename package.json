@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@remax/plugin-less": "^1.0.0",
+    "@svgr/webpack": "^5.4.0",
     "autoprefixer": "^9.8.6",
     "classnames": "^2.2.6",
     "react": "^16.12.0",
@@ -28,6 +29,8 @@
     "@types/react": "^16.9.16",
     "babel-preset-remax": "^2.7.7",
     "cross-env": "^7.0.2",
+    "file-loader": "^6.0.0",
+    "svgo-loader": "^2.2.1",
     "typescript": "^3.7.3"
   }
 }
