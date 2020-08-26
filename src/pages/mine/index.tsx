@@ -1,5 +1,5 @@
 /**
- * @file index page
+ * @file mine index page
  */
 
 import React from 'react'
@@ -8,12 +8,12 @@ import { View } from 'remax/one'
 
 import styles from './index.less'
 
-export default function Index() {
+export default function Mine() {
   return (
     <View
       className={styles.mainWrapper}
     >
-      首页 - TODO
+      我的 - TODO
     </View>
   )
 }

@@ -57,12 +57,17 @@ yarn dev wechat
 
 ### 目录结构
 
+`./public` 目录存放一些静态资源，该目录下的所有文件会被自动复制到 `dist` 目录下
+
+可以将 `原生页面, tabBar 中配置的图片` 等等全局资源放在这个目录下
+
 项目的主体代码都放在 `./src` 中，相当于一般 `React` 项目中的根目录。其文件划分基本类似 `Portal React / www-2020 React` 项目，目前具体划分如下：
 
 ```shell
 ./src
   ├── apis # 接口相关
-  ├── components # 自定义组件
+  ├── components # 自定义业务相关组件
+  ├── ui # 自定义 UI 相关组件
   ├── constants # 常量相关
   ├── pages # 小程序页面
   ├── stores

@@ -14,7 +14,9 @@
       "utils/*": ["./src/utils/*"],
       "apis/*": ["./src/apis/*"],
       "stores/*": ["./src/stores/*"],
-      "components/*": ["./src/components/*"]
+      "components/*": ["./src/components/*"],
+      "ui/*": ["./src/ui/*"],
+      "public/*": ["./public/*"]
     },
     "lib": ["DOM", "ES2015", "ES2016", "ES2017"],
     "experimentalDecorators": true,

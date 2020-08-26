@@ -11,21 +11,20 @@ module.exports = {
     less()
   ],
   configWebpack({ config }) {
-    config.merge({
-      resolve: {
-        extensions: [
-          '.ts', '.tsx',
-          '.js', '.jsx',
-          '.json'
-        ],
-        alias: {
-          constants: path.resolve(__dirname, 'src/constants'),
-          utils: path.resolve(__dirname, 'src/utils'),
-          apis: path.resolve(__dirname, 'src/apis'),
-          stores: path.resolve(__dirname, 'src/stores'),
-          components: path.resolve(__dirname, 'src/components')
-        }
-      }
-    })
+    config.resolve
+      .extensions
+        .merge(['.ts', '.tsx', '.js', '.jsx', '.json'])
+        .end()
+      .alias
+        .merge({
+          'constants': path.resolve(__dirname, 'src/constants'),
+          'utils': path.resolve(__dirname, 'src/utils'),
+          'apis': path.resolve(__dirname, 'src/apis'),
+          'stores': path.resolve(__dirname, 'src/stores'),
+          'components': path.resolve(__dirname, 'src/components'),
+          'ui': path.resolve(__dirname, 'src/ui'),
+          'public': path.resolve(__dirname, 'public')
+        })
+        .end()
   }
 }
