@@ -1,4 +1,4 @@
-# :seven: :cow:小程序版 Portal
+# Vulcan
 
 ![Vulcan](./vulcan.jpg "Live long and prosper")
 

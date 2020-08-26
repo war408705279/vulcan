@@ -1,16 +1,15 @@
 {
-  "name": "qiniu-portal-miniprogram",
+  "name": "vulcan",
   "private": true,
   "version": "1.0.0",
-  "description": "Qiniu Portal Miniprogram",
+  "description": "Vulcan",
   "main": "index.js",
   "keywords": [
-    "Qiniu",
+    "Vulcan",
     "miniprogram",
-    "mobile",
-    "portal"
+    "mobile"
   ],
-  "author": "Qiniu",
+  "author": "jiayizhen",
   "license": "MIT",
   "scripts": {
     "dev": "remax build -w -t",
