@@ -22,7 +22,7 @@
     "classnames": "^2.2.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "remax": "^2.6.0"
+    "remax": "^2.7.8"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.10",
