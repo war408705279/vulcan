@@ -38,21 +38,21 @@ module.exports = {
         name: '[name].[hash].[ext]',
         esModule: false
       })
-    // config.module
-    //   .rule('js-svg')
-    //   .test(/\.svg$/i)
-    //   .issuer({
-    //     test: /\.(js|ts)x?$/
-    //   })
-    //   .use('@svgr/webpack')
-    //   .loader('@svgr/webpack')
-    //   .options({
-    //     svgoConfig: {
-    //       plugins: {
-    //         removeViewBox: false
-    //       }
-    //     }
-    //   })
+    config.module
+      .rule('js-svg')
+      .test(/\.svg$/i)
+      .issuer({
+        test: /\.(js|ts)x?$/
+      })
+      .use('@svgr/webpack')
+      .loader('@svgr/webpack')
+      .options({
+        svgoConfig: {
+          plugins: {
+            removeViewBox: false
+          }
+        }
+      })
     config.module
       .rule('css-svg')
       .test(/\.svg$/i)
