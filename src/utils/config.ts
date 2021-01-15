@@ -7,19 +7,11 @@ import {
   PageConfig as WechatPageConfig
 } from 'remax/wechat'
 
-// Remax issues 1253
-// Q1 Error: Cannot find module 'utils/styles/variables'
-// import { white, primaryColor, black } from 'utils/styles/variables'
-import { white, primaryColor, black } from './styles/variables'
+import { white, primaryColor, black } from './styles/color'
 import { routes, titlePrefix, Pages, urlMap } from '../constants/route'
 import { iconMap as tabBarIconMap } from '../constants/tab-bar'
 
-// Remax issues 1253
-// Q2 Error: SyntaxError: Unexpected token '<'
-// import testSVGUrl from '../../public/images/test.file.svg'
-
 export function getWechatAppConfig(title?: string): WechatAppConfig {
-  // console.log(testSVGUrl)
   const appConfig: WechatAppConfig = {
     pages: [...routes],
     window: {
@@ -38,11 +30,6 @@ export function getWechatAppConfig(title?: string): WechatAppConfig {
         iconPath: tabBarIconMap[Pages.Index].default,
         selectedIconPath: tabBarIconMap[Pages.Index].active
       }, {
-        pagePath: urlMap[Pages.Portal],
-        text: '',
-        iconPath: tabBarIconMap[Pages.Portal].default,
-        selectedIconPath: tabBarIconMap[Pages.Portal].active
-      }, {
         pagePath: urlMap[Pages.Mine],
         text: '',
         iconPath: tabBarIconMap[Pages.Mine].default,
@@ -54,10 +41,6 @@ export function getWechatAppConfig(title?: string): WechatAppConfig {
   return appConfig
 }
 
-export function getWechatPageConfig(title?: string): WechatPageConfig {
-  const pageConfig: WechatPageConfig = {
-    navigationBarTitleText: title || titlePrefix
-  }
-
-  return pageConfig
+export function getWechatPageConfig(config?: Omit<WechatPageConfig, 'navigationBarTitleText'>): WechatPageConfig {
+  return { ...config }
 }

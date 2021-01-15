@@ -1,1 +1,37 @@
-@import "./variables.less";
+@import "./color.less";
+
+.ellipsis() {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.background-image(@image, @position: center, @origin: border-box, @size: contain) {
+  background-size: @size;
+  background-repeat: no-repeat;
+  background-position: @position;
+  background-origin: @origin;
+  background-image: @image;
+}
+
+// support webkit only
+// http://caniuse.com/#search=line-clamp
+// 使用时注意第二个参数
+.ellipsis-line-clamp(@n, @maxheight) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @n;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  max-height: @maxheight; // 非 webkit 浏览器
+}
+
+.fadeIn(@time: .2s, @ease: linear, @delay: 0s) {
+  :global {
+    animation-name: fadeIn;
+  }
+  animation-duration: @time;
+  animation-timing-function: @ease;
+  animation-delay: @delay;
+}

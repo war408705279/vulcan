@@ -12,7 +12,7 @@ export function promisify<Arg = any, SuccessArg = any, FailArg = any>(
   api: (arg: Arg & PromisifyArgs<SuccessArg, FailArg>) => void
 ) {
   return (arg: Arg & PromisifyArgs<SuccessArg, FailArg> = {} as Arg) => {
-    return new Promise<SuccessArg>((resolve, reject) => {
+    const promise = new Promise<SuccessArg>((resolve, reject) => {
       const promisifyArg: any = arg
 
       api({
@@ -25,12 +25,13 @@ export function promisify<Arg = any, SuccessArg = any, FailArg = any>(
         },
         fail: (res: FailArg) => {
           if (promisifyArg && typeof promisifyArg.fail === 'function') {
-            promisifyArg.fail(res);
+            promisifyArg.fail(res)
           }
           reject(res)
         }
       })
     })
+    return promise
   }
 }
 

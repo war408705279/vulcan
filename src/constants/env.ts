@@ -3,15 +3,27 @@
  * @description 相关文档 https://remaxjs.org/guide/config/environment-variables
  */
 
-/** Host */
-export const host = must('host', process.env.REMAX_APP_HOST)
-
-/** API Host */
-export const apiHost = must('apiHost', process.env.REMAX_APP_API_HOST)
-
 function must(name: string, variable?: string): string {
   if (variable == null) {
     throw new Error(`Invalid value for environment variable ${name}, you need to configure it in env file`)
   }
   return variable
 }
+
+/** Host */
+export const host = must('host', process.env.REMAX_APP_HOST)
+
+/** API Host */
+export const apiHost = must('apiHost', process.env.REMAX_APP_API_HOST)
+
+/** Platform */
+export const platform = must('platform', process.env.REMAX_PLATFORM)
+
+export enum Platform {
+  Wechat = 'wechat',
+  Ali = 'ali'
+}
+
+// TODO: 头条 && 百度 ... platform 判断
+export const isWechat = platform === Platform.Wechat
+export const isAli = platform === Platform.Ali

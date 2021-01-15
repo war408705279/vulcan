@@ -11,7 +11,7 @@ import styles from './index.less'
 export default function Mine() {
   return (
     <View
-      className={styles.mainWrapper}
+      className={styles.main}
     >
       我的 - TODO
     </View>

@@ -1,10 +1,10 @@
-declare module '*.file.svg' {
+declare module '*.icon.svg' {
   const exports: string
   export default exports
 }
 
 declare module '*.svg' {
-  const exports: React.FC<React.SVGAttributes<SVGElement>>
+  const exports: string
   export default exports
 }
 
@@ -34,4 +34,10 @@ declare module '*.less' {
   }
 
   export = cssModuleExport
+}
+
+declare namespace AliMiniprogram {
+  // 仿照 WechatMiniprogram
+  // 将 my（支付宝）命名成 AliMiniprogram
+  export = my
 }

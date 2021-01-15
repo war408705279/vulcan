@@ -102,6 +102,15 @@ yarn dev wechat
 npm run build wechat
 # or
 yarn build wechat
+
+# 将静态资源上传至指定账号的指定 bucket，以减小本地代码包体积
+# 并删除本地的静态资源文件 && 文件夹
+# 以 wechat 平台为例
+node deploy.js ${TARGET} ${AK} ${SK} ${BUCKET}
+# ${TARGET}: 编译目标平台
+# ${AK}: 账号 ak
+# ${SK}: 账号 sk
+# ${BUCKET}: 目标 bucket 名称
 ```
 
 使用小程序开发者工具打开项目下的 `dist/[target]` 目录（例如微信小程序，目录为 `dist/wechat`），上传代码即可
