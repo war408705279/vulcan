@@ -35,9 +35,3 @@ declare module '*.less' {
 
   export = cssModuleExport
 }
-
-declare namespace AliMiniprogram {
-  // 仿照 WechatMiniprogram
-  // 将 my（支付宝）命名成 AliMiniprogram
-  export = my
-}

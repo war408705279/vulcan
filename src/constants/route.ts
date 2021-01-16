@@ -19,7 +19,10 @@ export const urlMap = {
   [Pages.Mine]: 'pages/mine/index'
 }
 
-export const routes: string[] = [
-  urlMap[Pages.Index],
-  urlMap[Pages.Mine]
-]
+// 之所以不用 urlMap，是因为小程序配置不允许 pages 是从斜杠开头的, 但是路由可以
+export const routeMap = {
+  [Pages.Index]: '/pages/index/index',
+  [Pages.Mine]: '/pages/mine/index'
+}
+
+export const routes = Object.values(urlMap)

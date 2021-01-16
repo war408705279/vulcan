@@ -17,7 +17,8 @@ export function getWechatAppConfig(title?: string): WechatAppConfig {
     window: {
       navigationBarTitleText: title || titlePrefix,
       navigationBarBackgroundColor: white,
-      navigationBarTextStyle: 'black'
+      navigationBarTextStyle: 'black',
+      navigationStyle: 'custom'
     },
     tabBar: {
       color: black,

@@ -4,7 +4,7 @@
 
 import * as wechat from 'remax/wechat'
 import * as ali from 'remax/ali'
-import { isAli } from '@/constants/env'
+
 import { createContext, useContext } from 'react'
 
 export type SystemInfo = {
@@ -32,23 +32,8 @@ export function useSystemInfo() {
 
 export function getSystemInfo(): Promise<SystemInfo | undefined> {
   return new Promise((resolve, reject) => {
-    if (isAli) {
-      // 超时会返回 undefined
-      ali.getSystemInfo().then(res => resolve(res && transformAliSystemInfo(res))).catch(reject)
-    }
-
     wechat.getSystemInfo().then(res => resolve(transformWechatSystemInfo(res))).catch(reject)
   })
-}
-
-function transformAliSystemInfo(systemInfo: AliMiniprogram.IGetSystemInfoSuccessResult): SystemInfo {
-  return {
-    statusBarHeight: systemInfo.statusBarHeight,
-    appBarHeight: systemInfo.titleBarHeight,
-    platform: systemInfo.platform,
-    screenWidth: systemInfo.screenWidth,
-    scaleRatio: systemInfo.screenWidth / 750
-  }
 }
 
 function transformWechatSystemInfo(systemInfo: WechatMiniprogram.SystemInfo): SystemInfo {
