@@ -1,0 +1,87 @@
+@import "~@/utils/styles/index.less";
+
+.default {
+  width: 42rpx;
+  height: 42rpx;
+  border-radius: 50%;
+  border: 2rpx solid @white;
+  border-bottom-color: transparent;
+  box-sizing: border-box;
+  display: inline-block;
+  animation: loading 1s linear infinite;
+}
+
+.dot {
+  width: 42rpx;
+  height: 42rpx;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  animation: loading 1.8s linear infinite;
+
+  view {
+    width: 10rpx;
+    height: 10rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2rpx solid;
+    border-radius: 50%;
+    transform-origin: 21rpx 21rpx;
+
+    &:nth-child(1) {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+
+    &:nth-child(2) {
+      transform: rotate(40deg);
+      opacity: .92;
+    }
+
+    &:nth-child(3) {
+      transform: rotate(80deg);
+      opacity: .84;
+    }
+
+    &:nth-child(4) {
+      transform: rotate(120deg);
+      opacity: .76;
+    }
+
+    &:nth-child(5) {
+      transform: rotate(160deg);
+      opacity: .68;
+    }
+
+    &:nth-child(6) {
+      transform: rotate(200deg);
+      opacity: .6;
+    }
+
+    &:nth-child(7) {
+      transform: rotate(240deg);
+      opacity: .52;
+    }
+
+    &:nth-child(8) {
+      transform: rotate(280deg);
+      opacity: .44;
+    }
+
+    &:nth-child(9) {
+      transform: rotate(320deg);
+      opacity: .36;
+    }
+  }
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

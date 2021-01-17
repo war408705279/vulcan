@@ -3,7 +3,6 @@
  */
 
 import * as wechat from 'remax/wechat'
-import * as ali from 'remax/ali'
 
 import { createContext, useContext } from 'react'
 

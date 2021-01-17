@@ -1,0 +1,20 @@
+.main {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  z-index: 1000;
+}
+
+.withBg {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+}

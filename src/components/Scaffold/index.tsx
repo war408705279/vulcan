@@ -3,6 +3,7 @@ import React, { ReactNode } from 'react'
 import { View } from 'remax/one'
 
 import { useSystemInfo } from '@/utils/hooks/system-info'
+import { ToastConsumer } from '@/utils/toast'
 
 type ScaffoldProps = {
   appBar: ReactNode
@@ -25,6 +26,7 @@ export default function Scaffold({ appBar, children }: ScaffoldProps) {
       <View>
         {children}
       </View>
+      <ToastConsumer />
     </View>
   )
 }

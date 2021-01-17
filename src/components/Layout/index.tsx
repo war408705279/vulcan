@@ -1,6 +1,7 @@
 import React, { ReactNode, useEffect, useState } from 'react'
 
 import { SystemInfoContext, getSystemInfo, SystemInfo } from '@/utils/hooks/system-info'
+import { ToastProvider } from '@/utils/toast'
 
 export type LayoutProps = {
   children: ReactNode
@@ -15,7 +16,9 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <SystemInfoContext.Provider value={systemInfo}>
-      {systemInfo ? children : <PlaceHolder />}
+      <ToastProvider>
+        {systemInfo ? children : <PlaceHolder />}
+      </ToastProvider>
     </SystemInfoContext.Provider>
   )
 }
