@@ -35,6 +35,7 @@ export function getSystemInfo(): Promise<SystemInfo | undefined> {
   return new Promise((resolve, reject) => {
     if (isAli) {
       // TODO
+      // 调用 ali.xxx 会报错：my is not defined
     }
 
     wechat.getSystemInfo().then(res => resolve(transformWechatSystemInfo(res))).catch(reject)
