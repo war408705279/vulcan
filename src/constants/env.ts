@@ -20,8 +20,10 @@ export const apiHost = must('apiHost', process.env.REMAX_APP_API_HOST)
 export const platform = must('platform', process.env.REMAX_PLATFORM)
 
 export enum Platform {
-  Wechat = 'wechat'
+  Wechat = 'wechat',
+  Ali = 'ali'
 }
 
 // TODO: 头条 && 百度 ... platform 判断
 export const isWechat = platform === Platform.Wechat
+export const isAli = platform === Platform.Ali

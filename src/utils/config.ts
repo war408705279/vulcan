@@ -7,9 +7,10 @@ import {
   PageConfig as WechatPageConfig
 } from 'remax/wechat'
 
-import { white, primaryColor, black } from './styles/color'
 import { routes, titlePrefix, Pages, urlMap } from '../constants/route'
 import { iconMap as tabBarIconMap } from '../constants/tab-bar'
+
+import { white, primaryColor, black } from './styles/color'
 
 export function getWechatAppConfig(title?: string): WechatAppConfig {
   const appConfig: WechatAppConfig = {

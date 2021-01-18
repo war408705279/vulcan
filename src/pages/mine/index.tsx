@@ -27,7 +27,7 @@ export default function Mine() {
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <Scaffold appBar={<AppBar title={nameMap.mine} leading="" />}>
+    <Scaffold appBar={<AppBar title={nameMap.mine} />}>
       <View className={styles.main}>
         <UnderConstruction
           tip="页面施工中..."

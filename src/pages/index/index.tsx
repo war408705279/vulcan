@@ -16,7 +16,7 @@ import styles from './index.less'
 
 export default function Index() {
   return (
-    <Scaffold appBar={<AppBar title={nameMap.index} leading="" />}>
+    <Scaffold appBar={<AppBar title={nameMap.index} />}>
       <View className={styles.main}>
         <UnderConstruction
           tip="页面施工中..."

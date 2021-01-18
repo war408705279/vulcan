@@ -6,6 +6,8 @@ import * as wechat from 'remax/wechat'
 
 import { createContext, useContext } from 'react'
 
+import { isAli } from '@/constants/env'
+
 export type SystemInfo = {
   statusBarHeight: number
   appBarHeight: number
@@ -31,6 +33,10 @@ export function useSystemInfo() {
 
 export function getSystemInfo(): Promise<SystemInfo | undefined> {
   return new Promise((resolve, reject) => {
+    if (isAli) {
+      // TODO
+    }
+
     wechat.getSystemInfo().then(res => resolve(transformWechatSystemInfo(res))).catch(reject)
   })
 }
