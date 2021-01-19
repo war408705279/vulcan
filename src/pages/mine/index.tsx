@@ -15,7 +15,7 @@ import { useToast } from '@/utils/toast'
 
 import InfoIcon from './images/icon-info.svg'
 import SkillIcon from './images/icon-skill.svg'
-import PhoneIcon from './images/icon-phone.svg'
+import ContactIcon from './images/icon-contact.svg'
 import HobbyIcon from './images/icon-hobby.svg'
 import AssessmentIcon from './images/icon-assessment.svg'
 
@@ -49,7 +49,7 @@ export default function Mine() {
         />
 
         <Card
-          icon={PhoneIcon}
+          icon={ContactIcon}
           tip="联系方式"
           onTap={() => pageIsUnderDevelop()}
         />
