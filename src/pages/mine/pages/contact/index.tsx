@@ -1,5 +1,5 @@
 /**
- * @file index page
+ * @file mine contact page
  */
 
 import React from 'react'
@@ -12,9 +12,9 @@ import { nameMap } from '@/constants/route'
 
 import './index.less'
 
-export default function Index() {
+export default function MineContact() {
   return (
-    <Scaffold appBar={<AppBar title={nameMap.index} />}>
+    <Scaffold appBar={<AppBar title={nameMap.mine_contact} />}>
       <UnderConstruction
         tip="页面施工中..."
       />
