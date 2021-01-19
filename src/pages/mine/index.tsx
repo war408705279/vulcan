@@ -8,10 +8,9 @@ import { View, Image } from 'remax/one'
 
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
+import Navigator from '@/components/Navigator'
 
-import { nameMap } from '@/constants/route'
-
-import { useToast } from '@/utils/toast'
+import { nameMap, routeMap } from '@/constants/route'
 
 import InfoIcon from './images/icon-info.svg'
 import SkillIcon from './images/icon-skill.svg'
@@ -22,49 +21,63 @@ import AssessmentIcon from './images/icon-assessment.svg'
 import styles from './index.less'
 
 export default function Mine() {
-  const showToast = useToast()
-
-  function pageIsUnderDevelop() {
-    showToast({
-      tip: '页面施工中',
-      icon: 'warning'
-    })
-  }
-
-  // TODO
-  // 跳转到指定页面
   return (
     <Scaffold appBar={<AppBar title={nameMap.mine} />}>
       <View className={styles.main}>
-        <Card
-          icon={InfoIcon}
-          tip="基本信息"
-          onTap={() => pageIsUnderDevelop()}
-        />
+        <Navigator
+          className={styles.navigator}
+          url={routeMap.mine_info}
+          action="navigate"
+        >
+          <Card
+            icon={InfoIcon}
+            tip="基本信息"
+          />
+        </Navigator>
 
-        <Card
-          icon={SkillIcon}
-          tip="技能"
-          onTap={() => pageIsUnderDevelop()}
-        />
+        <Navigator
+          className={styles.navigator}
+          url={routeMap.mine_skill}
+          action="navigate"
+        >
+          <Card
+            icon={SkillIcon}
+            tip="技能"
+          />
+        </Navigator>
 
-        <Card
-          icon={ContactIcon}
-          tip="联系方式"
-          onTap={() => pageIsUnderDevelop()}
-        />
+        <Navigator
+          className={styles.navigator}
+          url={routeMap.mine_contact}
+          action="navigate"
+        >
+          <Card
+            icon={ContactIcon}
+            tip="联系方式"
+          />
+        </Navigator>
 
-        <Card
-          icon={HobbyIcon}
-          tip="爱好"
-          onTap={() => pageIsUnderDevelop()}
-        />
+        <Navigator
+          className={styles.navigator}
+          url={routeMap.mine_hobby}
+          action="navigate"
+        >
+          <Card
+            icon={HobbyIcon}
+            tip="爱好"
+          />
+        </Navigator>
 
-        <Card
-          icon={AssessmentIcon}
-          tip="自我评价"
-          onTap={() => pageIsUnderDevelop()}
-        />
+        <Navigator
+          className={styles.navigator}
+          url={routeMap.mine_assessment}
+          action="navigate"
+        >
+          <Card
+            icon={AssessmentIcon}
+            tip="自我评价"
+          />
+        </Navigator>
       </View>
     </Scaffold>
   )
@@ -73,24 +86,14 @@ export default function Mine() {
 type CardProps = {
   icon: string
   tip: string
-  onTap?: () => void
 }
 
 function Card({
   icon,
-  tip,
-  onTap
+  tip
 }: CardProps) {
-
-  function handleTap() {
-    if (onTap) onTap()
-  }
-
   return (
-    <View
-      className={styles.card}
-      onTap={handleTap}
-    >
+    <View className={styles.card}>
       <View className={styles.info}>
         <Image
           className={styles.icon}
