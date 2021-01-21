@@ -114,3 +114,7 @@ node deploy.js ${TARGET} ${AK} ${SK} ${BUCKET}
 ```
 
 使用小程序开发者工具打开项目下的 `dist/[target]` 目录（例如微信小程序，目录为 `dist/wechat`），上传代码即可
+
+## 常见问题
+
+参考 [ISSUES.md](./ISSUES.md)
