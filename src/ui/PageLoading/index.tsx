@@ -8,7 +8,10 @@ import { View, Text } from 'remax/one'
 
 import Loading from '@/ui/Loading'
 
-import { primaryColor, greyFive } from '@/utils/styles/color'
+import {
+  primaryColor,
+  greyFive
+} from '@/utils/styles/color'
 
 import styles from './style.less'
 
