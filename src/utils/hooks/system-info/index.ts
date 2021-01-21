@@ -6,8 +6,6 @@ import * as wechat from 'remax/wechat'
 
 import { createContext, useContext } from 'react'
 
-import { isAli } from '@/constants/env'
-
 export type SystemInfo = {
   statusBarHeight: number
   appBarHeight: number
@@ -33,16 +31,11 @@ export function useSystemInfo() {
 
 export function getSystemInfo(): Promise<SystemInfo | undefined> {
   return new Promise((resolve, reject) => {
-    if (isAli) {
-      // TODO
-      // 调用 ali.xxx 会报错：my is not defined
-    }
-
     wechat.getSystemInfo().then(res => resolve(transformWechatSystemInfo(res))).catch(reject)
   })
 }
 
-function transformWechatSystemInfo(systemInfo: WechatMiniprogram.SystemInfo): SystemInfo {
+function transformWechatSystemInfo(systemInfo: WechatMiniprogram.GetSystemInfoSuccessCallbackResult): SystemInfo {
   const menuRect = wechat.getMenuButtonBoundingClientRect()
   // 微信平台高度不对，增加 4px
   const appBarHeight = menuRect.height + (menuRect.top - systemInfo.statusBarHeight) * 2 + 4
