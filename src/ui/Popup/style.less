@@ -1,0 +1,79 @@
+@import "~@/utils/styles/index.less";
+
+.main {
+  position: absolute;
+  background-color: @white;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  z-index: 1001;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  border-radius: 32rpx;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.top {
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: 0 0 32rpx 32rpx;
+  transform: translate(0, -100%);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.right {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 32rpx 0 0 32rpx;
+  transform: translate(100%, 0);
+}
+
+.bottom {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 32rpx 32rpx 0 0;
+  transform: translate(0, 100%);
+}
+
+.left {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 32rpx 32rpx 0;
+  transform: translate(-100%, 0);
+}
+
+.square {
+  border-radius: 0;
+}
+
+.active {
+  &.top, &.right, &.bottom, &.left {
+    transform: translate(0, 0);
+  }
+
+  &.top {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &.center {
+    transform: translate(-50%, -50%);
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.closeIcon {
+  position: absolute;
+  top: 22rpx;
+  right: 26rpx;
+}
