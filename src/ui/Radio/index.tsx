@@ -2,7 +2,15 @@
  * @file Radio + Radio Group UI Component
  */
 
-import React, { ReactNode, createContext, useContext, ReactElement, useState, useCallback, CSSProperties } from 'react'
+import React, {
+  ReactNode,
+  ReactElement,
+  CSSProperties,
+  useState,
+  useCallback,
+  createContext,
+  useContext
+} from 'react'
 import cls from 'classnames'
 
 import { View } from 'remax/one'
@@ -117,18 +125,18 @@ export type RadioGroupProps = {
   className?: string
   style?: CSSProperties
   children?: ReactNode
-  onChange?: (value: RadioValue) => void
   type?: RadioType
+  onChange?: (value: RadioValue) => void
 }
 
 export function RadioGroup({
-  defaultValue,
   value,
+  defaultValue,
   className,
   style,
   children,
-  onChange,
-  type = 'radio'
+  type = 'radio',
+  onChange
 }: RadioGroupProps) {
 
   const [active, setActive] = useState<RadioValue>(value || defaultValue)
