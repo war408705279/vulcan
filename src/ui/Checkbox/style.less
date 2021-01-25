@@ -1,0 +1,42 @@
+@import "~@/utils/styles/index.less";
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 32rpx;
+  height: 32rpx;
+  position: relative;
+  border: 2rpx solid @grey-4;
+  border-radius: 4rpx;
+  background-color: transparent;
+}
+
+.checked {
+  border-color: @primary-color;
+  background-color: @primary-color;
+
+  &:before {
+    content: " ";
+    width: 16rpx;
+    height: 8rpx;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    border: 4rpx solid @white;
+    border-top: none;
+    border-right: none;
+    background-color: transparent;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}
+
+.children {
+  margin-left: 16rpx;
+  color: @grey-4;
+  font-size: 26rpx;
+  font-weight: 400;
+  line-height: 36rpx;
+}
