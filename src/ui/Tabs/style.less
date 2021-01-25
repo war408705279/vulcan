@@ -1,0 +1,78 @@
+@import "~@/utils/styles/index.less";
+
+.main {
+  &.small {
+    .header {
+      font-size: 30rpx;
+      justify-content: flex-start;
+    }
+
+    .item {
+      margin-left: 16rpx;
+      height: 84rpx;
+      line-height: 84rpx;
+    }
+  }
+}
+
+.header {
+  margin: 0;
+  color: @grey-7;
+  font-size: 34rpx;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+
+  &.shadow {
+    box-shadow: 0 1px 0 0 @grey-3;
+  }
+}
+
+.item {
+  height: 104rpx;
+  position: relative;
+  padding: 0 16rpx;
+  min-width: 2em;
+  max-width: 12em;
+  line-height: 104rpx;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: content-box;
+  display: inline-block;
+  transition: .2s;
+  color: @grey-6;
+  font-size: 30rpx;
+
+  .ellipsis();
+
+  &.active {
+    color: @primary-color;
+    font-weight: 500;
+  }
+
+  &:after {
+    content: " ";
+    width: 2em;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1em;
+    background-color: transparent;
+    transition: .2s;
+  }
+
+  &.active:after {
+    background-color: @primary-color;
+  }
+}
+
+.content {
+  .fadeIn()
+}
+
+.themeWhite {
+  .header {
+    background-color: @white;
+  }
+}
