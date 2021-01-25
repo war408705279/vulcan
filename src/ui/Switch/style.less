@@ -1,0 +1,51 @@
+@import "~@/utils/styles/index.less";
+
+.main {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.checkbox {
+  width: 88rpx;
+  height: 44rpx;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 44rpx;
+  background-color: rgba(0, 0, 0, .45);
+  box-sizing: border-box;
+  appearance: none;
+  z-index: 0;
+  transition: all .3s;
+
+  &:before {
+    content: " ";
+    height: 36rpx;
+    width: 36rpx;
+    position: absolute;
+    left: 4rpx;
+    top: 4rpx;
+    border-radius: 36rpx;
+    box-sizing: border-box;
+    background-color: @white;
+    z-index: 1;
+    transition: all .2s;
+    transform: translateX(0);
+  }
+}
+
+.checked {
+  background-color: @primary-color;
+
+  &:before {
+    transform: translateX(44rpx);
+  }
+}
+
+.disabled {
+  opacity: .3;
+  z-index: 2;
+}
