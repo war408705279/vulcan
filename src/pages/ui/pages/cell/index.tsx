@@ -1,5 +1,5 @@
 /**
- * @file mine assessment page
+ * @file ui cell page
  */
 
 import React from 'react'
@@ -7,25 +7,22 @@ import React from 'react'
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
 import BackLeading from '@/components/AppBar/BackLeading'
-import UnderConstruction from '@/components/UnderConstruction'
 
 import { nameMap } from '@/constants/route'
 
 import './index.less'
 
-export default function MineAssessment() {
+export default function UiCell() {
   return (
     <Scaffold
       appBar={
         <AppBar
-          title={nameMap.mine_assessment}
+          title={nameMap.ui_cell}
           leading={<BackLeading />}
         />
       }
     >
-      <UnderConstruction
-        tip="页面施工中..."
-      />
+      UI Cell
     </Scaffold>
   )
 }

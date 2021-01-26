@@ -15,7 +15,14 @@ import './index.less'
 
 export default function MineInfo() {
   return (
-    <Scaffold appBar={<AppBar title={nameMap.mine_info} leading={<BackLeading />} />}>
+    <Scaffold
+      appBar={
+        <AppBar
+          title={nameMap.mine_info}
+          leading={<BackLeading />}
+        />
+      }
+    >
       <UnderConstruction
         tip="页面施工中..."
       />

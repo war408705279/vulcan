@@ -5,7 +5,7 @@ import { View } from 'remax/one'
 import { useSystemInfo } from '@/utils/hooks/system-info'
 import { white } from '@/utils/styles/color'
 
-import style from './index.less'
+import styles from './index.less'
 
 export type Props = {
   title: string
@@ -23,17 +23,17 @@ export default function AppBar({
 
   return (
     <View
-      className={style.nav}
+      className={styles.nav}
       style={{
         height: appBarHeight + statusBarHeight + 'px',
         paddingTop: statusBarHeight + 'px',
         backgroundColor
       }}
     >
-      <View className={style.leading}>
+      <View className={styles.leading}>
         {leading}
       </View>
-      <View className={style.title}>
+      <View className={styles.title}>
         {title}
       </View>
       <View />

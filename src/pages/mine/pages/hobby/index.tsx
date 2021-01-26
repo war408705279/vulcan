@@ -15,7 +15,14 @@ import './index.less'
 
 export default function MineHobby() {
   return (
-    <Scaffold appBar={<AppBar title={nameMap.mine_hobby} leading={<BackLeading />} />}>
+    <Scaffold
+      appBar={
+        <AppBar
+          title={nameMap.mine_hobby}
+          leading={<BackLeading />}
+        />
+      }
+    >
       <UnderConstruction
         tip="页面施工中..."
       />

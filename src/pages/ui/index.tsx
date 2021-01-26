@@ -8,10 +8,11 @@ import { View } from 'remax/one'
 
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
+import Navigator from '@/components/Navigator'
 
 import Cell from '@/ui/Cell'
 
-import { nameMap } from '@/constants/route'
+import { nameMap, routeMap } from '@/constants/route'
 
 import styles from './index.less'
 
@@ -35,11 +36,16 @@ function General() {
         General
       </View>
       <View className={styles.cells}>
-        <Cell
+        <Navigator
           className={styles.cell}
-          label="Cell"
-          arrow
-        />
+          url={routeMap.ui_cell}
+          action="navigate"
+        >
+          <Cell
+            label="Cell"
+            arrow
+          />
+        </Navigator>
         <Cell
           className={styles.cell}
           label="Icon"

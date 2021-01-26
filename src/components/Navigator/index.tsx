@@ -16,7 +16,7 @@ import { routeMap, Pages } from '@/constants/route'
 
 import { checkIsInnerUrl } from '@/utils/route'
 
-import style from './index.less'
+import styles from './index.less'
 
 type NavigatorProps = PropsWithChildren<BaseNavigatorProps>
 
@@ -28,7 +28,7 @@ export default function Navigator({ url, action, children, ...props }: Navigator
 
   return (
     <View
-      className={touched && style.touched || ''}
+      className={touched && styles.touched || ''}
       onTouchStart={() => setTouched(true)}
       onTouchCancel={() => setTouched(false)}
       onTouchEnd={() => setTouched(false)}

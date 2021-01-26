@@ -15,7 +15,14 @@ import './index.less'
 
 export default function MineContact() {
   return (
-    <Scaffold appBar={<AppBar title={nameMap.mine_contact} leading={<BackLeading />} />}>
+    <Scaffold
+      appBar={
+        <AppBar
+          title={nameMap.mine_contact}
+          leading={<BackLeading />}
+        />
+      }
+    >
       <UnderConstruction
         tip="页面施工中..."
       />
