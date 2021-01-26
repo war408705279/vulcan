@@ -26,8 +26,16 @@ export type Props = HTMLAttributes<HTMLElement> & {
 }
 
 export default function Cell({
-  label, leftStyle, description, icon, iconColor = greyFour, arrow,
-  required, onTap, className, children
+  className,
+  label,
+  description,
+  leftStyle,
+  icon,
+  iconColor = greyFour,
+  required,
+  arrow,
+  onTap,
+  children
 }: Props) {
 
   function renderRequired() {
