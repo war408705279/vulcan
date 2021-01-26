@@ -32,6 +32,11 @@ export function getWechatAppConfig(title?: string): WechatAppConfig {
         iconPath: tabBarIconMap[Pages.Index].default,
         selectedIconPath: tabBarIconMap[Pages.Index].active
       }, {
+        pagePath: urlMap[Pages.Ui],
+        text: '',
+        iconPath: tabBarIconMap[Pages.Ui].default,
+        selectedIconPath: tabBarIconMap[Pages.Ui].active
+      }, {
         pagePath: urlMap[Pages.Mine],
         text: '',
         iconPath: tabBarIconMap[Pages.Mine].default,

@@ -6,6 +6,7 @@ export const titlePrefix = 'Vulcan'
 
 export enum Pages {
   Index = 'index',
+  Ui = 'ui',
   Mine = 'mine',
   MineInfo = 'mine_info',
   MineSkill = 'mine_skill',
@@ -17,6 +18,7 @@ export enum Pages {
 
 export const nameMap = {
   [Pages.Index]: 'Vulcan',
+  [Pages.Ui]: 'UI 组件',
   [Pages.Mine]: '我的',
   [Pages.MineInfo]: '基本信息',
   [Pages.MineSkill]: '技能',
@@ -27,6 +29,7 @@ export const nameMap = {
 
 export const urlMap = {
   [Pages.Index]: 'pages/index/index',
+  [Pages.Ui]: 'pages/ui/index',
   [Pages.Mine]: 'pages/mine/index',
   [Pages.MineInfo]: 'pages/mine/pages/info/index',
   [Pages.MineSkill]: 'pages/mine/pages/skill/index',
@@ -39,6 +42,7 @@ export const urlMap = {
 // 之所以不用 urlMap，是因为小程序配置不允许 pages 是从斜杠开头的, 但是路由可以
 export const routeMap = {
   [Pages.Index]: '/pages/index/index',
+  [Pages.Ui]: '/pages/ui/index',
   [Pages.Mine]: '/pages/mine/index',
   [Pages.MineInfo]: '/pages/mine/pages/info/index',
   [Pages.MineSkill]: '/pages/mine/pages/skill/index',

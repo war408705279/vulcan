@@ -9,6 +9,10 @@ export const iconMap = {
     default: '/images/icon-index.png',
     active: '/images/icon-index-active.png'
   },
+  [Pages.Ui]: {
+    default: '/images/icon-ui.png',
+    active: '/images/icon-ui-active.png'
+  },
   [Pages.Mine]: {
     default: '/images/icon-mine.png',
     active: '/images/icon-mine-active.png'
