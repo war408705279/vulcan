@@ -11,12 +11,18 @@
 如果你的代码中类似下面的实现
 
 ```ts
+// some-folder/index.ts
+import * as ali from 'remax/ali'
+import * as wechat from 'remax/wechat'
+
 function someFunc() {
   if (isAli) {
     // 支付宝相关的实现
+    ali.xxx
   }
 
   // 微信相关的实现
+  wechat.xxx
 }
 ```
 
@@ -28,12 +34,18 @@ function someFunc() {
 // 其他地方引用方式不变
 
 // some-folder/index.ts
+import * as wechat from 'remax/wechat'
+
 function someFunc() {
   // 微信相关的实现
+  wechat.xxx
 }
 
 // some-folder/index.ali.ts
+import * as ali from 'remax/ali'
+
 function someFunc() {
   // 支付宝相关的实现
+  ali.xxx
 }
 ```
