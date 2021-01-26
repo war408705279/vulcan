@@ -980,23 +980,22 @@
     "@typescript-eslint/parser" "^2.11.0"
     eslint-config-airbnb "^18.0.1"
 
-"@remax/ali@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/ali/-/ali-2.11.3.tgz#f0f68c3d80672bde0f480d8362790ec4eb01e5bf"
+"@remax/ali@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/ali/-/ali-2.11.4.tgz#4798ae4d16f0ae520cdd0df251ce2d3c6e84f08b"
   dependencies:
-    "@remax/shared" "2.11.3"
+    "@remax/shared" "2.11.4"
     mini-types "^0.1.1"
 
-"@remax/build-store@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/build-store/-/build-store-2.11.3.tgz#56a6ab8c01f61ecbea5f32f57c38d615a1d94702"
+"@remax/build-store@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/build-store/-/build-store-2.11.4.tgz#d5cb22e0c1f1da7fb7769121fda1508bca2b8e29"
   dependencies:
-    "@remax/shared" "2.11.3"
-    "@remax/types" "2.11.3"
+    "@remax/shared" "2.11.4"
 
-"@remax/cli@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/cli/-/cli-2.11.3.tgz#8a2ed8b24e7c0f76376bf9de62b62295410289f9"
+"@remax/cli@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/cli/-/cli-2.11.4.tgz#91cdf19f5f96b71251847fd85c64485c10a99327"
   dependencies:
     "@babel/core" "^7.7.4"
     "@babel/helper-module-imports" "^7.7.4"
@@ -1004,22 +1003,21 @@
     "@babel/preset-typescript" "^7.7.4"
     "@babel/register" "^7.7.0"
     "@babel/types" "^7.7.4"
-    "@remax/build-store" "2.11.3"
-    "@remax/macro" "2.11.3"
-    "@remax/plugin-devtools" "2.11.3"
-    "@remax/plugin-error-screen" "2.11.3"
+    "@remax/build-store" "2.11.4"
+    "@remax/macro" "2.11.4"
+    "@remax/plugin-devtools" "2.11.4"
+    "@remax/plugin-error-screen" "2.11.4"
     "@remax/postcss-px2units" "^0.2.0"
-    "@remax/postcss-tag" "2.11.3"
-    "@remax/shared" "2.11.3"
-    "@remax/types" "2.11.3"
+    "@remax/postcss-tag" "2.11.4"
+    "@remax/shared" "2.11.4"
     address "^1.1.2"
     babel-loader "^8.1.0"
     babel-plugin-module-resolver "^4.0.0"
-    babel-plugin-remax-host-component "2.11.3"
-    babel-plugin-remax-lifecycle "2.11.3"
-    babel-plugin-remax-regenerator-runtime "2.11.3"
-    babel-plugin-remax-turbo-render "2.11.3"
-    babel-preset-remax "2.11.3"
+    babel-plugin-remax-host-component "2.11.4"
+    babel-plugin-remax-lifecycle "2.11.4"
+    babel-plugin-remax-regenerator-runtime "2.11.4"
+    babel-plugin-remax-turbo-render "2.11.4"
+    babel-preset-remax "2.11.4"
     chokidar "^3.4.0"
     clean-webpack-plugin "^3.0.0"
     copy-webpack-plugin "^5.1.1"
@@ -1053,48 +1051,46 @@
     webpackbar "^4.0.0"
     yargs "^16.0.3"
 
-"@remax/framework-shared@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/framework-shared/-/framework-shared-2.11.3.tgz#f8e362c86f9442389aece25a298ff4d5ea8a5bd1"
+"@remax/framework-shared@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/framework-shared/-/framework-shared-2.11.4.tgz#90685fc30566a9be2983ca35c301435d3738a434"
   dependencies:
-    "@remax/types" "2.11.3"
     react-is "^16.13.1"
 
-"@remax/macro@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/macro/-/macro-2.11.3.tgz#0af8bbba73fefff33a7f593f5cdb5a19d7295514"
+"@remax/macro@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/macro/-/macro-2.11.4.tgz#aa85ac096ee141390bbb916e45cc07b2d17bfe2b"
   dependencies:
-    "@remax/shared" "2.11.3"
-    "@remax/types" "2.11.3"
+    "@remax/shared" "2.11.4"
 
-"@remax/one@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/one/-/one-2.11.3.tgz#50c876dbf66c5a8d2a7ccffb3c6b217372897d3e"
+"@remax/one@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/one/-/one-2.11.4.tgz#060a1d4c25148fbb653d39d674992d6759706260"
   dependencies:
-    "@remax/ali" "2.11.3"
-    "@remax/framework-shared" "2.11.3"
-    "@remax/runtime" "2.11.3"
-    "@remax/toutiao" "2.11.3"
-    "@remax/web" "2.11.3"
-    "@remax/wechat" "2.11.3"
+    "@remax/ali" "2.11.4"
+    "@remax/framework-shared" "2.11.4"
+    "@remax/runtime" "2.11.4"
+    "@remax/toutiao" "2.11.4"
+    "@remax/web" "2.11.4"
+    "@remax/wechat" "2.11.4"
     clsx "^1.1.0"
     memoize-one "^5.1.1"
     react-autosize-textarea "^7.0.0"
 
-"@remax/plugin-devtools@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/plugin-devtools/-/plugin-devtools-2.11.3.tgz#a8558aeea23aa986f54924d81df6e5f6e1dac8d5"
+"@remax/plugin-devtools@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/plugin-devtools/-/plugin-devtools-2.11.4.tgz#939b083b39c45ef98fe60533cddc569914f0d309"
   dependencies:
     "@remax/react-devtools-core" "^4.7.1"
-    "@remax/shared" "2.11.3"
+    "@remax/shared" "2.11.4"
     webpack-inject-plugin "^1.5.4"
 
-"@remax/plugin-error-screen@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/plugin-error-screen/-/plugin-error-screen-2.11.3.tgz#d3834db2a65cc70fb8302a9478197b8d24c68216"
+"@remax/plugin-error-screen@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/plugin-error-screen/-/plugin-error-screen-2.11.4.tgz#103737811f2b3663bde96a36df6b1dde81edf720"
   dependencies:
     "@remax/redbox-react" "^1.0.0"
-    "@remax/shared" "2.11.3"
+    "@remax/shared" "2.11.4"
     webpack-virtual-modules "^0.3.1"
 
 "@remax/plugin-less@^1.0.0":
@@ -1110,9 +1106,9 @@
     object-assign "^4.1.1"
     postcss "^6.0.19"
 
-"@remax/postcss-tag@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/postcss-tag/-/postcss-tag-2.11.3.tgz#482fb7c65a398138cea3a5a0cfeeae6cd3d551e4"
+"@remax/postcss-tag@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/postcss-tag/-/postcss-tag-2.11.4.tgz#7788e558f56c1e88a1eeb49ebf9b209fd30f3e41"
 
 "@remax/react-devtools-core@^4.7.1":
   version "4.7.1"
@@ -1134,59 +1130,57 @@
     prop-types "^15.5.4"
     sourcemapped-stacktrace "^1.1.6"
 
-"@remax/runtime@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/runtime/-/runtime-2.11.3.tgz#de395e3f9ba50579c15898fe948b1e7ffd499063"
+"@remax/runtime@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/runtime/-/runtime-2.11.4.tgz#ab91548a8ffaff09b54dc94c85164d0331e6729f"
   dependencies:
-    "@remax/framework-shared" "2.11.3"
-    "@remax/shared" "2.11.3"
-    "@remax/types" "2.11.3"
-    "@remax/web" "2.11.3"
+    "@remax/framework-shared" "2.11.4"
+    "@remax/shared" "2.11.4"
+    "@remax/web" "2.11.4"
     qs "^6.9.3"
     react-is "^16.3.1"
     react-reconciler "0.25.1"
     scheduler "0.19.1"
 
-"@remax/shared@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/shared/-/shared-2.11.3.tgz#f6acf002e43541970e736b147efb1fcd8015c70d"
+"@remax/shared@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/shared/-/shared-2.11.4.tgz#178737c96f18cfb80c857ceb96b283c143eaf4ba"
   dependencies:
     "@babel/parser" "^7.11.4"
     "@babel/traverse" "^7.11.0"
-    "@types/react" "^16.9.35"
     htmlparser2 "^4.1.0"
 
-"@remax/toutiao@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/toutiao/-/toutiao-2.11.3.tgz#55dd844a1c8eb05843914c304c65e77f9b5f9737"
+"@remax/toutiao@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/toutiao/-/toutiao-2.11.4.tgz#f76950966a262e2e1bed4a9347b6fe25c65c0b5c"
   dependencies:
-    "@remax/shared" "2.11.3"
+    "@remax/shared" "2.11.4"
 
-"@remax/types@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/types/-/types-2.11.3.tgz#31792f84f4030fd203a3e2cf6fa307e7aa7e8f9c"
+"@remax/types@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/types/-/types-2.11.4.tgz#9cca94853b304a454cfcf155ae77d28fbd1a7087"
   dependencies:
     "@babel/types" "^7.8.0"
     "@types/react" "^16.9.56"
-    "@types/webpack" "^4.41.10"
     "@types/yargs" "^15.0.0"
     webpack-chain "^6.4.0"
 
-"@remax/web@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/web/-/web-2.11.3.tgz#d3c736fa0b14a0fbf1efc3a075ef54e2f7a66740"
+"@remax/web@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/web/-/web-2.11.4.tgz#2b891b160cabae42013ace5d9bfa70728a456696"
   dependencies:
     "@loadable/component" "^5.12.0"
+    "@remax/framework-shared" "2.11.4"
     "@remax/react-router-cache-route" "^1.8.4"
     react-is "^16.3.1"
     rmc-pull-to-refresh "^1.0.12"
     umi-hd "^5.0.1"
 
-"@remax/wechat@2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@remax/wechat/-/wechat-2.11.3.tgz#7c5f28d09e50225c88981dedce4ac1bd8fffa403"
+"@remax/wechat@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@remax/wechat/-/wechat-2.11.4.tgz#89f9b94377e2d34808927408044646c5fc8669fa"
   dependencies:
-    "@remax/shared" "2.11.3"
+    "@remax/shared" "2.11.4"
     miniprogram-api-typings "^3.1.3"
 
 "@sindresorhus/is@^0.14.0":
@@ -1411,7 +1405,7 @@
     "@types/prop-types" "*"
     csstype "^3.0.2"
 
-"@types/react@^16.9.35", "@types/react@^16.9.56":
+"@types/react@^16.9.56":
   version "16.14.2"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.2.tgz#85dcc0947d0645349923c04ccef6018a1ab7538c"
   dependencies:
@@ -1467,7 +1461,7 @@
     "@types/source-list-map" "*"
     source-map "^0.7.3"
 
-"@types/webpack@*", "@types/webpack@^4.4.17", "@types/webpack@^4.4.31", "@types/webpack@^4.41.10", "@types/webpack@^4.41.8":
+"@types/webpack@*", "@types/webpack@^4.4.17", "@types/webpack@^4.4.31", "@types/webpack@^4.41.8":
   version "4.41.21"
   resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.21.tgz#cc685b332c33f153bb2f5fc1fa3ac8adeb592dee"
   dependencies:
@@ -2080,44 +2074,44 @@ babel-plugin-module-resolver@^4.0.0:
     reselect "^4.0.0"
     resolve "^1.13.1"
 
-babel-plugin-remax-host-component@2.11.3:
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/babel-plugin-remax-host-component/-/babel-plugin-remax-host-component-2.11.3.tgz#58755d9d4834c58f0ac7b8b446f97ce36a7ad2f3"
+babel-plugin-remax-host-component@2.11.4:
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/babel-plugin-remax-host-component/-/babel-plugin-remax-host-component-2.11.4.tgz#eb71c88317ceb4089b5c8160805d2f4883899ffa"
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
     "@babel/traverse" "^7.11.0"
     "@babel/types" "^7.11.0"
-    "@remax/macro" "2.11.3"
-    "@remax/shared" "2.11.3"
+    "@remax/macro" "2.11.4"
+    "@remax/shared" "2.11.4"
 
-babel-plugin-remax-lifecycle@2.11.3:
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/babel-plugin-remax-lifecycle/-/babel-plugin-remax-lifecycle-2.11.3.tgz#8576807096d876d36f43de7954f580da37dbc551"
+babel-plugin-remax-lifecycle@2.11.4:
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/babel-plugin-remax-lifecycle/-/babel-plugin-remax-lifecycle-2.11.4.tgz#dbe8e4838d7cb580256fea97ec3edf13826b311a"
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
     "@babel/traverse" "^7.11.0"
     "@babel/types" "^7.11.0"
-    "@remax/shared" "2.11.3"
+    "@remax/shared" "2.11.4"
 
-babel-plugin-remax-regenerator-runtime@2.11.3:
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/babel-plugin-remax-regenerator-runtime/-/babel-plugin-remax-regenerator-runtime-2.11.3.tgz#3490bce6f9f9332623e114cbec8cab883460ed94"
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.10.4"
-    "@babel/traverse" "^7.11.0"
-    "@babel/types" "^7.11.0"
-
-babel-plugin-remax-turbo-render@2.11.3:
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/babel-plugin-remax-turbo-render/-/babel-plugin-remax-turbo-render-2.11.3.tgz#b065549f628b94db97b32310ae4f008d7ee6ea8c"
+babel-plugin-remax-regenerator-runtime@2.11.4:
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/babel-plugin-remax-regenerator-runtime/-/babel-plugin-remax-regenerator-runtime-2.11.4.tgz#e53b9c6d097d21959e278842a6782050578417a4"
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
     "@babel/traverse" "^7.11.0"
     "@babel/types" "^7.11.0"
 
-babel-preset-remax@2.11.3:
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/babel-preset-remax/-/babel-preset-remax-2.11.3.tgz#edac5397fcba9548733c20d3f2cbbacf4f807ff1"
+babel-plugin-remax-turbo-render@2.11.4:
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/babel-plugin-remax-turbo-render/-/babel-plugin-remax-turbo-render-2.11.4.tgz#ab29ff6463cd83455a9df994b345c18f0e173050"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.10.4"
+    "@babel/traverse" "^7.11.0"
+    "@babel/types" "^7.11.0"
+
+babel-preset-remax@2.11.4:
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/babel-preset-remax/-/babel-preset-remax-2.11.4.tgz#1eacfe0649a67872e4f3aab5520443c4aa3b059f"
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-proposal-class-properties" "^7.7.4"
@@ -6855,18 +6849,19 @@ remax-stats@^0.1.1:
     git-url-parse "^11.1.2"
     is-git-repository "^1.1.1"
 
-remax@^2.11.3:
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/remax/-/remax-2.11.3.tgz#05102613dc6b2aa82e0d652fefcb0b61e88b43e8"
+remax@^2.11.4:
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/remax/-/remax-2.11.4.tgz#1952493cb8dc4befa71be545db3e3f8234d0637f"
   dependencies:
-    "@remax/ali" "2.11.3"
-    "@remax/cli" "2.11.3"
-    "@remax/macro" "2.11.3"
-    "@remax/one" "2.11.3"
-    "@remax/runtime" "2.11.3"
-    "@remax/toutiao" "2.11.3"
-    "@remax/web" "2.11.3"
-    "@remax/wechat" "2.11.3"
+    "@remax/ali" "2.11.4"
+    "@remax/cli" "2.11.4"
+    "@remax/macro" "2.11.4"
+    "@remax/one" "2.11.4"
+    "@remax/runtime" "2.11.4"
+    "@remax/toutiao" "2.11.4"
+    "@remax/types" "2.11.4"
+    "@remax/web" "2.11.4"
+    "@remax/wechat" "2.11.4"
     mini-types "^0.1.1"
     miniprogram-api-typings "^3.1.3"
 
