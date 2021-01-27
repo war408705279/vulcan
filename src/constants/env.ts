@@ -24,6 +24,5 @@ export enum Platform {
   Ali = 'ali'
 }
 
-// TODO: 头条 && 百度 ... platform 判断
 export const isWechat = platform === Platform.Wechat
 export const isAli = platform === Platform.Ali

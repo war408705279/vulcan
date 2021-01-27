@@ -46,11 +46,16 @@ function General() {
             arrow
           />
         </Navigator>
-        <Cell
+        <Navigator
           className={styles.cell}
-          label="Icon"
-          arrow
-        />
+          url={routeMap.ui_icon}
+          action="navigate"
+        >
+          <Cell
+            label="Icon"
+            arrow
+          />
+        </Navigator>
         <Cell
           className={styles.cell}
           label="Popup"

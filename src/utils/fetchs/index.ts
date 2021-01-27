@@ -1,6 +1,5 @@
 /**
  * @file fetchs index
- * @todo 支付宝，头条，百度 ... platform fetch
  */
 
 import { request as wechatRequest } from 'remax/wechat'
@@ -11,7 +10,6 @@ import { CommonApiError } from '@/constants/api'
 import { promisify } from '@/utils/promise'
 import { getMsgFromErrCode } from '@/utils/exception'
 
-// TODO: 支付宝 && 头条 && 百度 ... fetch options
 export type FetchOptions = Omit<WechatMiniprogram.RequestOption, 'url' | 'success' | 'fail'> & {
   errCodeMsgMap?: any
 }
