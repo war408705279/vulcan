@@ -23,6 +23,7 @@ page {
 .button {
   width: 200rpx;
   margin: 0;
+  margin-bottom: 24rpx;
   color: @primary-color;
   border-radius: 16rpx;
   font-size: 28rpx;
@@ -35,6 +36,18 @@ page {
   }
 }
 
+.inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .button {
+    flex: 0 0 auto;
+  }
+}
+
 .content {
   padding: 120rpx;
+  text-align: center;
 }
