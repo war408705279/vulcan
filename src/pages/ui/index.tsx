@@ -115,11 +115,16 @@ function DataDisplay() {
         Data Display
       </View>
       <View className={styles.cells}>
-        <Cell
+        <Navigator
           className={styles.cell}
-          label="Tag"
-          arrow
-        />
+          url={routeMap.ui_tag}
+          action="navigate"
+        >
+          <Cell
+            label="Tag"
+            arrow
+          />
+        </Navigator>
         <Cell
           className={styles.cell}
           label="Tabs"
