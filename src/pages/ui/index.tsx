@@ -125,11 +125,16 @@ function DataDisplay() {
             arrow
           />
         </Navigator>
-        <Cell
+        <Navigator
           className={styles.cell}
-          label="Tabs"
-          arrow
-        />
+          url={routeMap.ui_tabs}
+          action="navigate"
+        >
+          <Cell
+            label="Tabs"
+            arrow
+          />
+        </Navigator>
       </View>
     </>
   )
