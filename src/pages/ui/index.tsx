@@ -147,11 +147,16 @@ function Feedback() {
         Feedback
       </View>
       <View className={styles.cells}>
-        <Cell
+        <Navigator
           className={styles.cell}
-          label="Loading"
-          arrow
-        />
+          url={routeMap.ui_loading}
+          action="navigate"
+        >
+          <Cell
+            label="Loading"
+            arrow
+          />
+        </Navigator>
         <Cell
           className={styles.cell}
           label="Page Loading"
