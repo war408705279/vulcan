@@ -14,6 +14,12 @@ import Loading from '@/ui/Loading'
 
 import { nameMap } from '@/constants/route'
 
+import {
+  dangerColor,
+  warningColor,
+  successColor
+} from '@/utils/styles/color'
+
 import styles from './index.less'
 
 export default function UiLoading() {
@@ -32,6 +38,51 @@ export default function UiLoading() {
         </View>
         <View className={styles.items}>
           <Item />
+        </View>
+
+        <View className={styles.title}>
+          Type
+        </View>
+        <View className={styles.items}>
+          <Item
+            type="default"
+            label="default"
+          />
+          <Item
+            type="dot"
+            label="dot"
+          />
+        </View>
+
+        <View className={styles.title}>
+          Size
+        </View>
+        <View className={styles.items}>
+          <Item
+            size="64rpx"
+            label="64rpx"
+          />
+          <Item
+            label="default"
+          />
+        </View>
+
+        <View className={styles.title}>
+          Color
+        </View>
+        <View className={styles.items}>
+          <Item
+            color={dangerColor}
+            label="#EF4149"
+          />
+          <Item
+            color={warningColor}
+            label="#FAAD14"
+          />
+          <Item
+            color={successColor}
+            label="#4BC310"
+          />
         </View>
       </View>
     </Scaffold>

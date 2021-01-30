@@ -94,13 +94,13 @@ export default function UiIcon() {
         <View className={styles.items}>
           <Item
             icon={IconType.Email}
-            size="62rpx"
-            label="32px"
+            size="64rpx"
+            label="64rpx"
           />
           <Item
             icon={IconType.Email}
             size="48rpx"
-            label="24px"
+            label="48rpx"
           />
           <Item
             icon={IconType.Email}

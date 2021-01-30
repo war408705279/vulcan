@@ -19,7 +19,6 @@ page {
 .items {
   padding: 0 20rpx;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -27,11 +26,16 @@ page {
 .item {
   width: 200rpx;
   height: 200rpx;
+  margin-right: 54rpx;
   margin-bottom: 24rpx;
   position: relative;
   border-radius: 16rpx;
   background-color: @white;
   flex: 0 0 auto;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
 }
 
 .content {
@@ -47,6 +51,7 @@ page {
 }
 
 .label {
+  margin-top: 16rpx;
   font-size: 24rpx;
   color: @black;
 }
