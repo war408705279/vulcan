@@ -10,8 +10,10 @@ import { primaryColor } from '@/utils/styles/color'
 
 import styles from './style.less'
 
+type LoadingType = 'default' | 'dot'
+
 export type Props = HTMLAttributes<HTMLElement> & {
-  type?: 'default' | 'dot'
+  type?: LoadingType
   color?: string
   size?: string
 }
@@ -84,7 +86,7 @@ export default function Loading({
     )
   }
 
-  function renderLoadingByType(loadingType: 'default' | 'dot') {
+  function renderLoadingByType(loadingType: LoadingType) {
     switch (loadingType) {
       case 'dot':
         return renderDot()
