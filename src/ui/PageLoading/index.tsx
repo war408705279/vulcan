@@ -2,7 +2,7 @@
  * @file PageLoading UI Component
  */
 
-import React, { HTMLAttributes } from 'react'
+import React, { HTMLAttributes, ReactNode } from 'react'
 import cls from 'classnames'
 import { View, Text } from 'remax/one'
 
@@ -17,7 +17,7 @@ import styles from './style.less'
 
 export type Props = HTMLAttributes<HTMLElement> & {
   loading?: boolean // 是否正在加载
-  tip?: string // 文案内容
+  tip?: ReactNode // 文案内容
   iconColor?: string // loading 图标颜色
   tipColor?: string // 文案颜色
 }
