@@ -167,11 +167,16 @@ function Feedback() {
             arrow
           />
         </Navigator>
-        <Cell
+        <Navigator
           className={styles.cell}
-          label="Result"
-          arrow
-        />
+          url={routeMap.ui_result}
+          action="navigate"
+        >
+          <Cell
+            label="Result"
+            arrow
+          />
+        </Navigator>
         <Cell
           className={styles.cell}
           label="Toast"
