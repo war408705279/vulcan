@@ -177,11 +177,16 @@ function Feedback() {
             arrow
           />
         </Navigator>
-        <Cell
+        <Navigator
           className={styles.cell}
-          label="Toast"
-          arrow
-        />
+          url={routeMap.ui_toast}
+          action="navigate"
+        >
+          <Cell
+            label="Toast"
+            arrow
+          />
+        </Navigator>
       </View>
     </>
   )
