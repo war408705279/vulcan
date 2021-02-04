@@ -7,14 +7,30 @@ import {
   PageConfig as WechatPageConfig
 } from 'remax/wechat'
 
-import { routes, titlePrefix, Pages, urlMap } from '../constants/route'
+import {
+  mainPackageUrlMap,
+  mainRoutes,
+  uiRoutes,
+  mineRoutes,
+  titlePrefix,
+  Pages
+} from '../constants/route'
 import { iconMap as tabBarIconMap } from '../constants/tab-bar'
 
 import { white, primaryColor, black } from './styles/color'
 
 export function getWechatAppConfig(title?: string): WechatAppConfig {
   const appConfig: WechatAppConfig = {
-    pages: [...routes],
+    pages: [...mainRoutes],
+    subpackages: [{
+      root: 'pages/ui-pages',
+      name: 'uiPackage',
+      pages: [...uiRoutes]
+    }, {
+      root: 'pages/mine-pages',
+      name: 'minePackage',
+      pages: [...mineRoutes]
+    }],
     window: {
       navigationBarTitleText: title || titlePrefix,
       navigationBarBackgroundColor: white,
@@ -27,17 +43,17 @@ export function getWechatAppConfig(title?: string): WechatAppConfig {
       backgroundColor: white,
       borderStyle: 'white',
       list: [{
-        pagePath: urlMap[Pages.Index],
+        pagePath: mainPackageUrlMap[Pages.Index],
         text: '',
         iconPath: tabBarIconMap[Pages.Index].default,
         selectedIconPath: tabBarIconMap[Pages.Index].active
       }, {
-        pagePath: urlMap[Pages.Ui],
+        pagePath: mainPackageUrlMap[Pages.Ui],
         text: '',
         iconPath: tabBarIconMap[Pages.Ui].default,
         selectedIconPath: tabBarIconMap[Pages.Ui].active
       }, {
-        pagePath: urlMap[Pages.Mine],
+        pagePath: mainPackageUrlMap[Pages.Mine],
         text: '',
         iconPath: tabBarIconMap[Pages.Mine].default,
         selectedIconPath: tabBarIconMap[Pages.Mine].active

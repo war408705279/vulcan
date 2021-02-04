@@ -8,6 +8,7 @@ export enum Pages {
   Index = 'index',
   Ui = 'ui',
   Mine = 'mine',
+  WebView = 'web_view',
   UiCell = 'ui_cell',
   UiIcon = 'ui_icon',
   UiPopup = 'ui_popup',
@@ -23,8 +24,7 @@ export enum Pages {
   MineSkill = 'mine_skill',
   MineContact = 'mine_contact',
   MineHobby = 'mine_hobby',
-  MineAssessment = 'mine_assessment',
-  WebView = 'web_view'
+  MineAssessment = 'mine_assessment'
 }
 
 export const nameMap = {
@@ -49,27 +49,35 @@ export const nameMap = {
   [Pages.MineAssessment]: '自我评价'
 }
 
-export const urlMap = {
+export const mainPackageUrlMap = {
   [Pages.Index]: 'pages/index/index',
   [Pages.Ui]: 'pages/ui/index',
   [Pages.Mine]: 'pages/mine/index',
-  [Pages.UiCell]: 'pages/ui/pages/cell/index',
-  [Pages.UiIcon]: 'pages/ui/pages/icon/index',
-  [Pages.UiPopup]: 'pages/ui/pages/popup/index',
-  [Pages.UiInput]: 'pages/ui/pages/input/index',
-  [Pages.UiTextarea]: 'pages/ui/pages/textarea/index',
-  [Pages.UiTag]: 'pages/ui/pages/tag/index',
-  [Pages.UiTabs]: 'pages/ui/pages/tabs/index',
-  [Pages.UiLoading]: 'pages/ui/pages/loading/index',
-  [Pages.UiPageLoading]: 'pages/ui/pages/page-loading/index',
-  [Pages.UiResult]: 'pages/ui/pages/result/index',
-  [Pages.UiToast]: 'pages/ui/pages/toast/index',
-  [Pages.MineInfo]: 'pages/mine/pages/info/index',
-  [Pages.MineSkill]: 'pages/mine/pages/skill/index',
-  [Pages.MineContact]: 'pages/mine/pages/contact/index',
-  [Pages.MineHobby]: 'pages/mine/pages/hobby/index',
-  [Pages.MineAssessment]: 'pages/mine/pages/assessment/index',
   [Pages.WebView]: 'pages/web-view/index'
+}
+
+// subpackages 里面的 root 已经添加了前缀
+export const uiPackageUrlMap = {
+  [Pages.UiCell]: 'cell/index',
+  [Pages.UiIcon]: 'icon/index',
+  [Pages.UiPopup]: 'popup/index',
+  [Pages.UiInput]: 'input/index',
+  [Pages.UiTextarea]: 'textarea/index',
+  [Pages.UiTag]: 'tag/index',
+  [Pages.UiTabs]: 'tabs/index',
+  [Pages.UiLoading]: 'loading/index',
+  [Pages.UiPageLoading]: 'page-loading/index',
+  [Pages.UiResult]: 'result/index',
+  [Pages.UiToast]: 'toast/index'
+}
+
+// subpackages 里面的 root 已经添加了前缀
+export const minePackageUrlMap = {
+  [Pages.MineInfo]: 'info/index',
+  [Pages.MineSkill]: 'skill/index',
+  [Pages.MineContact]: 'contact/index',
+  [Pages.MineHobby]: 'hobby/index',
+  [Pages.MineAssessment]: 'assessment/index'
 }
 
 // 之所以不用 urlMap，是因为小程序配置不允许 pages 是从斜杠开头的, 但是路由可以
@@ -77,23 +85,27 @@ export const routeMap = {
   [Pages.Index]: '/pages/index/index',
   [Pages.Ui]: '/pages/ui/index',
   [Pages.Mine]: '/pages/mine/index',
-  [Pages.UiCell]: '/pages/ui/pages/cell/index',
-  [Pages.UiIcon]: '/pages/ui/pages/icon/index',
-  [Pages.UiPopup]: '/pages/ui/pages/popup/index',
-  [Pages.UiInput]: '/pages/ui/pages/input/index',
-  [Pages.UiTextarea]: '/pages/ui/pages/textarea/index',
-  [Pages.UiTag]: '/pages/ui/pages/tag/index',
-  [Pages.UiTabs]: '/pages/ui/pages/tabs/index',
-  [Pages.UiLoading]: '/pages/ui/pages/loading/index',
-  [Pages.UiPageLoading]: '/pages/ui/pages/page-loading/index',
-  [Pages.UiResult]: '/pages/ui/pages/result/index',
-  [Pages.UiToast]: '/pages/ui/pages/toast/index',
-  [Pages.MineInfo]: '/pages/mine/pages/info/index',
-  [Pages.MineSkill]: '/pages/mine/pages/skill/index',
-  [Pages.MineContact]: '/pages/mine/pages/contact/index',
-  [Pages.MineHobby]: '/pages/mine/pages/hobby/index',
-  [Pages.MineAssessment]: '/pages/mine/pages/assessment/index',
-  [Pages.WebView]: '/pages/web-view/index'
+  [Pages.WebView]: '/pages/web-view/index',
+  [Pages.UiCell]: '/pages/ui-pages/cell/index',
+  [Pages.UiIcon]: '/pages/ui-pages/icon/index',
+  [Pages.UiPopup]: '/pages/ui-pages/popup/index',
+  [Pages.UiInput]: '/pages/ui-pages/input/index',
+  [Pages.UiTextarea]: '/pages/ui-pages/textarea/index',
+  [Pages.UiTag]: '/pages/ui-pages/tag/index',
+  [Pages.UiTabs]: '/pages/ui-pages/tabs/index',
+  [Pages.UiLoading]: '/pages/ui-pages/loading/index',
+  [Pages.UiPageLoading]: '/pages/ui-pages/page-loading/index',
+  [Pages.UiResult]: '/pages/ui-pages/result/index',
+  [Pages.UiToast]: '/pages/ui-pages/toast/index',
+  [Pages.MineInfo]: '/pages/mine-pages/info/index',
+  [Pages.MineSkill]: '/pages/mine-pages/skill/index',
+  [Pages.MineContact]: '/pages/mine-pages/contact/index',
+  [Pages.MineHobby]: '/pages/mine-pages/hobby/index',
+  [Pages.MineAssessment]: '/pages/mine-pages/assessment/index'
 }
 
-export const routes = Object.values(urlMap)
+export const mainRoutes = Object.values(mainPackageUrlMap)
+
+export const uiRoutes = Object.values(uiPackageUrlMap)
+
+export const mineRoutes = Object.values(minePackageUrlMap)
