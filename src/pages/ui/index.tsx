@@ -88,11 +88,16 @@ function DataEntry() {
             arrow
           />
         </Navigator>
-        <Cell
+        <Navigator
           className={styles.cell}
-          label="Textarea"
-          arrow
-        />
+          url={routeMap.ui_textarea}
+          action="navigate"
+        >
+          <Cell
+            label="Textarea"
+            arrow
+          />
+        </Navigator>
         <Cell
           className={styles.cell}
           label="Radio"
