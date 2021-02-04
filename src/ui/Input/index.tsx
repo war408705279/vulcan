@@ -14,9 +14,11 @@ import { primaryColor, greyFour } from '@/utils/styles/color'
 
 import styles from './style.less'
 
+type InputAlignType = 'left' | 'center' | 'right'
+
 export type Props = InputProps & {
   label?: ReactNode
-  inputAlign?: string
+  inputAlign?: InputAlignType
   icon?: string | IconType
   iconActiveColor?: string
   required?: boolean
