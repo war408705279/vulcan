@@ -14,9 +14,11 @@ import { primaryColor, greyFour } from '@/utils/styles/color'
 
 import styles from './style.less'
 
+type TextareaAlignType = 'left' | 'center' | 'right'
+
 export type Props = TextareaProps & {
   label?: ReactNode
-  textareaAlign?: string
+  textareaAlign?: TextareaAlignType
   icon?: string | IconType
   iconActiveColor?: string
   required?: boolean
