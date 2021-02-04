@@ -78,11 +78,16 @@ function DataEntry() {
         Data Entry
       </View>
       <View className={styles.cells}>
-        <Cell
+        <Navigator
           className={styles.cell}
-          label="Input"
-          arrow
-        />
+          url={routeMap.ui_input}
+          action="navigate"
+        >
+          <Cell
+            label="Input"
+            arrow
+          />
+        </Navigator>
         <Cell
           className={styles.cell}
           label="Textarea"
