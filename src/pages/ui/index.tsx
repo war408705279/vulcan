@@ -98,11 +98,16 @@ function DataEntry() {
             arrow
           />
         </Navigator>
-        <Cell
+        <Navigator
           className={styles.cell}
-          label="Radio"
-          arrow
-        />
+          url={routeMap.ui_radio}
+          action="navigate"
+        >
+          <Cell
+            label="Radio"
+            arrow
+          />
+        </Navigator>
         <Cell
           className={styles.cell}
           label="Checkbox"
