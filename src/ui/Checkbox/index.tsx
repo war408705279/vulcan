@@ -56,7 +56,14 @@ export default function Checkbox({
   }
 
   const childrenView = children && (
-    <View className={styles.children}>{children}</View>
+    <View
+      className={cls(
+        styles.children,
+        checked && styles.highlight
+      )}
+    >
+      {children}
+    </View>
   )
 
   return (
