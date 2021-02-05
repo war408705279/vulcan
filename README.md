@@ -95,6 +95,33 @@ yarn dev wechat
 
 - ...
 
+### 使用分包
+
+以微信小程序为例，[参考](https://developers.weixin.qq.com/miniprogram/dev/framework/subpackages/basic.html)
+
+需要注意的是目录结构梳理、打包原则和引用原则
+
+需要修改 `constants/route.ts` 文件中的 `urlMap`，将不同分包所包含页面的 `url` 拆分开进行定义，后续在编译和打包的过程中就是根据所拆分的 `urlMap` 将不同的页面打到不同的包下面
+
+接着修改 `utils/config.ts` 文件中的 `getWechatAppConfig` 方法，在里面新增 `subpackages` 配置项（和 `pages` 配置项同级。这里需要注意的是虽然微信小程序官方文档中说也支持 `subPackages` 的写法，但是 `remax` 仅支持 `subpackages` 写法）
+
+`subpackages` 是一个数组，每一项为分包的配置项，用于定义分包的 `root, name, pages`
+
+当配置了分包的 `root` 之后，分包页面的 `url` 定义就不用再将 `root` 作为前缀拼接到 `url` 前面，否则会出现嵌套的情况，例如下面的情况
+
+
+```
+例如某一个分包页面的期望 url 为 pages/ui-pages/cell/index
+
+该分包的 root 定义为 pages/ui-pages
+
+则需要修改该页面的 url 为 cell/index 并写入分包的 pages 配置项中
+
+这样才可以通过 /pages/ui-pages/cell/index 路由正确定位到页面
+
+如果不修改该页面的 url（仍保持 pages/ui-pages/cell/index），则打包后页面的路由会变成 /pages/ui-pages/pages/ui-pages/cell/index，即出现所谓的嵌套情况
+```
+
 ## 构建
 
 ```bash
