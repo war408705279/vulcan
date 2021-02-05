@@ -111,11 +111,8 @@ export default function UiRadio() {
         <View className={styles.items}>
           <RadioGroup
             type="button"
-            defaultValue="Kirk"
-            onChange={(v: any) => {
-              if (v === name) return
-              setName(v)
-            }}
+            defaultValue={name}
+            onChange={(v: any) => setName(v)}
           >
             <Radio value="Kirk">
               Kirk
