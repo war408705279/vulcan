@@ -10,14 +10,17 @@ function must(name: string, variable?: string): string {
   return variable
 }
 
-/** Host */
+// Host
 export const host = must('host', process.env.REMAX_APP_HOST)
 
-/** API Host */
+// API Host
 export const apiHost = must('apiHost', process.env.REMAX_APP_API_HOST)
 
-/** Platform */
+// Platform
 export const platform = must('platform', process.env.REMAX_PLATFORM)
+
+// Asset Host
+export const publicAssetHost = must('publicAssetHost', process.env.REMAX_APP_PUBLIC_ASSET_HOST)
 
 export enum Platform {
   Wechat = 'wechat',
