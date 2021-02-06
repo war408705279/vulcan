@@ -118,11 +118,16 @@ function DataEntry() {
             arrow
           />
         </Navigator>
-        <Cell
+        <Navigator
           className={styles.cell}
-          label="Switch"
-          arrow
-        />
+          url={routeMap.ui_switch}
+          action="navigate"
+        >
+          <Cell
+            label="Switch"
+            arrow
+          />
+        </Navigator>
       </View>
     </>
   )
