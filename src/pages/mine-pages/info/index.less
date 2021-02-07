@@ -1,1 +1,39 @@
 @import "~@/utils/styles/index.less";
+
+page {
+  background-color: @grey-2;
+}
+
+.main {
+  padding-bottom: 48rpx;
+}
+
+.imgContainer {
+  margin-top: 48rpx;
+  text-align: center;
+
+  .img {
+    width: 300rpx;
+    height: 300rpx;
+    border-radius: 50%;
+    box-shadow: 0 0 16rpx 0 #C0CCD0;
+    overflow: hidden;
+  }
+}
+
+.infoContainer {
+  margin-top: 48rpx;
+
+  .info {
+    margin-top: 2rpx;
+
+    .content {
+      width: 100%;
+      text-align: left;
+    }
+
+    &:first-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
