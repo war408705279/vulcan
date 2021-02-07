@@ -52,6 +52,16 @@ export default function UiSwitch() {
         </View>
 
         <View className={styles.title}>
+          Disabled
+        </View>
+        <View className={styles.items}>
+          <Switch
+            checked
+            disabled
+          />
+        </View>
+
+        <View className={styles.title}>
           Checked
         </View>
         <View className={styles.items}>
