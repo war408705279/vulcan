@@ -11,6 +11,7 @@ import AppBar from '@/components/AppBar'
 import BackLeading from '@/components/AppBar/BackLeading'
 
 import Switch from '@/ui/Switch'
+import Cell from '@/ui/Cell'
 
 import { nameMap } from '@/constants/route'
 
@@ -22,15 +23,16 @@ import styles from './index.less'
 export default function UiSwitch() {
   const showToast = useToast()
 
-  const [checked, setChecked] = useState(false)
+  const [checkedOne, setCheckedOne] = useState(false)
+  const [checkedTwo, setCheckedTwo] = useState(false)
 
   useOnChange(() => {
-    const status = checked ? 'online' : 'offline'
+    const status = checkedOne ? 'online' : 'offline'
 
     showToast({
       tip: `Weapon system ${status}`
     })
-  }, [checked])
+  }, [checkedOne])
 
   return (
     <Scaffold
@@ -61,10 +63,20 @@ export default function UiSwitch() {
         </View>
         <View className={styles.items}>
           <Switch
-            checked={checked}
-            onChange={(v :any) => setChecked(v)}
+            checked={checkedOne}
+            onChange={(v :any) => setCheckedOne(v)}
           />
         </View>
+
+        <View className={styles.title}>
+          With Cell
+        </View>
+        <Cell label="Label">
+          <Switch
+            checked={checkedTwo}
+            onChange={(v :any) => setCheckedTwo(v)}
+          />
+        </Cell>
       </View>
     </Scaffold>
   )
