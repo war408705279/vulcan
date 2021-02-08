@@ -43,7 +43,7 @@ export default function MineInfo() {
             leftStyle={{ width: '230rpx' }}
           >
             <View className={styles.content}>
-              Macco
+              Macco Jia
             </View>
           </Cell>
           <Cell
@@ -62,6 +62,15 @@ export default function MineInfo() {
           >
             <View className={styles.content}>
               1992/3/27
+            </View>
+          </Cell>
+          <Cell
+            className={styles.info}
+            label="Emotional state:"
+            leftStyle={{ width: '230rpx' }}
+          >
+            <View className={styles.content}>
+              Married
             </View>
           </Cell>
           <Cell
