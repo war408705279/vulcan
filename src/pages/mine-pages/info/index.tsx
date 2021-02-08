@@ -19,6 +19,11 @@ import ImgCodingDog from './images/img-coding-dog.jpg'
 import styles from './index.less'
 
 export default function MineInfo() {
+  const leftStyle = {
+    width: '230rpx',
+    flex: '0 0 auto'
+  }
+
   return (
     <Scaffold
       appBar={
@@ -40,7 +45,7 @@ export default function MineInfo() {
           <Cell
             className={styles.info}
             label="Name:"
-            leftStyle={{ width: '230rpx' }}
+            leftStyle={leftStyle}
           >
             <View className={styles.content}>
               Macco Jia
@@ -49,7 +54,7 @@ export default function MineInfo() {
           <Cell
             className={styles.info}
             label="Gender:"
-            leftStyle={{ width: '230rpx' }}
+            leftStyle={leftStyle}
           >
             <View className={styles.content}>
               Male
@@ -58,7 +63,7 @@ export default function MineInfo() {
           <Cell
             className={styles.info}
             label="Birthday:"
-            leftStyle={{ width: '230rpx' }}
+            leftStyle={leftStyle}
           >
             <View className={styles.content}>
               1992/3/27
@@ -67,7 +72,7 @@ export default function MineInfo() {
           <Cell
             className={styles.info}
             label="Emotional state:"
-            leftStyle={{ width: '230rpx' }}
+            leftStyle={leftStyle}
           >
             <View className={styles.content}>
               Married
@@ -76,7 +81,7 @@ export default function MineInfo() {
           <Cell
             className={styles.info}
             label="Native place:"
-            leftStyle={{ width: '230rpx' }}
+            leftStyle={leftStyle}
           >
             <View className={styles.content}>
               Taiyuan, Shanxi Province
@@ -85,7 +90,7 @@ export default function MineInfo() {
           <Cell
             className={styles.info}
             label="Residence place:"
-            leftStyle={{ width: '230rpx' }}
+            leftStyle={leftStyle}
           >
             <View className={styles.content}>
               Fengxian, Shanghai
@@ -94,7 +99,7 @@ export default function MineInfo() {
           <Cell
             className={styles.info}
             label="Position:"
-            leftStyle={{ width: '230rpx' }}
+            leftStyle={leftStyle}
           >
             <View className={styles.content}>
               FE Development Engineer
@@ -103,7 +108,7 @@ export default function MineInfo() {
           <Cell
             className={styles.info}
             label="Github:"
-            leftStyle={{ width: '230rpx' }}
+            leftStyle={leftStyle}
           >
             <View className={styles.content}>
               https://github.com/war408705279
