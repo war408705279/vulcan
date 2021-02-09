@@ -18,7 +18,7 @@ import styles from './index.less'
 
 export default function MineSkill() {
   const leftStyle = {
-    width: '160rpx',
+    width: '200rpx',
     flex: '0 0 auto'
   }
 
@@ -34,7 +34,7 @@ export default function MineSkill() {
       <View className={styles.main}>
         <Cell
           className={styles.item}
-          label="基本技能："
+          label="Basic:"
           leftStyle={leftStyle}
         >
           <View className={styles.content}>
@@ -44,7 +44,7 @@ export default function MineSkill() {
 
         <Cell
           className={styles.item}
-          label="语言："
+          label="Language:"
           leftStyle={leftStyle}
         >
           <View className={styles.content}>
@@ -54,7 +54,7 @@ export default function MineSkill() {
 
         <Cell
           className={styles.item}
-          label="前端框架："
+          label="FE Frame:"
           leftStyle={leftStyle}
         >
           <View className={styles.content}>
@@ -64,7 +64,7 @@ export default function MineSkill() {
 
         <Cell
           className={styles.item}
-          label="后端："
+          label="Back End:"
           leftStyle={leftStyle}
         >
           <View className={styles.content}>
@@ -74,7 +74,7 @@ export default function MineSkill() {
 
         <Cell
           className={styles.item}
-          label="数据库："
+          label="Database:"
           leftStyle={leftStyle}
         >
           <View className={styles.content}>
@@ -84,7 +84,7 @@ export default function MineSkill() {
 
         <Cell
           className={styles.item}
-          label="小程序："
+          label="Miniprogram:"
           leftStyle={leftStyle}
         >
           <View className={styles.content}>
