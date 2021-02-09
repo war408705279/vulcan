@@ -66,7 +66,7 @@ export default function MineInfo() {
             leftStyle={leftStyle}
           >
             <View className={styles.content}>
-              1992/3/27
+              1992/03/27
             </View>
           </Cell>
           <Cell
