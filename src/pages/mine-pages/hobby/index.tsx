@@ -29,19 +29,19 @@ export default function MineHobby() {
       <View className={styles.main}>
         <Cell className={styles.item}>
           <View className={styles.content}>
-            学习，写代码
+            学习，写代码，逛 Github
           </View>
         </Cell>
 
         <Cell className={styles.item}>
           <View className={styles.content}>
-            陪老婆刷剧，看综艺
+            陪老婆刷刷剧，看看综艺、电影什么的
           </View>
         </Cell>
 
         <Cell className={styles.item}>
           <View className={styles.content}>
-            夜跑爱好者
+            夜跑爱好者，不想出去的时候在家做 Keep
           </View>
         </Cell>
 
