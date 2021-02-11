@@ -4,14 +4,15 @@
 
 import React from 'react'
 
+import { View } from 'remax/one'
+
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
 import BackLeading from '@/components/AppBar/BackLeading'
-import UnderConstruction from '@/components/UnderConstruction'
 
 import { nameMap } from '@/constants/route'
 
-import './index.less'
+import styles from './index.less'
 
 export default function MineAssessment() {
   return (
@@ -23,9 +24,9 @@ export default function MineAssessment() {
         />
       }
     >
-      <UnderConstruction
-        tip="页面施工中..."
-      />
+      <View className={styles.main}>
+        自我评价
+      </View>
     </Scaffold>
   )
 }
