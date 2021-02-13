@@ -77,10 +77,10 @@ function Item({
           {name}
         </View>
         <View className={styles.time}>
-          {time}
+          上映时间：{time}
         </View>
         <View className={styles.desc}>
-          {desc}
+          剧情简介：{desc}
         </View>
       </View>
     </View>
