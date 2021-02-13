@@ -15,6 +15,7 @@ import IconTitle from './images/icon-title.png'
 import IconStarTrekOne from './images/icon-star-trek-1.jpg'
 import IconStarTrekTwo from './images/icon-star-trek-2.jpg'
 import IconStarTrekThree from './images/icon-star-trek-3.jpg'
+import IconStarTrekFour from './images/icon-star-trek-4.jpg'
 
 import styles from './index.less'
 
@@ -46,6 +47,13 @@ export default function Index() {
           name="星际迷航 3：石破天惊"
           time="1984 年 6 月 1 日"
           desc="2285 年，在与可汗的战斗中损坏的联邦星舰进取号，返回了地球的太空港以进行维修。柯克还在为斯波克的死感到悲伤。麦科伊医生出现了种种异常的行为：如擅自闯入被封锁的斯波克原来的舱房、胡言乱语等，最后他被送进了医院进行精神检查。斯科提被另分派到了联邦星舰精进号。星际舰队指挥部对新形成的创世星下达了禁入令。柯克被告知，进取号即将除役。斯波克的父亲沙瑞克找到柯克并告诉他，斯波克的遗体必须返回瓦肯星，否则他的灵魂就不得安息。沙瑞克要求柯克必须回到创世星，寻回斯波克的遗棺并将它带回瓦肯星——而斯波克临死前与麦科伊进行了心灵融合，因此带有斯波克灵魂的麦科伊也必须前往瓦肯星。"
+        />
+
+        <Item
+          icon={IconStarTrekFour}
+          name="星际迷航 4：抢救未来"
+          time="1986 年 11 月 26 日"
+          desc="由寇克将军领导的 “企业号” 太空船，因为接收到来自太阳系的不明探测波，征求组员同意后展开了一段回到过去的时光旅行。企业号太空船上的成员，为了拯救地球的未来，由 23 世纪回到 20 世纪。因为一艘外星太空船威胁要毁灭地球，除非他们能与座头鲸说话，但是，座头鲸早在数百年前就绝种了。所以，柯克船长只好带着船员们回到 1986 年，从旧金山将座头鲸带入未来，拯救地球。"
         />
       </View>
     </Scaffold>
