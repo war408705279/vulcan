@@ -16,6 +16,7 @@ import IconStarTrekOne from './images/icon-star-trek-1.jpg'
 import IconStarTrekTwo from './images/icon-star-trek-2.jpg'
 import IconStarTrekThree from './images/icon-star-trek-3.jpg'
 import IconStarTrekFour from './images/icon-star-trek-4.jpg'
+import IconStarTrekFive from './images/icon-star-trek-5.jpg'
 
 import styles from './index.less'
 
@@ -54,6 +55,13 @@ export default function Index() {
           name="星际迷航 4：抢救未来"
           time="1986 年 11 月 26 日"
           desc="由寇克将军领导的 “企业号” 太空船，因为接收到来自太阳系的不明探测波，征求组员同意后展开了一段回到过去的时光旅行。企业号太空船上的成员，为了拯救地球的未来，由 23 世纪回到 20 世纪。因为一艘外星太空船威胁要毁灭地球，除非他们能与座头鲸说话，但是，座头鲸早在数百年前就绝种了。所以，柯克船长只好带着船员们回到 1986 年，从旧金山将座头鲸带入未来，拯救地球。"
+        />
+
+        <Item
+          icon={IconStarTrekFive}
+          name="星际迷航 5：终极先锋"
+          time="1989 年 6 月 9 日"
+          desc="在电影开始时，进取号-A 的船员们正享受着一场悠闲的度假。新命名的进取号因为试航时表现不佳，正停靠在地球的太空港中进行整修。在约塞米蒂国家公园中，詹姆斯·柯克舰长面临着两个挑战：攀登埃尔凯皮顿山，以及让史波克上校学会唱露营歌曲。不幸的是，他们的休假被一场突如其来的紧急任务打断：船员们被派遣到荒凉的尼姆巴斯 III 星上去营救被劫持的人质。"
         />
       </View>
     </Scaffold>
