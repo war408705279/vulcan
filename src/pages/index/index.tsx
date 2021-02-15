@@ -17,6 +17,7 @@ import IconStarTrekTwo from './images/icon-star-trek-2.jpg'
 import IconStarTrekThree from './images/icon-star-trek-3.jpg'
 import IconStarTrekFour from './images/icon-star-trek-4.jpg'
 import IconStarTrekFive from './images/icon-star-trek-5.jpg'
+import IconStarTrekSix from './images/icon-star-trek-6.jpg'
 
 import styles from './index.less'
 
@@ -62,6 +63,13 @@ export default function Index() {
           name="星际迷航 5：终极先锋"
           time="1989 年 6 月 9 日"
           desc="在电影开始时，进取号-A 的船员们正享受着一场悠闲的度假。新命名的进取号因为试航时表现不佳，正停靠在地球的太空港中进行整修。在约塞米蒂国家公园中，詹姆斯·柯克舰长面临着两个挑战：攀登埃尔凯皮顿山，以及让史波克上校学会唱露营歌曲。不幸的是，他们的休假被一场突如其来的紧急任务打断：船员们被派遣到荒凉的尼姆巴斯 III 星上去营救被劫持的人质。"
+        />
+
+        <Item
+          icon={IconStarTrekSix}
+          name="星际迷航 6：未来之城"
+          time="1991 年 12 月 6 日"
+          desc="电影开场于克林贡卫星普拉西斯（Praxis）的爆炸。由苏鲁田光上校指挥的联邦星舰进取号受到了震波的冲击，船员们随即发现卫星的大部分质量都消失无踪了。在这次事件中，克林贡帝国不仅失去了关键的能源产地，其母星的臭氧层亦遭到了严重损害，整个帝国陷入一片混乱。由于无力继续与联邦敌对，克林贡人打算同死敌星际联邦议和。星际舰队于是派出了联邦星舰进取号-A前往接见克林贡首相戈尔康（Gorkon），并护送他前往地球谈判。这个决定让进取号的舰长詹姆斯 · T · 寇克坐立不安，因为他的儿子当年就是被克林贡人谋害的。"
         />
       </View>
     </Scaffold>
