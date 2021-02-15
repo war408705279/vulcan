@@ -18,6 +18,7 @@ import IconStarTrekThree from './images/icon-star-trek-3.jpg'
 import IconStarTrekFour from './images/icon-star-trek-4.jpg'
 import IconStarTrekFive from './images/icon-star-trek-5.jpg'
 import IconStarTrekSix from './images/icon-star-trek-6.jpg'
+import IconStarTrekSeven from './images/icon-star-trek-7.jpg'
 
 import styles from './index.less'
 
@@ -70,6 +71,13 @@ export default function Index() {
           name="星际迷航 6：未来之城"
           time="1991 年 12 月 6 日"
           desc="电影开场于克林贡卫星普拉西斯（Praxis）的爆炸。由苏鲁田光上校指挥的联邦星舰进取号受到了震波的冲击，船员们随即发现卫星的大部分质量都消失无踪了。在这次事件中，克林贡帝国不仅失去了关键的能源产地，其母星的臭氧层亦遭到了严重损害，整个帝国陷入一片混乱。由于无力继续与联邦敌对，克林贡人打算同死敌星际联邦议和。星际舰队于是派出了联邦星舰进取号-A前往接见克林贡首相戈尔康（Gorkon），并护送他前往地球谈判。这个决定让进取号的舰长詹姆斯 · T · 寇克坐立不安，因为他的儿子当年就是被克林贡人谋害的。"
+        />
+
+        <Item
+          icon={IconStarTrekSeven}
+          name="星际迷航 7：星空奇兵"
+          time="1994 年 11 月 17 日"
+          desc="寇克等人作为嘉宾乘新企业号试航，途中收到救援任务。而在另一时空，索伦博士正阴谋毁灭星球，攻击企业号。能够帮助新船长皮卡特来阻止索伦的，只有销声匿迹了 78 年的寇克船长。"
         />
       </View>
     </Scaffold>
