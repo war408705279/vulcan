@@ -15,17 +15,27 @@ page {
   margin-top: 16rpx;
 }
 
-.item {
-  margin-top: 4rpx;
-  padding: 32rpx;
-  background-color: @white;
+.sectionTitle {
+  padding: 20rpx 32rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 48rpx;
   text-align: left;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+}
 
-  &:first-of-type {
-    margin-top: 0;
+.items {
+  .item {
+    margin-top: 4rpx;
+    padding: 32rpx;
+    background-color: @white;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+    &:first-of-type {
+      margin-top: 0;
+    }
   }
 }
 
