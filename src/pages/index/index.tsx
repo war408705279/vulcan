@@ -20,6 +20,7 @@ import IconStarTrekFive from './images/icon-star-trek-5.jpg'
 import IconStarTrekSix from './images/icon-star-trek-6.jpg'
 import IconStarTrekSeven from './images/icon-star-trek-7.jpg'
 import IconStarTrekEight from './images/icon-star-trek-8.jpg'
+import IconStarTrekNine from './images/icon-star-trek-9.jpg'
 
 import styles from './index.less'
 
@@ -95,6 +96,13 @@ export default function Index() {
             name="星际迷航 8：第一次接触"
             time="1996 年 11 月 18 日"
             desc="企业号正在宇宙罗慕兰中立区做例行巡航时，舰长皮卡徳接到密电，称博格人准备向地球发起攻击。由于舰长皮卡徳曾受敌方俘虏并同化，星际舰队对其不是很信任，故没有派其出战。在舰队和博格人交战后皮卡徳听到战报，不顾命令，仍然参与战斗。之后企业号跟随博格人的时间漩涡回到 21 世纪，以阻挡博格人试图改变人类的外星发展史达到征服地球的企图。"
+          />
+
+          <Item
+            icon={IconStarTrekNine}
+            name="星际迷航 9：起义"
+            time="1998 年 12 月 11 日"
+            desc="皮卡特舰长在获知自己的副官数据中校在巴库星球暗访时被当地人掳为人质，便立刻率企业号前往营救。当他们来到巴库星球时，发现整个星球上只居住了从外星移民来的六百名巴库人，并过着与世隔绝、摒弃科技、崇尚和平的生活；数据中校被掳不像是巴库人的作风，想必另有隐情。"
           />
         </View>
       </View>
