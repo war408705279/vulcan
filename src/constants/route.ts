@@ -7,6 +7,7 @@ export const titlePrefix = 'Vulcan'
 export enum Pages {
   Index = 'index',
   Ui = 'ui',
+  Crew = 'crew',
   Mine = 'mine',
   WebView = 'web_view',
   UiCell = 'ui_cell',
@@ -33,6 +34,7 @@ export enum Pages {
 export const nameMap = {
   [Pages.Index]: 'Vulcan',
   [Pages.Ui]: 'UI 组件',
+  [Pages.Crew]: '机组人员',
   [Pages.Mine]: '我的',
   [Pages.UiCell]: 'Cell 组件',
   [Pages.UiIcon]: 'Icon 组件',
@@ -58,6 +60,7 @@ export const nameMap = {
 export const mainPackageUrlMap = {
   [Pages.Index]: 'pages/index/index',
   [Pages.Ui]: 'pages/ui/index',
+  [Pages.Crew]: 'pages/crew/index',
   [Pages.Mine]: 'pages/mine/index',
   [Pages.WebView]: 'pages/web-view/index'
 }
@@ -93,6 +96,7 @@ export const minePackageUrlMap = {
 export const routeMap = {
   [Pages.Index]: '/pages/index/index',
   [Pages.Ui]: '/pages/ui/index',
+  [Pages.Crew]: '/pages/crew/index',
   [Pages.Mine]: '/pages/mine/index',
   [Pages.WebView]: '/pages/web-view/index',
   [Pages.UiCell]: '/pages/ui-pages/cell/index',
