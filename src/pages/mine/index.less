@@ -1,44 +1,34 @@
 @import "~@/utils/styles/index.less";
 
+page {
+  background-color: @grey-2;
+}
+
 .main {
-  padding: 36rpx 0 48rpx 36rpx;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  padding-bottom: 48rpx;
 }
 
-.navigator {
-  flex: 0 0 auto;
-  margin: 0 36rpx 36rpx 0;
-}
-
-.card {
-  width: 320rpx;
-  height: 320rpx;
-  position: relative;
-  border: 2rpx solid @grey-3;
-  border-radius: 16rpx;
-  box-shadow: 0 0 16rpx 0 rgba(192, 204, 208, .3);
+.imgContainer {
+  margin-top: 48rpx;
   text-align: center;
 
-  .info {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .img {
+    width: 300rpx;
+    height: 300rpx;
+    border-radius: 50%;
+    box-shadow: 0 0 16rpx 0 #C0CCD0;
+    overflow: hidden;
+  }
+}
 
-    .icon {
-      width: 160rpx;
-      height: 160rpx;
-    }
+.cells {
+  margin-top: 48rpx;
 
-    .tip {
-      margin-top: 16rpx;
-      color: @grey-6;
-      font-size: 30rpx;
-      font-weight: 400;
-      line-height: 42rpx;
+  .cell {
+    margin-top: 2rpx;
+
+    &:first-of-type {
+      margin-top: 0;
     }
   }
 }
