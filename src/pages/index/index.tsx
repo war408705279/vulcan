@@ -21,6 +21,7 @@ import IconStarTrekSix from './images/icon-star-trek-6.jpg'
 import IconStarTrekSeven from './images/icon-star-trek-7.jpg'
 import IconStarTrekEight from './images/icon-star-trek-8.jpg'
 import IconStarTrekNine from './images/icon-star-trek-9.jpg'
+import IconStarTrekTen from './images/icon-star-trek-10.jpg'
 
 import styles from './index.less'
 
@@ -103,6 +104,13 @@ export default function Index() {
             name="星际迷航 9：起义"
             time="1998 年 12 月 11 日"
             desc="皮卡特舰长在获知自己的副官数据中校在巴库星球暗访时被当地人掳为人质，便立刻率企业号前往营救。当他们来到巴库星球时，发现整个星球上只居住了从外星移民来的六百名巴库人，并过着与世隔绝、摒弃科技、崇尚和平的生活；数据中校被掳不像是巴库人的作风，想必另有隐情。"
+          />
+
+          <Item
+            icon={IconStarTrekTen}
+            name="星际迷航 10：复仇女神"
+            time="2002 年 12 月 9 日"
+            desc="辛桑靠雷麦斯人幕后支持，在罗慕伦发动了政变，并要求星际联邦派企业号前往罗慕伦进行和谈，企业号的皮卡德舰长到达目的地后发现这是一场针对联邦的阴谋，而辛桑则是皮卡德的复制人，皮卡德舰长随即率领船员展开了激烈的反抗，最后在贝森谷附近获得罗慕伦军方的支持并摧毁辛桑的战舰，在这场战斗中，智能机器人戴达（Data）为了摧毁菲拉伦辐射（一种生化辐射，能摧毁亚原子细胞结构，使得星际联邦禁止研究该辐射）发生器，救出皮卡德舰长，与该战舰同归于尽。"
           />
         </View>
       </View>
