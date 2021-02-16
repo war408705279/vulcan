@@ -12,16 +12,20 @@ import AppBar from '@/components/AppBar'
 import { nameMap } from '@/constants/route'
 
 import IconTop from './images/icon-top.png'
+// 原初系列
 import IconStarTrekOne from './images/icon-star-trek-1.jpg'
 import IconStarTrekTwo from './images/icon-star-trek-2.jpg'
 import IconStarTrekThree from './images/icon-star-trek-3.jpg'
 import IconStarTrekFour from './images/icon-star-trek-4.jpg'
 import IconStarTrekFive from './images/icon-star-trek-5.jpg'
 import IconStarTrekSix from './images/icon-star-trek-6.jpg'
+// 下一代
 import IconStarTrekSeven from './images/icon-star-trek-7.jpg'
 import IconStarTrekEight from './images/icon-star-trek-8.jpg'
 import IconStarTrekNine from './images/icon-star-trek-9.jpg'
 import IconStarTrekTen from './images/icon-star-trek-10.jpg'
+// 开尔文时间线
+import IconStarTrekEleven from './images/icon-star-trek-11.jpg'
 
 import styles from './index.less'
 
@@ -111,6 +115,18 @@ export default function Index() {
             name="星际迷航 10：复仇女神"
             time="2002 年 12 月 9 日"
             desc="辛桑靠雷麦斯人幕后支持，在罗慕伦发动了政变，并要求星际联邦派企业号前往罗慕伦进行和谈，企业号的皮卡德舰长到达目的地后发现这是一场针对联邦的阴谋，而辛桑则是皮卡德的复制人，皮卡德舰长随即率领船员展开了激烈的反抗，最后在贝森谷附近获得罗慕伦军方的支持并摧毁辛桑的战舰，在这场战斗中，智能机器人戴达（Data）为了摧毁菲拉伦辐射（一种生化辐射，能摧毁亚原子细胞结构，使得星际联邦禁止研究该辐射）发生器，救出皮卡德舰长，与该战舰同归于尽。"
+          />
+        </View>
+
+        <View className={styles.sectionTitle}>
+          开尔文时间线
+        </View>
+        <View className={styles.items}>
+          <Item
+            icon={IconStarTrekEleven}
+            name="星际迷航"
+            time="2009 年 5 月 8 日"
+            desc="未知的时空，无边的黑洞，一艘巨型罗慕兰战舰突然出现在太空中。崇武暴躁的罗慕兰人，是多年前离开瓦肯星人自建星际帝国的战士种族。如今，罗慕兰帝国的统治者尼诺，为了解决日后的强大劲敌史波克，正跨越星际和时空四处搜寻他的下落。而一名为凯尔文号的联邦星舰，在追捕中不幸落入了罗慕兰的魔掌。还尚稚嫩的联邦星舰，在罗慕兰战舰催枯拉朽的火力面前反击，无异以卵击石。幸而临危受命的舰长乔治 · 柯克英勇机智，在星舰被摧毁前的短短十二分钟之内，带领全船八百余人逃出生天，这其中包括他正在分娩的妻子。"
           />
         </View>
       </View>
