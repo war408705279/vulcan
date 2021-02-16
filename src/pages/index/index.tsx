@@ -28,6 +28,8 @@ import IconStarTrekTen from './images/icon-star-trek-10.jpg'
 import IconStarTrekEleven from './images/icon-star-trek-11.jpg'
 import IconStarTrekTwelve from './images/icon-star-trek-12.jpg'
 import IconStarTrekThirteen from './images/icon-star-trek-13.jpg'
+// 非官方电影
+import IconStarTrekFourteen from './images/icon-star-trek-14.jpg'
 
 import styles from './index.less'
 
@@ -143,6 +145,18 @@ export default function Index() {
             name="星际迷航 3：超越星辰"
             time="2016 年 7 月 22 日"
             desc="科克船长带领企业号继续踏上宇宙探索的旅程，他向老骨头讲述了自己对于船长身份的忧虑，而在他与最好的朋友史波克互诉衷肠前，他们又接到了一个紧急救援的任务。而神秘敌人剋劳开始攻击企业号，而幸存的企业号成员也分散至一个行星上求生。"
+          />
+        </View>
+
+        <View className={styles.sectionTitle}>
+          非官方电影
+        </View>
+        <View className={styles.items}>
+          <Item
+            icon={IconStarTrekFourteen}
+            name="星际迷航：叛徒"
+            time="2015 年 8 月 1 日"
+            desc="无，可能因为太烂了，完全搜不到。"
           />
         </View>
       </View>
