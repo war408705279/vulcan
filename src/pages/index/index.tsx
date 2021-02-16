@@ -27,6 +27,7 @@ import IconStarTrekTen from './images/icon-star-trek-10.jpg'
 // 开尔文时间线
 import IconStarTrekEleven from './images/icon-star-trek-11.jpg'
 import IconStarTrekTwelve from './images/icon-star-trek-12.jpg'
+import IconStarTrekThirteen from './images/icon-star-trek-13.jpg'
 
 import styles from './index.less'
 
@@ -135,6 +136,13 @@ export default function Index() {
             name="星际迷航 2：暗黑无界"
             time="2013 年 5 月 16 日"
             desc="企业号虽被调召回到 23 世纪的地球，但他们却发现，一股无法阻挡的恐怖力量，不仅从内部摧残星际联邦，更让世界濒临毁灭。企业号舰长詹姆士柯克将领军对抗战火连天的世界，并且想方设法缉捕聪明绝顶，而前所未见的神秘星际恐怖份子约翰哈里森。"
+          />
+
+          <Item
+            icon={IconStarTrekThirteen}
+            name="星际迷航 3：超越星辰"
+            time="2016 年 7 月 22 日"
+            desc="科克船长带领企业号继续踏上宇宙探索的旅程，他向老骨头讲述了自己对于船长身份的忧虑，而在他与最好的朋友史波克互诉衷肠前，他们又接到了一个紧急救援的任务。而神秘敌人剋劳开始攻击企业号，而幸存的企业号成员也分散至一个行星上求生。"
           />
         </View>
       </View>
