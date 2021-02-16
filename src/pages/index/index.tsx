@@ -11,7 +11,7 @@ import AppBar from '@/components/AppBar'
 
 import { nameMap } from '@/constants/route'
 
-import IconTitle from './images/icon-title.png'
+import IconTop from './images/icon-top.png'
 import IconStarTrekOne from './images/icon-star-trek-1.jpg'
 import IconStarTrekTwo from './images/icon-star-trek-2.jpg'
 import IconStarTrekThree from './images/icon-star-trek-3.jpg'
@@ -30,8 +30,8 @@ export default function Index() {
     <Scaffold appBar={<AppBar title={nameMap.index} />}>
       <View className={styles.main}>
         <Image
-          className={styles.iconTitle}
-          src={IconTitle}
+          className={styles.topIcon}
+          src={IconTop}
         />
 
         <View className={styles.sectionTitle}>
