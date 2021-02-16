@@ -19,6 +19,7 @@ import IconStarTrekFour from './images/icon-star-trek-4.jpg'
 import IconStarTrekFive from './images/icon-star-trek-5.jpg'
 import IconStarTrekSix from './images/icon-star-trek-6.jpg'
 import IconStarTrekSeven from './images/icon-star-trek-7.jpg'
+import IconStarTrekEight from './images/icon-star-trek-8.jpg'
 
 import styles from './index.less'
 
@@ -87,6 +88,13 @@ export default function Index() {
             name="星际迷航 7：星空奇兵"
             time="1994 年 11 月 17 日"
             desc="寇克等人作为嘉宾乘新企业号试航，途中收到救援任务。而在另一时空，索伦博士正阴谋毁灭星球，攻击企业号。能够帮助新船长皮卡特来阻止索伦的，只有销声匿迹了 78 年的寇克船长。"
+          />
+
+          <Item
+            icon={IconStarTrekEight}
+            name="星际迷航 8：第一次接触"
+            time="1996 年 11 月 18 日"
+            desc="企业号正在宇宙罗慕兰中立区做例行巡航时，舰长皮卡徳接到密电，称博格人准备向地球发起攻击。由于舰长皮卡徳曾受敌方俘虏并同化，星际舰队对其不是很信任，故没有派其出战。在舰队和博格人交战后皮卡徳听到战报，不顾命令，仍然参与战斗。之后企业号跟随博格人的时间漩涡回到 21 世纪，以阻挡博格人试图改变人类的外星发展史达到征服地球的企图。"
           />
         </View>
       </View>
