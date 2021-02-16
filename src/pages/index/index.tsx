@@ -26,6 +26,7 @@ import IconStarTrekNine from './images/icon-star-trek-9.jpg'
 import IconStarTrekTen from './images/icon-star-trek-10.jpg'
 // 开尔文时间线
 import IconStarTrekEleven from './images/icon-star-trek-11.jpg'
+import IconStarTrekTwelve from './images/icon-star-trek-12.jpg'
 
 import styles from './index.less'
 
@@ -127,6 +128,13 @@ export default function Index() {
             name="星际迷航"
             time="2009 年 5 月 8 日"
             desc="未知的时空，无边的黑洞，一艘巨型罗慕兰战舰突然出现在太空中。崇武暴躁的罗慕兰人，是多年前离开瓦肯星人自建星际帝国的战士种族。如今，罗慕兰帝国的统治者尼诺，为了解决日后的强大劲敌史波克，正跨越星际和时空四处搜寻他的下落。而一名为凯尔文号的联邦星舰，在追捕中不幸落入了罗慕兰的魔掌。还尚稚嫩的联邦星舰，在罗慕兰战舰催枯拉朽的火力面前反击，无异以卵击石。幸而临危受命的舰长乔治 · 柯克英勇机智，在星舰被摧毁前的短短十二分钟之内，带领全船八百余人逃出生天，这其中包括他正在分娩的妻子。"
+          />
+
+          <Item
+            icon={IconStarTrekTwelve}
+            name="星际迷航 2：暗黑无界"
+            time="2013 年 5 月 16 日"
+            desc="企业号虽被调召回到 23 世纪的地球，但他们却发现，一股无法阻挡的恐怖力量，不仅从内部摧残星际联邦，更让世界濒临毁灭。企业号舰长詹姆士柯克将领军对抗战火连天的世界，并且想方设法缉捕聪明绝顶，而前所未见的神秘星际恐怖份子约翰哈里森。"
           />
         </View>
       </View>
