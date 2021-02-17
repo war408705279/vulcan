@@ -9,6 +9,8 @@ import { View, Image } from 'remax/one'
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
 
+import Icon from '@/ui/Icon'
+
 import { nameMap } from '@/constants/route'
 
 import IconTop from './images/icon-top.png'
@@ -194,6 +196,10 @@ function Item({
         <View className={styles.desc}>
           剧情简介：{desc}
         </View>
+      </View>
+
+      <View className={styles.arrow}>
+        <Icon type="arrow-right" />
       </View>
     </View>
   )
