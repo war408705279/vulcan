@@ -8,10 +8,11 @@ import { View, Image } from 'remax/one'
 
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
+import Navigator from '@/components/Navigator'
 
 import Icon from '@/ui/Icon'
 
-import { nameMap } from '@/constants/route'
+import { nameMap, routeMap } from '@/constants/route'
 
 import IconTop from './images/icon-top.png'
 // 原初系列
@@ -180,7 +181,11 @@ function Item({
   desc
 }: Props) {
   return (
-    <View className={styles.item}>
+    <Navigator
+      className={styles.item}
+      url={routeMap.temp_view}
+      action="navigate"
+    >
       <Image
         className={styles.icon}
         src={icon}
@@ -201,6 +206,6 @@ function Item({
       <View className={styles.arrow}>
         <Icon type="arrow-right" />
       </View>
-    </View>
+    </Navigator>
   )
 }
