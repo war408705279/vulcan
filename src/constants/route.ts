@@ -10,6 +10,7 @@ export enum Pages {
   Crew = 'crew',
   Mine = 'mine',
   WebView = 'web_view',
+  TempView = 'temp_view',
   UiCell = 'ui_cell',
   UiIcon = 'ui_icon',
   UiPopup = 'ui_popup',
@@ -36,6 +37,7 @@ export const nameMap = {
   [Pages.Ui]: 'UI 组件',
   [Pages.Crew]: '机组人员',
   [Pages.Mine]: '我的',
+  [Pages.TempView]: '临时',
   [Pages.UiCell]: 'Cell 组件',
   [Pages.UiIcon]: 'Icon 组件',
   [Pages.UiPopup]: 'Popup 组件',
@@ -62,7 +64,8 @@ export const mainPackageUrlMap = {
   [Pages.Ui]: 'pages/ui/index',
   [Pages.Crew]: 'pages/crew/index',
   [Pages.Mine]: 'pages/mine/index',
-  [Pages.WebView]: 'pages/web-view/index'
+  [Pages.WebView]: 'pages/web-view/index',
+  [Pages.TempView]: 'pages/temp-view/index'
 }
 
 // subpackages 里面的 root 已经添加了前缀
@@ -99,6 +102,7 @@ export const routeMap = {
   [Pages.Crew]: '/pages/crew/index',
   [Pages.Mine]: '/pages/mine/index',
   [Pages.WebView]: '/pages/web-view/index',
+  [Pages.TempView]: '/pages/temp-view/index',
   [Pages.UiCell]: '/pages/ui-pages/cell/index',
   [Pages.UiIcon]: '/pages/ui-pages/icon/index',
   [Pages.UiPopup]: '/pages/ui-pages/popup/index',
