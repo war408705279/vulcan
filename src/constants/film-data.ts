@@ -1,23 +1,10 @@
-export type DataItemProps = {
-  cnName: string
-  enName: string
-  time: string
-  productCompany: string
-  issueCompany: string
-  director: string
-  scriptwriter: string
-  type: string
-  stars: string
-  duration: string
-  mainPrize: string
-  introduction: string
+import { GetFilmDataResp } from '@/apis/film-data'
+
+type DataType = {
+  [key: string]: GetFilmDataResp
 }
 
-export type DataProps = {
-  [key: string]: DataItemProps
-}
-
-export const data: DataProps = {
+export const data: DataType = {
   one: {
     cnName: '星际迷航：无限太空',
     enName: 'Star Trek: The Motion Picture',

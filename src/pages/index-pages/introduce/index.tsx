@@ -2,7 +2,7 @@
  * @file index introduce page
  */
 
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import { useQuery } from 'remax'
 import { View } from 'remax/one'
@@ -11,24 +11,48 @@ import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
 import BackLeading from '@/components/AppBar/BackLeading'
 
+import PageLoading from '@/ui/PageLoading'
 import Cell from '@/ui/Cell'
 import Result from '@/ui/Result'
 import Icon from '@/ui/Icon'
 
+import {
+  GetFilmDataResp,
+  getFilmData
+} from '@/apis/film-data'
+
 import { nameMap } from '@/constants/route'
 
+import { useApi } from '@/utils/hooks/api'
 import { warningColor } from '@/utils/styles/color'
-
-import {
-  DataItemProps,
-  data as filmData
-} from './film-data'
 
 import styles from './index.less'
 
 export default function IndexIntroduce() {
   const { code } = useQuery<{ code: string }>()
-  const matchData = filmData[code]
+  const {
+    $: filmData,
+    loading: getFilmDataLoading,
+    call: callGetFilmData
+  } = useApi(getFilmData)
+
+  useEffect(() => {
+    if (!code) return
+
+    callGetFilmData({ code })
+  }, [callGetFilmData, code])
+
+  function renderMain() {
+    if (getFilmDataLoading) {
+      return <PageLoading loading />
+    }
+
+    if (!filmData) {
+      return <Empty />
+    }
+
+    return <Content {...filmData} />
+  }
 
   return (
     <Scaffold
@@ -40,14 +64,13 @@ export default function IndexIntroduce() {
       }
     >
       <View className={styles.main}>
-        {matchData && <Content {...matchData} />}
-        {!matchData && <Empty />}
+        {renderMain()}
       </View>
     </Scaffold>
   )
 }
 
-type ContentProps = DataItemProps
+type ContentProps = GetFilmDataResp
 
 function Content(data: ContentProps) {
   const {
