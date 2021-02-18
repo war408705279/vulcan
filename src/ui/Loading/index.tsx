@@ -21,7 +21,7 @@ export type Props = HTMLAttributes<HTMLElement> & {
 export default function Loading({
   type = 'default',
   color = primaryColor,
-  size = '42rpx',
+  size = '44rpx',
   className
 }: Props) {
 
