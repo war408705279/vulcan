@@ -1,21 +1,23 @@
-type Data = {
-  [key: string]: {
-    cnName: string
-    enName: string
-    time: string
-    productCompany: string
-    issueCompany: string
-    director: string
-    scriptwriter: string
-    type: string
-    stars: string
-    duration: string
-    mainPrize: string
-    introduction: string
-  }
+export type DataItemProps = {
+  cnName: string
+  enName: string
+  time: string
+  productCompany: string
+  issueCompany: string
+  director: string
+  scriptwriter: string
+  type: string
+  stars: string
+  duration: string
+  mainPrize: string
+  introduction: string
 }
 
-export const data: Data = {
+export type DataProps = {
+  [key: string]: DataItemProps
+}
+
+export const data: DataProps = {
   one: {
     cnName: '星际迷航：无限太空',
     enName: 'Star Trek: The Motion Picture',
