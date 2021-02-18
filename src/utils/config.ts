@@ -9,6 +9,7 @@ import {
 
 import {
   mainPackageUrlMap,
+  indexRoutes,
   mainRoutes,
   uiRoutes,
   mineRoutes,
@@ -23,6 +24,10 @@ export function getWechatAppConfig(title?: string): WechatAppConfig {
   const appConfig: WechatAppConfig = {
     pages: [...mainRoutes],
     subpackages: [{
+      root: 'pages/index-pages',
+      name: 'indexPackage',
+      pages: [...indexRoutes]
+    }, {
       root: 'pages/ui-pages',
       name: 'uiPackage',
       pages: [...uiRoutes]

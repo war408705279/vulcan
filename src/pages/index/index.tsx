@@ -183,7 +183,7 @@ function Item({
   return (
     <Navigator
       className={styles.item}
-      url={routeMap.temp_view}
+      url={routeMap.index_introduce}
       action="navigate"
     >
       <Image

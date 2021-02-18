@@ -10,7 +10,7 @@ export enum Pages {
   Crew = 'crew',
   Mine = 'mine',
   WebView = 'web_view',
-  TempView = 'temp_view',
+  IndexIntroduce = 'index_introduce',
   UiCell = 'ui_cell',
   UiIcon = 'ui_icon',
   UiPopup = 'ui_popup',
@@ -37,7 +37,7 @@ export const nameMap = {
   [Pages.Ui]: 'UI 组件',
   [Pages.Crew]: '机组人员',
   [Pages.Mine]: '我的',
-  [Pages.TempView]: '临时',
+  [Pages.IndexIntroduce]: '电影详情',
   [Pages.UiCell]: 'Cell 组件',
   [Pages.UiIcon]: 'Icon 组件',
   [Pages.UiPopup]: 'Popup 组件',
@@ -64,9 +64,17 @@ export const mainPackageUrlMap = {
   [Pages.Ui]: 'pages/ui/index',
   [Pages.Crew]: 'pages/crew/index',
   [Pages.Mine]: 'pages/mine/index',
-  [Pages.WebView]: 'pages/web-view/index',
-  [Pages.TempView]: 'pages/temp-view/index'
+  [Pages.WebView]: 'pages/web-view/index'
 }
+
+export const mainRoutes = Object.values(mainPackageUrlMap)
+
+// subpackages 里面的 root 已经添加了前缀
+export const indexPackageUrlMap = {
+  [Pages.IndexIntroduce]: 'introduce/index'
+}
+
+export const indexRoutes = Object.values(indexPackageUrlMap)
 
 // subpackages 里面的 root 已经添加了前缀
 export const uiPackageUrlMap = {
@@ -86,6 +94,8 @@ export const uiPackageUrlMap = {
   [Pages.UiToast]: 'toast/index'
 }
 
+export const uiRoutes = Object.values(uiPackageUrlMap)
+
 // subpackages 里面的 root 已经添加了前缀
 export const minePackageUrlMap = {
   [Pages.MineInfo]: 'info/index',
@@ -95,6 +105,8 @@ export const minePackageUrlMap = {
   [Pages.MineAssessment]: 'assessment/index'
 }
 
+export const mineRoutes = Object.values(minePackageUrlMap)
+
 // 之所以不用 urlMap，是因为小程序配置不允许 pages 是从斜杠开头的, 但是路由可以
 export const routeMap = {
   [Pages.Index]: '/pages/index/index',
@@ -102,7 +114,7 @@ export const routeMap = {
   [Pages.Crew]: '/pages/crew/index',
   [Pages.Mine]: '/pages/mine/index',
   [Pages.WebView]: '/pages/web-view/index',
-  [Pages.TempView]: '/pages/temp-view/index',
+  [Pages.IndexIntroduce]: '/pages/index-pages/introduce/index',
   [Pages.UiCell]: '/pages/ui-pages/cell/index',
   [Pages.UiIcon]: '/pages/ui-pages/icon/index',
   [Pages.UiPopup]: '/pages/ui-pages/popup/index',
@@ -123,9 +135,3 @@ export const routeMap = {
   [Pages.MineHobby]: '/pages/mine-pages/hobby/index',
   [Pages.MineAssessment]: '/pages/mine-pages/assessment/index'
 }
-
-export const mainRoutes = Object.values(mainPackageUrlMap)
-
-export const uiRoutes = Object.values(uiPackageUrlMap)
-
-export const mineRoutes = Object.values(minePackageUrlMap)
