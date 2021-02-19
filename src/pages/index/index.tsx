@@ -173,7 +173,7 @@ export default function Index() {
             icon={IconStarTrekFourteen}
             name="星际迷航：叛徒"
             time="2015 年 8 月 1 日"
-            desc="无，可能因为太烂了，完全搜不到"
+            desc="（评价不高，慎看）在美国航行者号返回地球十年后，一群衣衫褴褛的叛乱者和被驱逐者必须与海军上将切科夫和图沃克秘密合作，阻止来自外部和内部的威胁联邦的部队"
           />
         </View>
       </View>
