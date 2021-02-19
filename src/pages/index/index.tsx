@@ -182,7 +182,7 @@ export default function Index() {
 }
 
 type Props = {
-  code: string
+  code?: string
   icon: string
   name: string
   time: string
@@ -196,12 +196,8 @@ function Item({
   time,
   desc
 }: Props) {
-  return (
-    <Navigator
-      className={styles.item}
-      url={`${routeMap.index_introduce}?code=${code}`}
-      action="navigate"
-    >
+  const contentView = (
+    <>
       <Image
         className={styles.icon}
         src={icon}
@@ -218,7 +214,24 @@ function Item({
           剧情简介：{desc}
         </View>
       </View>
+    </>
+  )
 
+  if (!code) {
+    return (
+      <View className={styles.item}>
+        {contentView}
+      </View>
+    )
+  }
+
+  return (
+    <Navigator
+      className={styles.item}
+      url={`${routeMap.index_introduce}?code=${code}`}
+      action="navigate"
+    >
+      {contentView}
       <View className={styles.arrow}>
         <Icon type="arrow-right" />
       </View>
