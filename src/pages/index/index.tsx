@@ -22,12 +22,28 @@ import styles from './index.less'
 
 export default function Index() {
   const contentView = pageData.map(
-    (data: ItemProps, index: number) => (
-      <Item
-        key={index}
-        {...data}
-      />
-    )
+    (data, outerIndex) => {
+      const { title, list } = data
+      const listView = list.map(
+        (item, innerIndex) => (
+          <Item
+            key={innerIndex}
+            {...item}
+          />
+        )
+      )
+
+      return (
+        <View key={outerIndex}>
+          <View className={styles.sectionTitle}>
+            {title}
+          </View>
+          <View className={styles.items}>
+            {listView}
+          </View>
+        </View>
+      )
+    }
   )
 
   return (
@@ -38,25 +54,7 @@ export default function Index() {
           src={IconTop}
         />
 
-        <View className={styles.sectionTitle}>
-          系列电影
-          <View className={styles.sectionSubtitle}>
-            原初：星际迷航：无限太空 / 星际迷航 2：可汗怒吼 / 星际迷航 3：石破天惊 / 星际迷航 4：抢救未来 / 星际迷航 5：终极先锋 / 星际迷航 6：未来之城
-          </View>
-          <View className={styles.sectionSubtitle}>
-            下一代：星际迷航 7：星空奇兵 / 星际迷航 8：第一次接触 / 星际迷航 9：起义 / 星际迷航 10：复仇女神
-          </View>
-          <View className={styles.sectionSubtitle}>
-            开尔文时间线：星际迷航 / 星际迷航 2：暗黑无界 / 星际迷航 3：超越星辰
-          </View>
-          <View className={styles.sectionSubtitle}>
-            非官方：星际迷航：叛徒
-          </View>
-        </View>
-
-        <View className={styles.items}>
-          {contentView}
-        </View>
+        {contentView}
       </View>
     </Scaffold>
   )
