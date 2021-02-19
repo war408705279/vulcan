@@ -6841,6 +6841,10 @@ relateurl@^0.2.7:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
 
+remax-recycle-view@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/remax-recycle-view/-/remax-recycle-view-1.1.1.tgz#54876635e3308caffddcc3004264e29d84ae5c28"
+
 remax-stats@^0.1.1:
   version "0.1.9"
   resolved "https://registry.yarnpkg.com/remax-stats/-/remax-stats-0.1.9.tgz#5321c41628ad778e80fdda0bcdfacc8b2e112a15"
