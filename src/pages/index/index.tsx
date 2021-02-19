@@ -46,8 +46,21 @@ export default function Index() {
         />
 
         <View className={styles.sectionTitle}>
-          原初系列
+          系列电影
+          <View className={styles.sectionSubtitle}>
+            原初：星际迷航：无限太空 / 星际迷航 2：可汗怒吼 / 星际迷航 3：石破天惊 / 星际迷航 4：抢救未来 / 星际迷航 5：终极先锋 / 星际迷航 6：未来之城
+          </View>
+          <View className={styles.sectionSubtitle}>
+            下一代：星际迷航 7：星空奇兵 / 星际迷航 8：第一次接触 / 星际迷航 9：起义 / 星际迷航 10：复仇女神
+          </View>
+          <View className={styles.sectionSubtitle}>
+            开尔文时间线：星际迷航 / 星际迷航 2：暗黑无界 / 星际迷航 3：超越星辰
+          </View>
+          <View className={styles.sectionSubtitle}>
+            非官方：星际迷航：叛徒
+          </View>
         </View>
+
         <View className={styles.items}>
           <Item
             code="one"
@@ -96,12 +109,7 @@ export default function Index() {
             time="1991 年 12 月 6 日"
             desc="电影开场于克林贡卫星普拉西斯（Praxis）的爆炸。由苏鲁田光上校指挥的联邦星舰进取号受到了震波的冲击，船员们随即发现卫星的大部分质量都消失无踪了。在这次事件中，克林贡帝国不仅失去了关键的能源产地，其母星的臭氧层亦遭到了严重损害，整个帝国陷入一片混乱。由于无力继续与联邦敌对，克林贡人打算同死敌星际联邦议和。星际舰队于是派出了联邦星舰进取号 - A 前往接见克林贡首相戈尔康（Gorkon），并护送他前往地球谈判。这个决定让进取号的舰长詹姆斯 · T · 柯克坐立不安，因为他的儿子当年就是被克林贡人谋害的"
           />
-        </View>
 
-        <View className={styles.sectionTitle}>
-          下一代
-        </View>
-        <View className={styles.items}>
           <Item
             code="seven"
             icon={IconStarTrekSeven}
@@ -133,12 +141,7 @@ export default function Index() {
             time="2002 年 12 月 9 日"
             desc="辛桑靠雷麦斯人幕后支持，在罗慕伦发动了政变，并要求星际联邦派企业号前往罗慕伦进行和谈，企业号的皮卡德舰长到达目的地后发现这是一场针对联邦的阴谋，而辛桑则是皮卡德的复制人，皮卡德舰长随即率领船员展开了激烈的反抗，最后在贝森谷附近获得罗慕伦军方的支持并摧毁辛桑的战舰，在这场战斗中，智能机器人戴达（Data）为了摧毁菲拉伦辐射（一种生化辐射，能摧毁亚原子细胞结构，使得星际联邦禁止研究该辐射）发生器，救出皮卡德舰长，与该战舰同归于尽"
           />
-        </View>
 
-        <View className={styles.sectionTitle}>
-          开尔文时间线
-        </View>
-        <View className={styles.items}>
           <Item
             code="eleven"
             icon={IconStarTrekEleven}
@@ -162,12 +165,7 @@ export default function Index() {
             time="2016 年 7 月 22 日"
             desc="柯克船长带领企业号继续踏上宇宙探索的旅程，他向老骨头讲述了自己对于船长身份的忧虑，而在他与最好的朋友史波克互诉衷肠前，他们又接到了一个紧急救援的任务。而神秘敌人剋劳开始攻击企业号，而幸存的企业号成员也分散至一个行星上求生"
           />
-        </View>
 
-        <View className={styles.sectionTitle}>
-          非官方电影
-        </View>
-        <View className={styles.items}>
           <Item
             code="fourteen"
             icon={IconStarTrekFourteen}
