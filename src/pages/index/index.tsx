@@ -2,7 +2,7 @@
  * @file index page
  */
 
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import { View, Image } from 'remax/one'
 
@@ -10,41 +10,81 @@ import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
 import Navigator from '@/components/Navigator'
 
+import PageLoading from '@/ui/PageLoading'
 import Icon from '@/ui/Icon'
 
 import { nameMap, routeMap } from '@/constants/route'
 
-import { data as pageData } from './page-data'
+import { useApi } from '@/utils/hooks/api'
+
+import {
+  DataType as PageDataType,
+  DataItemType as PageDataItemType,
+  data as originPageData
+} from './page-data'
 
 import IconTop from './images/icon-top.png'
 
 import styles from './index.less'
 
-export default function Index() {
-  const contentView = pageData.map(
-    (data, outerIndex) => {
-      const { title, list } = data
-      const listView = list.map(
-        (item, innerIndex) => (
-          <Item
-            key={innerIndex}
-            {...item}
-          />
-        )
-      )
+function getPageData(): Promise<PageDataType[]> {
+  return new Promise(resolve => {
+    const timeoutID = setTimeout(() => {
+      clearTimeout(timeoutID)
+      resolve(originPageData)
+    }, 1500)
+  })
+}
 
+export default function Index() {
+  const {
+    $: pageData,
+    loading: getPageDataLoading,
+    call: callGetPageData
+  } = useApi(getPageData)
+
+  useEffect(() => {
+    callGetPageData()
+  }, [callGetPageData])
+
+  function renderMainView() {
+    if (getPageDataLoading) {
+      return <PageLoading loading />
+    }
+
+    if (!pageData) {
       return (
-        <View key={outerIndex}>
-          <View className={styles.sectionTitle}>
-            {title}
-          </View>
-          <View className={styles.items}>
-            {listView}
-          </View>
+        <View className={styles.emptyTip}>
+          没有查找到数据哦~
         </View>
       )
     }
-  )
+
+    return pageData.map(
+      (data, outerIndex) => {
+        const { title, list } = data
+        const listView = list.map(
+          (item, innerIndex) => (
+            <Item
+              key={innerIndex}
+              {...item}
+            />
+          )
+        )
+
+        return (
+          <View key={outerIndex}>
+            <View className={styles.sectionTitle}>
+              {title}
+            </View>
+            <View className={styles.items}>
+              {listView}
+            </View>
+          </View>
+        )
+      }
+    )
+  }
 
   return (
     <Scaffold appBar={<AppBar title={nameMap.index} />}>
@@ -54,19 +94,13 @@ export default function Index() {
           src={IconTop}
         />
 
-        {contentView}
+        {renderMainView()}
       </View>
     </Scaffold>
   )
 }
 
-export type ItemProps = {
-  code?: string
-  icon: string
-  name: string
-  time: string
-  desc: string
-}
+type ItemProps = PageDataItemType
 
 function Item({
   code,

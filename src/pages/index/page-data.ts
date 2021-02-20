@@ -21,11 +21,17 @@ import IconStarTrekThirteen from './images/icon-star-trek-13.jpg'
 // 非官方
 import IconStarTrekFourteen from './images/icon-star-trek-14.jpg'
 
-import { ItemProps } from '.'
+export type DataItemType = {
+  code?: string
+  icon: string
+  name: string
+  time: string
+  desc: string
+}
 
-type DataType = {
+export type DataType = {
   title: string,
-  list: ItemProps[]
+  list: DataItemType[]
 }
 
 export const data: DataType[] = [{
