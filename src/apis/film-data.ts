@@ -1,5 +1,5 @@
 /**
- * @file coupon api
+ * @file film-data api
  */
 
 import { data as filmData } from '@/constants/film-data'
