@@ -85,6 +85,8 @@ function Content(data: ContentProps) {
     stars,
     duration,
     mainPrize,
+    cost,
+    boxOffice,
     introduction
   } = data
 
@@ -186,6 +188,24 @@ function Content(data: ContentProps) {
       <Cell>
         <View className={styles.content}>
           {mainPrize || '-'}
+        </View>
+      </Cell>
+
+      <View className={styles.title}>
+        制片成本
+      </View>
+      <Cell>
+        <View className={styles.content}>
+          {cost || '-'}
+        </View>
+      </Cell>
+
+      <View className={styles.title}>
+        票房
+      </View>
+      <Cell>
+        <View className={styles.content}>
+          {boxOffice || '-'}
         </View>
       </Cell>
 
