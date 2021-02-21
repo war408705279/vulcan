@@ -20,6 +20,8 @@ export type GetFilmDataResp = {
   stars: string
   duration: string
   mainPrize: string
+  cost: string
+  boxOffice: string
   introduction: string
 }
 
