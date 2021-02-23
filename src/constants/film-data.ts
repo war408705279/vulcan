@@ -136,5 +136,21 @@ export const data: DataType = {
     cost: '',
     boxOffice: '1.46 亿美元',
     introduction: '企业号正在宇宙罗慕兰中立区做例行巡航时，舰长皮卡徳接到密电，称博格人准备向地球发起攻击。由于舰长皮卡徳曾受敌方俘虏并同化，星际舰队对其不是很信任，故没有派其出战。在舰队和博格人交战后皮卡徳听到战报，不顾命令，仍然参与战斗。之后企业号跟随博格人的时间漩涡回到 21 世纪，以阻挡博格人试图改变人类的外星发展史达到征服地球的企图'
+  },
+  nine: {
+    cnName: '星际迷航 9：起义',
+    enName: 'Star Trek IX: Insurrection',
+    time: '1998 年 12 月 11 日',
+    productCompany: '派拉蒙影业公司',
+    issueCompany: '派拉蒙影业公司',
+    director: '强纳森 · 佛瑞克斯（Jonathan Frakes）',
+    scriptwriter: 'Roberto Orci / Alex Kurtzman',
+    type: '冒险 / 剧情 / 科幻 / 动作',
+    stars: 'Patrick Stewart F, Murray Abraham Donna Murphy',
+    duration: '103 分钟',
+    mainPrize: '',
+    cost: '',
+    boxOffice: '1.13 亿美元',
+    introduction: '皮卡特舰长在获知自己的副官数据中校在巴库星球暗访时被当地人掳为人质，便立刻率企业号前往营救。当他们来到巴库星球时，发现整个星球上只居住了从外星移民来的六百名巴库人，并过着与世隔绝、摒弃科技、崇尚和平的生活；数据中校被掳不像是巴库人的作风，想必另有隐情'
   }
 }
