@@ -26,7 +26,7 @@ export enum Pages {
   UiResult = 'ui_result',
   UiToast = 'ui_toast',
   MineInfo = 'mine_info',
-  MineSkill = 'mine_skill',
+  MineSkills = 'mine_skills',
   MineContact = 'mine_contact',
   MineHobby = 'mine_hobby',
   MineAssessment = 'mine_assessment'
@@ -53,7 +53,7 @@ export const nameMap = {
   [Pages.UiResult]: 'Result 组件',
   [Pages.UiToast]: 'Toast 组件',
   [Pages.MineInfo]: '基本信息',
-  [Pages.MineSkill]: '技能',
+  [Pages.MineSkills]: '技能',
   [Pages.MineContact]: '联系方式',
   [Pages.MineHobby]: '爱好',
   [Pages.MineAssessment]: '自我评价'
@@ -99,7 +99,7 @@ export const uiRoutes = Object.values(uiPackageUrlMap)
 // subpackages 里面的 root 已经添加了前缀
 export const minePackageUrlMap = {
   [Pages.MineInfo]: 'info/index',
-  [Pages.MineSkill]: 'skill/index',
+  [Pages.MineSkills]: 'skills/index',
   [Pages.MineContact]: 'contact/index',
   [Pages.MineHobby]: 'hobby/index',
   [Pages.MineAssessment]: 'assessment/index'
@@ -130,7 +130,7 @@ export const routeMap = {
   [Pages.UiResult]: '/pages/ui-pages/result/index',
   [Pages.UiToast]: '/pages/ui-pages/toast/index',
   [Pages.MineInfo]: '/pages/mine-pages/info/index',
-  [Pages.MineSkill]: '/pages/mine-pages/skill/index',
+  [Pages.MineSkills]: '/pages/mine-pages/skills/index',
   [Pages.MineContact]: '/pages/mine-pages/contact/index',
   [Pages.MineHobby]: '/pages/mine-pages/hobby/index',
   [Pages.MineAssessment]: '/pages/mine-pages/assessment/index'

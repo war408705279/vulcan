@@ -1,5 +1,5 @@
 /**
- * @file mine skill page
+ * @file mine skills page
  */
 
 import React from 'react'
@@ -16,7 +16,7 @@ import { nameMap } from '@/constants/route'
 
 import styles from './index.less'
 
-export default function MineSkill() {
+export default function MineSkills() {
   const leftStyle = {
     width: '200rpx',
     flex: '0 0 auto'
@@ -26,7 +26,7 @@ export default function MineSkill() {
     <Scaffold
       appBar={
         <AppBar
-          title={nameMap.mine_skill}
+          title={nameMap.mine_skills}
           leading={<BackLeading />}
         />
       }

@@ -43,7 +43,7 @@ export default function Mine() {
 
           <Navigator
             className={styles.cell}
-            url={routeMap.mine_skill}
+            url={routeMap.mine_skills}
             action="navigate"
           >
             <Cell
