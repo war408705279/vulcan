@@ -53,6 +53,11 @@ export function getWechatAppConfig(title?: string): WechatAppConfig {
         iconPath: tabBarIconMap[Pages.Index].default,
         selectedIconPath: tabBarIconMap[Pages.Index].active
       }, {
+        pagePath: mainPackageUrlMap[Pages.Ship],
+        text: '',
+        iconPath: tabBarIconMap[Pages.Ship].default,
+        selectedIconPath: tabBarIconMap[Pages.Ship].active
+      }, {
         pagePath: mainPackageUrlMap[Pages.Crew],
         text: '',
         iconPath: tabBarIconMap[Pages.Crew].default,

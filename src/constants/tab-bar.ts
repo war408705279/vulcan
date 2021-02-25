@@ -9,13 +9,17 @@ export const iconMap = {
     default: '/images/icon-index.png',
     active: '/images/icon-index-active.png'
   },
-  [Pages.Ui]: {
-    default: '/images/icon-ui.png',
-    active: '/images/icon-ui-active.png'
+  [Pages.Ship]: {
+    default: '/images/icon-ship.png',
+    active: '/images/icon-ship-active.png'
   },
   [Pages.Crew]: {
     default: '/images/icon-crew.png',
     active: '/images/icon-crew-active.png'
+  },
+  [Pages.Ui]: {
+    default: '/images/icon-ui.png',
+    active: '/images/icon-ui-active.png'
   },
   [Pages.Mine]: {
     default: '/images/icon-mine.png',
