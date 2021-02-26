@@ -28,32 +28,40 @@ export default function Ship() {
           />
         </View>
 
-        <View className={styles.title}>
-          22 世纪
-        </View>
-        <View className={styles.cells}>
-          <Cell
-            className={styles.cell}
-            label="恒河级 - Ganges Class"
-            arrow
-          />
-          <Cell
-            className={styles.cell}
-            label="无畏型 - Intrepid Type"
-            arrow
-          />
-          <Cell
-            className={styles.cell}
-            label="NX 级 - NX Class"
-            arrow
-          />
-          <Cell
-            className={styles.cell}
-            label="代达罗斯级 - Daedalus Class"
-            arrow
-          />
-        </View>
+        <TwentyTwoCentury />
       </View>
     </Scaffold>
+  )
+}
+
+function TwentyTwoCentury() {
+  return (
+    <>
+      <View className={styles.title}>
+        22 世纪
+      </View>
+      <View className={styles.cells}>
+        <Cell
+          className={styles.cell}
+          label="恒河级 - Ganges Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="无畏型 - Intrepid Type"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="NX 级 - NX Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="代达罗斯级 - Daedalus Class"
+          arrow
+        />
+      </View>
+    </>
   )
 }
