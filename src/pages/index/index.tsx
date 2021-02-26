@@ -23,7 +23,7 @@ import {
   data as originPageData
 } from './page-data'
 
-import IconTop from './images/icon-top.png'
+import IconTop from './images/icon-top.jpg'
 
 import styles from './index.less'
 
@@ -89,10 +89,12 @@ export default function Index() {
   return (
     <Scaffold appBar={<AppBar title={nameMap.index} />}>
       <View className={styles.main}>
-        <Image
-          className={styles.topIcon}
-          src={IconTop}
-        />
+        <View className={styles.imgContainer}>
+          <Image
+            className={styles.img}
+            src={IconTop}
+          />
+        </View>
 
         {renderMainView()}
       </View>
