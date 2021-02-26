@@ -4,7 +4,7 @@
 
 import React from 'react'
 
-import { View } from 'remax/one'
+import { View, Image } from 'remax/one'
 
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
@@ -13,12 +13,21 @@ import Cell from '@/ui/Cell'
 
 import { nameMap } from '@/constants/route'
 
+import IconShip from './images/icon-ship.jpg'
+
 import styles from './index.less'
 
 export default function Ship() {
   return (
     <Scaffold appBar={<AppBar title={nameMap.ship} />}>
       <View className={styles.main}>
+        <View className={styles.imgContainer}>
+          <Image
+            className={styles.img}
+            src={IconShip}
+          />
+        </View>
+
         <View className={styles.title}>
           22 世纪
         </View>
