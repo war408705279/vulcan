@@ -32,6 +32,7 @@ export default function Ship() {
         <TwentyThreeCentury />
         <TwentyFourCentury />
         <TwentySixCentury />
+        <TwentyNineCentury />
       </View>
     </Scaffold>
   )
@@ -338,6 +339,23 @@ function TwentySixCentury() {
         <Cell
           className={styles.cell}
           label="宇宙级 - Universe Class"
+          arrow
+        />
+      </View>
+    </>
+  )
+}
+
+function TwentyNineCentury() {
+  return (
+    <>
+      <View className={styles.title}>
+        29 世纪
+      </View>
+      <View className={styles.cells}>
+        <Cell
+          className={styles.cell}
+          label="威尔斯级 - Wells Class"
           arrow
         />
       </View>
