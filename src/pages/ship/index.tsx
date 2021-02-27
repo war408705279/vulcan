@@ -30,6 +30,7 @@ export default function Ship() {
 
         <TwentyTwoCentury />
         <TwentyThreeCentury />
+        <TwentyFourCentury />
       </View>
     </Scaffold>
   )
@@ -172,6 +173,153 @@ function TwentyThreeCentury() {
         <Cell
           className={styles.cell}
           label="恩格尔级 - Engle Class"
+          arrow
+        />
+      </View>
+    </>
+  )
+}
+
+function TwentyFourCentury() {
+  return (
+    <>
+      <View className={styles.title}>
+        24 世纪
+      </View>
+      <View className={styles.cells}>
+        <Cell
+          className={styles.cell}
+          label="大使级 - Ambassador Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="半人马级 - Centaur Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="卡瑞型 - Curry Type"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="尼亚加拉级 - Niagara Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="自由级 - Freedom Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="夏延级 - Cheyenne Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="新奥尔良级 - New Orleans Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="渡鸦型 - Raven Type"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="春田级 - Springfield Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="银河级 - Galaxy Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="星云级 - Nebula Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="多瑙河级 - Danube Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="光明级 - Akira Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="新星级 - Nova Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="无畏级 - Intrepid Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="挪威级 - Norway Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="军刀级 - Saber Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="气动级 - Steamrunner Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="奥林匹克级 - Olympic Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="挑战级 - Defiant Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="元首级 - Sovereign Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="普罗米修斯级 - Prometheus Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="加利福尼亚级 - California Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="国会级 - Parliament Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="好奇级 - Curiosity Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="瓦伦贝里级 - Wallenberg Class"
+          arrow
+        />
+        <Cell
+          className={styles.cell}
+          label="调查级 - Inquiry Class"
           arrow
         />
       </View>
