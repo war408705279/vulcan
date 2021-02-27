@@ -31,6 +31,7 @@ export default function Ship() {
         <TwentyTwoCentury />
         <TwentyThreeCentury />
         <TwentyFourCentury />
+        <TwentySixCentury />
       </View>
     </Scaffold>
   )
@@ -320,6 +321,23 @@ function TwentyFourCentury() {
         <Cell
           className={styles.cell}
           label="调查级 - Inquiry Class"
+          arrow
+        />
+      </View>
+    </>
+  )
+}
+
+function TwentySixCentury() {
+  return (
+    <>
+      <View className={styles.title}>
+        26 世纪
+      </View>
+      <View className={styles.cells}>
+        <Cell
+          className={styles.cell}
+          label="宇宙级 - Universe Class"
           arrow
         />
       </View>
