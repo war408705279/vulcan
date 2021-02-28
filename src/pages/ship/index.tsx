@@ -8,12 +8,16 @@ import { View, Image } from 'remax/one'
 
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
+import Navigator from '@/components/Navigator'
 
 import Cell from '@/ui/Cell'
 
 import { nameMap } from '@/constants/route'
 
-import { data as originPageData } from './page-data'
+import {
+  DataItemType as PageDataItemType,
+  data as originPageData
+} from './page-data'
 
 import IconShip from './images/icon-ship.jpg'
 
@@ -24,18 +28,12 @@ export default function Ship() {
     (data, outerIndex) => {
       const { title, list } = data
       const listView = list.map(
-        (listItem, innerIndex) => {
-          const { label } = listItem
-
-          return (
-            <Cell
-              key={innerIndex}
-              className={styles.cell}
-              label={label}
-              arrow
-            />
-          )
-        }
+        (listItem, innerIndex) => (
+          <Item
+            key={innerIndex}
+            {...listItem}
+          />
+        )
       )
 
       return (
@@ -50,6 +48,7 @@ export default function Ship() {
       )
     }
   )
+
   return (
     <Scaffold appBar={<AppBar title={nameMap.ship} />}>
       <View className={styles.main}>
@@ -63,5 +62,34 @@ export default function Ship() {
         {mainView}
       </View>
     </Scaffold>
+  )
+}
+
+type ItemProps = PageDataItemType
+
+function Item({
+  code,
+  label
+}: ItemProps) {
+  if (!code) {
+    return (
+      <Cell
+        className={styles.cell}
+        label={label}
+      />
+    )
+  }
+
+  return (
+    <Navigator
+      className={styles.cell}
+      url=""
+      action="navigate"
+    >
+      <Cell
+        label={label}
+        arrow
+      />
+    </Navigator>
   )
 }
