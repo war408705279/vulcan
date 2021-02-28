@@ -64,10 +64,10 @@ export default function Index() {
       (data, outerIndex) => {
         const { title, list } = data
         const listView = list.map(
-          (item, innerIndex) => (
+          (listItem, innerIndex) => (
             <Item
               key={innerIndex}
-              {...item}
+              {...listItem}
             />
           )
         )
