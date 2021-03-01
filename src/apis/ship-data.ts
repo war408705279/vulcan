@@ -9,6 +9,7 @@ export type GetShipDataOptions = {
 }
 
 export type GetShipDataResp = {
+  name: string
   spec: string
   time: string
   length: string
@@ -21,7 +22,7 @@ export type GetShipDataResp = {
   arms: string
   defend: string
   information: string
-  known: string
+  known: null | string[]
   note: string
 }
 
