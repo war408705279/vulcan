@@ -9,8 +9,9 @@ import {
 
 import {
   mainPackageUrlMap,
-  indexRoutes,
   mainRoutes,
+  indexRoutes,
+  shipRoutes,
   uiRoutes,
   mineRoutes,
   titlePrefix,
@@ -27,6 +28,10 @@ export function getWechatAppConfig(title?: string): WechatAppConfig {
       root: 'pages/index-pages',
       name: 'indexPackage',
       pages: [...indexRoutes]
+    }, {
+      root: 'pages/ship-pages',
+      name: 'shipPackage',
+      pages: [...shipRoutes]
     }, {
       root: 'pages/ui-pages',
       name: 'uiPackage',
