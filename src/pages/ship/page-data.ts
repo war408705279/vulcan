@@ -15,7 +15,7 @@ export type DataType = {
 export const data: DataType[] = [{
   title: '22 世纪',
   list: [{
-    code: '',
+    code: 'GangesClass',
     label: '恒河级 - Ganges Class'
   }, {
     code: '',

@@ -13,7 +13,7 @@ import Navigator from '@/components/Navigator'
 import PageLoading from '@/ui/PageLoading'
 import Cell from '@/ui/Cell'
 
-import { nameMap } from '@/constants/route'
+import { nameMap, routeMap } from '@/constants/route'
 
 import { useApi } from '@/utils/hooks/api'
 
@@ -120,7 +120,7 @@ function Item({
   return (
     <Navigator
       className={styles.cell}
-      url=""
+      url={`${routeMap.ship_introduce}?code=${code}`}
       action="navigate"
     >
       <Cell
