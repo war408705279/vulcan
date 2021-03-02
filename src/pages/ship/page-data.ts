@@ -24,7 +24,7 @@ export const data: DataType[] = [{
     code: 'NXClass',
     label: 'NX 级 - NX Class'
   }, {
-    code: '',
+    code: 'DaedalusClass',
     label: '代达罗斯级 - Daedalus Class'
   }]
 }, {
