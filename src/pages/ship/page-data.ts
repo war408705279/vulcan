@@ -18,7 +18,7 @@ export const data: DataType[] = [{
     code: 'GangesClass',
     label: '恒河级 - Ganges Class'
   }, {
-    code: '',
+    code: 'IntrepidType',
     label: '无畏型 - Intrepid Type'
   }, {
     code: '',

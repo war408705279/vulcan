@@ -28,7 +28,7 @@ export const data: DataType = {
   },
   IntrepidType: {
     name: '无畏型',
-    spec: '未知',
+    spec: '',
     time: '22 世纪',
     length: '',
     width: '',
@@ -40,7 +40,7 @@ export const data: DataType = {
     arms: '相位加农炮 / 2 具鱼雷发射管',
     defend: '舰壳极化',
     information: '无畏型星舰是星际舰队于 22 世纪中叶服役的一批星舰，其主舰体为半圆形，舰尾连接了两根向上翘起的曲速舱，曲速舱的两侧还有两片向下的舰体结构',
-    known: ['未知舷号 - Intrepid - 无畏号'],
+    known: ['未知舷号 / Intrepid / 无畏号'],
     note: ''
   }
 }
