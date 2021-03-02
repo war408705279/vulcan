@@ -64,5 +64,25 @@ export const data: DataType = {
       'NX-04 / Discovery / 发现号'
     ],
     note: ''
+  },
+  DaedalusClass: {
+    name: '代达罗斯级',
+    spec: '',
+    time: '2196 年之前',
+    length: '',
+    width: '',
+    height: '',
+    quality: '',
+    crewNum: '约 229 人',
+    cruisingSpeed: '',
+    maxSpeed: '',
+    arms: '',
+    defend: '',
+    information: '代达罗斯级星舰是星际舰队早期服役的一批星舰，与常见的星舰不同的是代达罗斯级采取了球形体来代替本来的碟部，且其搭载了一个十分独特的子空间求救装置',
+    known: [
+      'NCC-173 / USS Essex / 联邦星舰埃塞克斯号',
+      'NCC-176 / USS Horizon / 联邦星舰地平线号'
+    ],
+    note: ''
   }
 }
