@@ -21,7 +21,7 @@ export const data: DataType[] = [{
     code: 'IntrepidType',
     label: '无畏型 - Intrepid Type'
   }, {
-    code: '',
+    code: 'NXClass',
     label: 'NX 级 - NX Class'
   }, {
     code: '',
