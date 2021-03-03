@@ -165,5 +165,35 @@ export const data: DataType = {
       '未知舷号 / USS Ravenous / 联邦星舰贪婪号'
     ],
     note: ''
+  },
+  ConstitutionClassRetrofit: {
+    name: '宪法级改',
+    spec: '重型巡洋舰',
+    time: '23 世纪 70 年代',
+    length: '305 米',
+    width: '',
+    height: '',
+    quality: [
+      '约 1000000 吨'
+    ],
+    crewNum: [
+      '23 世纪 70 年代：432 人',
+      '23 世纪 90 年代：300 人'
+    ],
+    cruisingSpeed: [],
+    maxSpeed: [
+      '曲速 8 级',
+      '紧急速度：曲速 9 级'
+    ],
+    arms: [
+      '18 门相位炮组 / 2 具前置光子鱼雷发射管'
+    ],
+    defend: '偏导护盾 / 防御立场',
+    information: '在 2270 年代早期，宪法级星舰经历了一次重大的改装计划。实际的改装工作花了 18 个月的时间，基本上在旧船的龙骨上建造了一艘新船，几乎取代了所有主要系统。并在原来的基础上加装了一部分额外的武器',
+    known: [
+      'NCC-1701 / USS Enterprise / 联邦星舰企业号',
+      'NCC-1701-A / USS Enterprise / 联邦星舰企业号'
+    ],
+    note: ''
   }
 }
