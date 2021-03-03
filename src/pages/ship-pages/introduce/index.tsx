@@ -91,12 +91,62 @@ function Content(data: ContentProps) {
     note
   } = data
 
+  function renderQualityView() {
+    if (!quality.length) return '-'
+
+    return quality.map(
+      (item: string, index: number) => (
+        <View key={index}>{item}</View>
+      )
+    )
+  }
+
+  function renderCrewNumView() {
+    if (!crewNum.length) return '-'
+
+    return crewNum.map(
+      (item: string, index: number) => (
+        <View key={index}>{item}</View>
+      )
+    )
+  }
+
+  function renderCruisingSpeedView() {
+    if (!cruisingSpeed.length) return '-'
+
+    return cruisingSpeed.map(
+      (item: string, index: number) => (
+        <View key={index}>{item}</View>
+      )
+    )
+  }
+
+  function renderMaxSpeedView() {
+    if (!maxSpeed.length) return '-'
+
+    return maxSpeed.map(
+      (item: string, index: number) => (
+        <View key={index}>{item}</View>
+      )
+    )
+  }
+
+  function renderArmsView() {
+    if (!arms.length) return '-'
+
+    return arms.map(
+      (item: string, index: number) => (
+        <View key={index}>{item}</View>
+      )
+    )
+  }
+
   function renderKnownView() {
-    if (!known || !known.length) return '-'
+    if (!known.length) return '-'
 
     return known.map(
-      (knownItem: string, index: number) => (
-        <View key={index}>{knownItem}</View>
+      (item: string, index: number) => (
+        <View key={index}>{item}</View>
       )
     )
   }
@@ -175,7 +225,7 @@ function Content(data: ContentProps) {
       </View>
       <Cell>
         <View className={styles.content}>
-          {quality || '-'}
+          {renderQualityView()}
         </View>
       </Cell>
 
@@ -184,7 +234,7 @@ function Content(data: ContentProps) {
       </View>
       <Cell>
         <View className={styles.content}>
-          {crewNum || '-'}
+          {renderCrewNumView()}
         </View>
       </Cell>
 
@@ -193,7 +243,7 @@ function Content(data: ContentProps) {
       </View>
       <Cell>
         <View className={styles.content}>
-          {cruisingSpeed || '-'}
+          {renderCruisingSpeedView()}
         </View>
       </Cell>
 
@@ -202,7 +252,7 @@ function Content(data: ContentProps) {
       </View>
       <Cell>
         <View className={styles.content}>
-          {maxSpeed || '-'}
+          {renderMaxSpeedView()}
         </View>
       </Cell>
 
@@ -211,7 +261,7 @@ function Content(data: ContentProps) {
       </View>
       <Cell>
         <View className={styles.content}>
-          {arms || '-'}
+          {renderArmsView()}
         </View>
       </Cell>
 
