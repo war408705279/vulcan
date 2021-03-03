@@ -15,14 +15,14 @@ export type GetShipDataResp = {
   length: string
   width: string
   height: string
-  quality: string
-  crewNum: string
-  cruisingSpeed: string
-  maxSpeed: string
-  arms: string
+  quality: string[]
+  crewNum: string[]
+  cruisingSpeed: string[]
+  maxSpeed: string[]
+  arms: string[]
   defend: string
   information: string
-  known: null | string[]
+  known: string[]
   note: string
 }
 
