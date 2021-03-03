@@ -30,7 +30,7 @@ export const data: DataType[] = [{
 }, {
   title: '23 世纪',
   list: [{
-    code: '',
+    code: 'ConstitutionClass',
     label: '宪法级 - Constitution Class'
   }, {
     code: '',
