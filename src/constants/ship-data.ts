@@ -84,5 +84,46 @@ export const data: DataType = {
       'NCC-176 / USS Horizon / 联邦星舰地平线号'
     ],
     note: ''
+  },
+  ConstitutionClass: {
+    name: '宪法级',
+    spec: '重型巡洋舰',
+    time: '23 世纪 40 年代',
+    length: '288.6 米',
+    width: '127.1 米',
+    height: '72.6 米（22 层甲板）',
+    quality: '2254 年：约 1000000 吨；2257 - 2258 年：190000 吨；23 世纪 60 年代：约 1000000 吨',
+    crewNum: '23 世纪 50 年代：203 人；23 世纪 60 年代：430 人',
+    cruisingSpeed: '曲速 2 级（最高安全速度曲速 6 级）',
+    maxSpeed: '曲速 8 级（极限最高速度曲速 9 级 / 超极限引擎过载速度曲速 14.1 级）',
+    arms: '2254 年：相位炮组 / 2 具前置光子鱼雷发射管 / 2 具后置光子鱼雷发射管；2257 - 2258 年：8 门相位发射器 / 2 具鱼雷发射管 / 大量攻击无人机；23 世纪 60 年代：相位炮组 / 6 具前置光子鱼雷发射管 / 1 具后置光子鱼雷发射管',
+    defend: '偏导护盾',
+    information: '宪法级星舰是星际联邦所有星舰舰级中的一级重型巡洋舰（Class I Heavy Cruiser），也是 23 世纪后半叶中星际舰队的主力星舰。宪法级主要是为了进行长期深空任务而设计的，只需要很少的外部补给，因此宪法级才能够执行著名的五年任务',
+    known: [
+      'NCC-1017 / USS Constellation / 联邦星舰星座号',
+      'NCC-1371 / USS Republic / 联邦星舰共和国号',
+      'NCC-1631 / USS Intrepid / 联邦星舰无畏号',
+      'NCC-1647 / USS Farragut / 联邦星舰法拉格特号',
+      'NCC-1657 / USS Potemkin / 联邦星舰波特金号',
+      'NCC-1664 / USS Excalibur / 联邦星舰圣剑号',
+      'NCC-1672 / USS Exeter / 联邦星舰埃克塞特号',
+      'NCC-1685 / USS Doglas / 联邦星舰道格拉斯号',
+      'NCC-1700 / USS Constitution / 联邦星舰宪法号',
+      'NCC-1701 / USS Enterprise / 联邦星舰企业号',
+      'NCC-1703 / USS Hood / 联邦星舰胡德号',
+      'NCC-1709 / USS Lexington / 联邦星舰列克星敦号',
+      'NCC-1710 / SS Kongo / 联邦星舰金刚号',
+      'NCC-1715 / USS Merrimac / 联邦星舰梅里马克号',
+      'NCC-1717 / USS Yorktown / 联邦星舰约克城号',
+      'NCC-1718 / USS Excelsior / 联邦星舰精进号',
+      'NCC-1764 / USS Defiant / 联邦星舰挑战号',
+      'NCC-1856 / USS Emden / 联邦星舰埃姆登号',
+      'NCC-1895 / USS Endeavour / 联邦星舰奋进号',
+      'NCC-2014 / USS Korolev / 联邦星舰科罗廖夫号',
+      'NCC-956 / USS Eagle / 联邦星舰鹰号',
+      'NCC-1709 / USS Valiant / 联邦星舰英勇号',
+      '未知舷号 / USS Ravenous / 联邦星舰贪婪号'
+    ],
+    note: ''
   }
 }
