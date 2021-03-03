@@ -33,7 +33,7 @@ export const data: DataType[] = [{
     code: 'ConstitutionClass',
     label: '宪法级 - Constitution Class'
   }, {
-    code: '',
+    code: 'ConstitutionClassRetrofit',
     label: '宪法级改 - Constitution Class Retrofit'
   }, {
     code: '',
