@@ -36,7 +36,7 @@ export const data: DataType[] = [{
     code: 'ConstitutionClassRetrofit',
     label: '宪法级改 - Constitution Class Retrofit'
   }, {
-    code: '',
+    code: 'ExcelsiorClass',
     label: '精进级 - Excelsior Class'
   }, {
     code: '',
