@@ -249,5 +249,28 @@ export const data: DataType = {
       '未知舷号 / USS Sarek / 联邦星舰绍赖克号'
     ],
     note: ''
+  },
+  ExcelsiorClassRetrofit: {
+    name: '精进级改',
+    spec: '',
+    time: '23 世纪 90 年代',
+    length: '',
+    width: '',
+    height: '34 层甲板',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位炮组 / 光子鱼雷发射管',
+      '24 世纪 70 年代版本可装填量子鱼雷'
+    ],
+    defend: '偏导护盾',
+    information: '第一艘精进级改，企业号 -B（U.S.S Enterprise NCC-1701-B），于 2293 年起航，代替了退役的进取号 -A 成为星际舰队的新旗舰。 企业号 -B 的下水也为精进级打开了一扇大门，使其成为了星际舰队中最受欢迎的舰级之一，这种状况一度持续到 24 世纪末期',
+    known: [
+      'NCC-1701-B / USS Enterprise / 联邦星舰企业号',
+      'NCC-42768 / USS Lakota / 联邦星舰拉科塔号'
+    ],
+    note: ''
   }
 }
