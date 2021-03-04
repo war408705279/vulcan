@@ -39,7 +39,7 @@ export const data: DataType[] = [{
     code: 'ExcelsiorClass',
     label: '精进级 - Excelsior Class'
   }, {
-    code: '',
+    code: 'ExcelsiorClassRetrofit',
     label: '精进级改 - Excelsior Class Retrofit'
   }, {
     code: '',
