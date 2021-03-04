@@ -45,14 +45,20 @@ export const data: DataType = {
     height: '',
     quality: [],
     crewNum: [],
-    cruisingSpeed: ['曲速 2 级'],
-    maxSpeed: ['曲速 2 级'],
+    cruisingSpeed: [
+      '曲速 2 级'
+    ],
+    maxSpeed: [
+      '曲速 2 级'
+    ],
     arms: [
       '相位加农炮 / 2 具鱼雷发射管'
     ],
     defend: '舰壳极化',
     information: '无畏型星舰是星际舰队于 22 世纪中叶服役的一批星舰，其主舰体为半圆形，舰尾连接了两根向上翘起的曲速舱，曲速舱的两侧还有两片向下的舰体结构',
-    known: ['未知舷号 / Intrepid / 无畏号'],
+    known: [
+      '未知舷号 / Intrepid / 无畏号'
+    ],
     note: ''
   },
   NXClass: {
@@ -193,6 +199,54 @@ export const data: DataType = {
     known: [
       'NCC-1701 / USS Enterprise / 联邦星舰企业号',
       'NCC-1701-A / USS Enterprise / 联邦星舰企业号'
+    ],
+    note: ''
+  },
+  ExcelsiorClass: {
+    name: '精进级',
+    spec: '',
+    time: '23 世纪 80 年代',
+    length: '',
+    width: '',
+    height: '34 层甲板',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位炮组 / 光子鱼雷发射管'
+    ],
+    defend: '偏导护盾',
+    information: '精进级星舰是在 23 世纪 80 年代所服役的一种星舰，从 23 世纪末期到 24 世纪末期均在星际舰队中服役。一个世纪以来，精进级一直作为星际舰队主力舰之一，这也导致精进级是星际舰队中服役时间最长的星舰之一，也是辨识度最高的星舰之一',
+    known: [
+      'NX-2000 / USS Excelsior / 联邦星舰精进号',
+      'NCC-2000 / USS Excelsior / 联邦星舰精进号',
+      'NCC-2544 / USS Repulse / 联邦星舰浅水湾号',
+      '未知舷号 / USS Roosevelt / 联邦星舰罗斯福号',
+      '未知舷号 / USS Farragut / 联邦星舰法拉格特号',
+      '未知舷号 / USS Okinawa / 联邦星舰冲绳号',
+      'NCC-14232 / USS Berlin / 联邦星舰柏林号',
+      'NCC-14598 / USS Fearless / 联邦星舰无惧号',
+      'NCC-14934 / USS Tecumseh / 联邦星舰特库姆塞号',
+      '未知舷号 / USS Potemkin / 联邦星舰波特金号',
+      '未知舷号 / USS Livingston / 联邦星舰利文斯顿号',
+      'NCC-38907 / USS Intrepid / 联邦星舰无畏号',
+      '未知舷号 / USS Crockett / 联邦星舰克罗科特号',
+      '未知舷号 / USS Malinche / 联邦星舰马林克号',
+      '未知舷号 / USS Gorkon / 联邦星舰高康号',
+      'NCC-42111 / USS Frederickson / 联邦星舰弗雷德里克森号',
+      '未知舷号 / USS Cairo / 联邦星舰开罗号',
+      'NCC-42285 / USS Charleston / 联邦星舰查尔斯顿号',
+      'NCC-42296 / USS Hood / 联邦星舰胡德号',
+      '未知舷号 / USS Grissom / 联邦星舰格里森号',
+      'NCC-42995 / USS Al-Batani / 联邦星舰艾尔 - 巴塔尼号',
+      'NCC-43305 / USSValley Forge / 联邦星舰弗吉谷号',
+      'NCC-44278 / USS Archer / 联邦星舰亚契号',
+      '未知舷号 / USS Crazy Horse / 联邦星舰疯马号',
+      'NCC-62043 / USS Melbourne / 联邦星舰墨尔本号',
+      'NCC-72007 / USS Atlantis / 联邦星舰亚特兰蒂斯号',
+      'NCC-32710 / USS Atlantis / 联邦星舰亚特兰蒂斯号',
+      '未知舷号 / USS Sarek / 联邦星舰绍赖克号'
     ],
     note: ''
   }
