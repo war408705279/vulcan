@@ -51,7 +51,7 @@ export const data: DataType = {
       'NCC-1701 / USS Enterprise / 联邦星舰企业号',
       'NCC-1703 / USS Hood / 联邦星舰胡德号',
       'NCC-1709 / USS Lexington / 联邦星舰列克星敦号',
-      'NCC-1710 / SS Kongo / 联邦星舰金刚号',
+      'NCC-1710 / USS Kongo / 联邦星舰金刚号',
       'NCC-1715 / USS Merrimac / 联邦星舰梅里马克号',
       'NCC-1717 / USS Yorktown / 联邦星舰约克城号',
       'NCC-1718 / USS Excelsior / 联邦星舰精进号',
@@ -232,5 +232,40 @@ export const data: DataType = {
       'NCC-621 / USS Columbia / 联邦星舰哥伦比亚号 / 赫尔墨斯级'
     ],
     note: ''
+  },
+  MirandaClass: {
+    name: '米兰达级',
+    spec: '',
+    time: '23 世纪 60 年代',
+    length: '',
+    width: '',
+    height: '4 层以上甲板',
+    quality: [],
+    crewNum: [
+      '约 26-35 人'
+    ],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位炮组 / 光子鱼雷发射管（不同型号决定有无额外的发射管和相位炮）'
+    ],
+    defend: '偏导护盾',
+    information: '米兰达级星舰是星际舰队于 23 世纪 60 年代服役的一批星舰，和精进级一样，米兰达级也是星际舰队中服役时间最长的一批星舰之一，从服役起到未来的一个世纪内，米兰达级就一直是星际舰队的主力舰之一，所建造的数量远超一般的星舰',
+    known: [
+      'NCC-32591 / USS Sitak / 联邦星舰斯台克号',
+      'NCC-1546 / USS Olympia / 联邦星舰奥林匹亚号',
+      'NCC-1837 / USS Lantree / 联邦星舰兰树号',
+      'NCC-1864 / USS Reliant / 联邦星舰信望号',
+      'NCC-1887 / USS Saratoga / 联邦星舰萨拉托加号',
+      'NCC-1948 / USS Trial / 联邦星舰考验号',
+      'NCC-9844 / USS Antares / 联邦星舰安塔尔号',
+      'NCC-21382 / USS Tian anmen / 联邦星舰天安门号',
+      'NCC-21166 / USS Brattain / 联邦星舰布拉顿号',
+      'NCC-31060 / USS Majestic / 联邦星舰庄严号',
+      'NCC-31905 / USS Shir Kahr / 联邦星舰希卡尔号',
+      'NCC-31910 / USS Nautilus / 联邦星舰鹦鹉螺号',
+      'NCC-31911 / USS Saratoga / 联邦星舰萨拉托加号'
+    ],
+    note: '米兰达级的设计与同时期的联盟级星舰十分相似，其具体的设计思路承接自宪法级改造型。米兰达级并非全体一致一成不变，和星云级类似，米兰达级具备多种不同的改造版本，如以信望号为代表的传统双相位炮加鱼雷发射管的造型，以萨拉托加号为代表的双相位炮的造型，或者以安塔尔号为代表的双相位炮但三角平台的造型'
   }
 }
