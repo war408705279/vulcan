@@ -54,7 +54,7 @@ export const data: DataType[] = [{
     code: 'MirandaClass',
     label: '米兰达级 - Miranda Class'
   }, {
-    code: '',
+    code: 'OberthClass',
     label: '奥伯特级 - Oberth Class'
   }, {
     code: '',
