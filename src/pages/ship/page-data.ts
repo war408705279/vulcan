@@ -42,7 +42,7 @@ export const data: DataType[] = [{
     code: 'ExcelsiorClassRetrofit',
     label: '精进级改 - Excelsior Class Retrofit'
   }, {
-    code: '',
+    code: 'ConstellationClass',
     label: '星座级 - Constellation Class'
   }, {
     code: '',
