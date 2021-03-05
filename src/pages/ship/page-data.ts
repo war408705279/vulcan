@@ -48,7 +48,7 @@ export const data: DataType[] = [{
     code: 'FederationClass',
     label: '联邦级 - Federation Class'
   }, {
-    code: '',
+    code: 'SaladinAndHermesClass',
     label: '萨拉丁 / 赫尔墨斯级 - Saladin / Hermes Class'
   }, {
     code: '',
