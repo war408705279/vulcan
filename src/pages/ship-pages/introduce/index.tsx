@@ -154,7 +154,7 @@ function Content(data: ContentProps) {
   const noteView = note && (
     <>
       <View className={styles.title}>
-        舰种
+        注解
       </View>
       <Cell>
         <View className={styles.content}>
