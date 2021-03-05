@@ -51,7 +51,7 @@ export const data: DataType[] = [{
     code: 'SaladinAndHermesClass',
     label: '萨拉丁 / 赫尔墨斯级 - Saladin / Hermes Class'
   }, {
-    code: '',
+    code: 'MirandaClass',
     label: '米兰达级 - Miranda Class'
   }, {
     code: '',
