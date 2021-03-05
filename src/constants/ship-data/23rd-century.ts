@@ -210,5 +210,27 @@ export const data: DataType = {
     information: '联邦级星舰在《星际迷航：可汗之怒》和《星际迷航：石破天惊》中曾经出现过一个出现过一个简影，其舰本体从未在任官方影视作品中出现过',
     known: [],
     note: '在《Star Trek Star Fleet Technical Manual》这本非正史书籍中曾提到过关于联邦级外貌和设定。但是由于此书籍的内容并非正史因此不具备参考价值'
+  },
+  SaladinAndHermesClass: {
+    name: '萨拉丁 / 赫尔墨斯级',
+    spec: '驱逐舰 / 侦查船',
+    time: '23 世纪',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [],
+    defend: '',
+    information: '萨拉丁与赫尔墨斯级和宪法级计划是同一时期建造的星舰。萨拉丁 / 赫尔墨斯级设计使用一个单一的曲速舱（类似于宪法级的碟部）',
+    known: [
+      'NCC-500 / 未知英文名称 / 未知中文名称 / 萨拉丁级',
+      'NCC-585 / 未知英文名称 / 未知中文名称 / 赫尔墨斯级',
+      'NCC-595 / USS Revere / 联邦星舰钦仰号 / 赫尔墨斯级',
+      'NCC-621 / USS Columbia / 联邦星舰哥伦比亚号 / 赫尔墨斯级'
+    ],
+    note: ''
   }
 }
