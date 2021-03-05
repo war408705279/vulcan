@@ -300,5 +300,22 @@ export const data: DataType = {
       'NCC-7100 / 未知英文名称 / 未知中文名称'
     ],
     note: ''
+  },
+  FederationClass: {
+    name: '联邦级',
+    spec: '无畏舰',
+    time: '23 世纪中期',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [],
+    defend: '',
+    information: '联邦级星舰在《星际迷航：可汗之怒》和《星际迷航：石破天惊》中曾经出现过一个出现过一个简影，其舰本体从未在任官方影视作品中出现过',
+    known: [],
+    note: '在《Star Trek Star Fleet Technical Manual》这本非正史书籍中曾提到过关于联邦级外貌和设定。但是由于此书籍的内容并非正史因此不具备参考价值'
   }
 }
