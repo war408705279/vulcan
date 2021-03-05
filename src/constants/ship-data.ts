@@ -272,5 +272,33 @@ export const data: DataType = {
       'NCC-42768 / USS Lakota / 联邦星舰拉科塔号'
     ],
     note: ''
+  },
+  ConstellationClass: {
+    name: '星座级',
+    spec: '星际巡洋舰',
+    time: '2285 年',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [
+      '曲速 9 级'
+    ],
+    arms: [
+      '相位炮组 / 光子鱼雷发射管'
+    ],
+    defend: '偏导护盾',
+    information: '星座级星舰于 2285 年开始服役，在 24 世纪早期，星座级就以深空探索和近防巡逻等任务著称。到 24 世纪 60 年代，这批老式的星际巡洋舰正式步入被淘汰的边缘，其中 80 岁高龄的海瑟薇号也被拆卸了所有的武器系统和一切反物质储备。至此星座级逐步退居二线，开始进行运输或者进行紧急封锁等任务',
+    known: [
+      'NX-1974 / USS Constellation / 联邦星舰星座号',
+      'NCC-2593 / USS Hathaway / 联邦星舰海瑟薇号',
+      'NCC-2893 / USS Stargazer / 联邦星舰占星者号',
+      '未知舷号 / USS Magellan / 联邦星舰麦哲伦号',
+      '未知舷号 / USS Gettysburg / 联邦星舰葛底斯堡',
+      'NCC-7100 / 未知英文名称 / 未知中文名称'
+    ],
+    note: ''
   }
 }
