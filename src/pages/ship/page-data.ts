@@ -45,7 +45,7 @@ export const data: DataType[] = [{
     code: 'ConstellationClass',
     label: '星座级 - Constellation Class'
   }, {
-    code: '',
+    code: 'FederationClass',
     label: '联邦级 - Federation Class'
   }, {
     code: '',
