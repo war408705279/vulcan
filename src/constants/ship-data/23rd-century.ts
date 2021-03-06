@@ -347,5 +347,32 @@ export const data: DataType = {
       'NCC-2010-5 / USS Nash / 联邦星舰纳什号'
     ],
     note: ''
+  },
+  CrossfieldClass: {
+    name: '克罗斯菲尔德级',
+    spec: '科研舰 / 战舰',
+    time: '23 世纪 50 年代（以及 32 世纪）',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [
+      '136 人',
+      '最大约 140 人'
+    ],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位炮组 / 前置 && 后置光子鱼雷发射管',
+      '孢子引擎'
+    ],
+    defend: '偏导护盾',
+    information: '克罗斯菲尔德级是星际舰队于 23 世纪 50 年代服役的一批星舰，该级星舰的主要设计包括一个碟部和一个宽大的次级舰体，在工程部末端的两侧有两个加长的曲速舱。同时这一级别的星舰装配了实验性的孢子引擎',
+    known: [
+      'NCC-1030 / USS Glenn / 联邦星舰格伦号',
+      'NCC-1031 / USS Discovery / 联邦星舰发现号',
+      'NCC-1031-A / USS Discovery 联邦星舰发现号'
+    ],
+    note: '虽然克罗斯菲尔德级的总长度较长，但是实际的舰体部分大小和宪法级相似'
   }
 }
