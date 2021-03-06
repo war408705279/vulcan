@@ -60,7 +60,7 @@ export const data: DataType[] = [{
     code: 'AntaresType',
     label: '安塔尔型 - Antares Type'
   }, {
-    code: '',
+    code: 'SydneyClass',
     label: '悉尼级 - Sydney Class'
   }, {
     code: '',
