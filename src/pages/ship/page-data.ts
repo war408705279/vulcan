@@ -57,7 +57,7 @@ export const data: DataType[] = [{
     code: 'OberthClass',
     label: '奥伯特级 - Oberth Class'
   }, {
-    code: '',
+    code: 'AntaresType',
     label: '安塔尔型 - Antares Type'
   }, {
     code: '',
