@@ -63,7 +63,7 @@ export const data: DataType[] = [{
     code: 'SydneyClass',
     label: '悉尼级 - Sydney Class'
   }, {
-    code: '',
+    code: 'CrossfieldClass',
     label: '克罗斯菲尔德级 - Crossfield Class'
   }, {
     code: '',
