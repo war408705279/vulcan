@@ -327,5 +327,25 @@ export const data: DataType = {
       'NCC-1951 / Senzig / 森泽号'
     ],
     note: '虽然安塔尔型的体型要比宪法级小，但是在货舱这方面安塔尔型比宪法级大得多。部分型号的安塔尔型拆除了舰桥部分，改为纯自动驾驶'
+  },
+  SydneyClass: {
+    name: '悉尼级',
+    spec: '运输船',
+    time: '23 世纪',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [],
+    defend: '偏导护盾',
+    information: '悉尼级星舰是星际舰队于23世纪开始服役的一批运输舰，拥有数个直到24世纪仍在使用的系统，包括传送系统、子空间通讯、传感器和脉冲引擎等',
+    known: [
+      'NCC-2010 / USS Jenolan / 联邦星舰杰诺兰号',
+      'NCC-2010-5 / USS Nash / 联邦星舰纳什号'
+    ],
+    note: ''
   }
 }
