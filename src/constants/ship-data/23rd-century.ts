@@ -499,5 +499,28 @@ export const data: DataType = {
       'NCC-1648 / USS Europa / 联邦星舰欧罗巴号'
     ],
     note: '已知尼米兹级在舰体底部至少搭载一个牵引光束发生器'
+  },
+  HooverClass: {
+    name: '胡佛级',
+    spec: '',
+    time: '23 世纪 50 年代',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位炮'
+    ],
+    defend: '',
+    information: '胡佛级是星际舰队于 23 世纪 50 年代服役的一批星舰，其主舰体与之后的米兰达级以及星云级相似，由圆形的碟部和倾斜的尾部舰体',
+    known: [
+      '未知舷号 / USS Dana / 联邦星舰德纳号',
+      '未知舷号 / USS De Milo / 联邦星舰米洛号',
+      'NCC-1683 / USS Edison / 联邦星舰爱迪生号'
+    ],
+    note: ''
   }
 }
