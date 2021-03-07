@@ -72,7 +72,7 @@ export const data: DataType[] = [{
     code: 'ShepardClass',
     label: '谢帕德级 - Shepard Class'
   }, {
-    code: '',
+    code: 'MalachowskiClass',
     label: '马拉霍夫斯基级 - Malachowski Class'
   }, {
     code: '',
