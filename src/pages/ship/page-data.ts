@@ -66,7 +66,7 @@ export const data: DataType[] = [{
     code: 'CrossfieldClass',
     label: '克罗斯菲尔德级 - Crossfield Class'
   }, {
-    code: '',
+    code: 'WalkerClass',
     label: '沃克级 - Walker Class'
   }, {
     code: '',
