@@ -78,7 +78,7 @@ export const data: DataType[] = [{
     code: 'MageeClass',
     label: '麦基级 - Magee Class'
   }, {
-    code: '',
+    code: 'CardenasClass',
     label: '卡德纳斯级 - Cardenas Class'
   }, {
     code: '',
