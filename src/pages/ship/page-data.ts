@@ -81,7 +81,7 @@ export const data: DataType[] = [{
     code: 'CardenasClass',
     label: '卡德纳斯级 - Cardenas Class'
   }, {
-    code: '',
+    code: 'NimitzClass',
     label: '尼米兹级 - Nimitz Class'
   }, {
     code: '',
