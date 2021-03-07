@@ -75,7 +75,7 @@ export const data: DataType[] = [{
     code: 'MalachowskiClass',
     label: '马拉霍夫斯基级 - Malachowski Class'
   }, {
-    code: '',
+    code: 'MageeClass',
     label: '麦基级 - Magee Class'
   }, {
     code: '',
