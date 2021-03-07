@@ -440,5 +440,25 @@ export const data: DataType = {
       'NCC-1621 / USS Sioux / 联邦星舰苏人号'
     ],
     note: ''
+  },
+  MageeClass: {
+    name: '麦基级',
+    spec: '',
+    time: '23 世纪 50 年代',
+    length: '',
+    width: '',
+    height: '至少 6 层甲板',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [],
+    defend: '',
+    information: '麦基级是星际舰队于 23 世纪 50 年代所服役的一批星舰，已知至少该舰级有两艘星舰服役到了 2385 年',
+    known: [
+      '未知舷号 / USS Cabot / 联邦星舰卡伯特号',
+      'NCC-1413 / USS Shran / 联邦星舰沙兰号'
+    ],
+    note: '该舰级的星舰主舰体只有一个碟部，其两个曲速舱以非常罕见的形式直接穿透了整个碟部'
   }
 }
