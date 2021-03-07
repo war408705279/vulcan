@@ -418,5 +418,27 @@ export const data: DataType = {
       'NCC-1265 / USS Ride / 联邦星舰骑乘号'
     ],
     note: ''
+  },
+  MalachowskiClass: {
+    name: '马拉霍夫斯基级',
+    spec: '',
+    time: '23 世纪 50 年代',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位炮 / 光子鱼雷发射管'
+    ],
+    defend: '偏导护盾',
+    information: '马拉霍夫斯基级是星际舰队于 23 世纪 50 年代所服役的一批星舰，其设计上有一个非圆形的碟部，偏导仪被安装在该碟部的下侧，两个曲速舱通过曲速架以斜角度与舰体连接',
+    known: [
+      'NCC-1661 / USS Clarke / 联邦星舰克拉克号',
+      'NCC-1621 / USS Sioux / 联邦星舰苏人号'
+    ],
+    note: ''
   }
 }
