@@ -522,5 +522,27 @@ export const data: DataType = {
       'NCC-1683 / USS Edison / 联邦星舰爱迪生号'
     ],
     note: ''
+  },
+  EngleClass: {
+    name: '恩格尔级',
+    spec: '',
+    time: '23 世纪 50 年代',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位炮'
+    ],
+    defend: '偏导护盾',
+    information: '恩格尔级是星际舰队于 23 世纪 50 年代服役的一批星舰，该级星舰的非圆形碟部的下侧有两个穿梭机库，同时两个曲速舱罕见直接被固定在碟部的两侧',
+    known: [
+      'NCC-1004 / USS T\'Plana-Hath / 联邦星舰 T\'Plana-Hath 号',
+      '未知舷号 / USS Earhart / 联邦星舰埃尔哈特号'
+    ],
+    note: ''
   }
 }
