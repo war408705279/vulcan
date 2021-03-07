@@ -395,5 +395,28 @@ export const data: DataType = {
       'NCC-1227 / USS Shenzhou / 联邦星舰神舟号'
     ],
     note: '沃克级至少具备 15 层甲板和两个穿梭机库，并同时搭载了穿梭机和工蜂，以及可以从碟部顶部发射的逃生舱。同时该级星舰可以通过利用分布在碟部下侧的推进器在大气层中飞行，并在碟部上安装了相位加农炮和光子鱼雷发射管'
+  },
+  ShepardClass: {
+    name: '谢帕德级',
+    spec: '',
+    time: '23 世纪 50 年代',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位炮'
+    ],
+    defend: '偏导护盾',
+    information: '谢帕德级是星际舰队于 23 世纪 50 年代所服役的一批星舰，该级星舰的偏导仪设计与沃克级相似，但是安装与碟部前端的下侧，两个曲速舱位于碟部上侧的末端',
+    known: [
+      'NCC-1309 / USS Gagarin / 联邦星舰加加林号',
+      'NCC-1255 / USS Kerala / 联邦星舰克拉拉号',
+      'NCC-1265 / USS Ride / 联邦星舰骑乘号'
+    ],
+    note: ''
   }
 }
