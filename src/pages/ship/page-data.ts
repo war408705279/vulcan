@@ -69,7 +69,7 @@ export const data: DataType[] = [{
     code: 'WalkerClass',
     label: '沃克级 - Walker Class'
   }, {
-    code: '',
+    code: 'ShepardClass',
     label: '谢帕德级 - Shepard Class'
   }, {
     code: '',
