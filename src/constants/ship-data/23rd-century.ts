@@ -294,8 +294,8 @@ export const data: DataType = {
       'NCC-638 / USS Grissom / 联邦星舰格里森号',
       'NCC-602 / USS Oberth / 联邦星舰奥伯特号',
       'NCC-53847 / USS Pegasus / 联邦星舰飞马号',
-      'NCC-53911 / SS Tsiolkovsky / 星舰齐奥尔科夫斯基号',
-      'NAR-18834 / SS Vico / 星舰维科号',
+      'NCC-53911 / USS Tsiolkovsky / 联邦星舰齐奥尔科夫斯基号',
+      'NAR-18834 / USS Vico / 联邦星舰维科号',
       'NCC-19002 / USS Yosemite / 联邦星舰约塞米蒂号',
       'NCC-58637 / USS Copernicus / 联邦星舰哥白尼号',
       'NCC-1692 / USS Helin / 联邦星舰海伦号',
@@ -460,5 +460,25 @@ export const data: DataType = {
       'NCC-1413 / USS Shran / 联邦星舰沙兰号'
     ],
     note: '该舰级的星舰主舰体只有一个碟部，其两个曲速舱以非常罕见的形式直接穿透了整个碟部'
+  },
+  CardenasClass: {
+    name: '卡德纳斯级',
+    spec: '',
+    time: '23 世纪 50 年代',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [],
+    defend: '偏导护盾',
+    information: '卡德纳斯级是星际舰队于 23 世纪 50 年代所服役的一批星舰，该级星舰的拥有着和尼米兹级，星座级，夏延级，普罗米修斯级类似的四个曲速舱的设计',
+    known: [
+      'NCC-1422 / USS Buran / 联邦星舰暴风雪号',
+      'NCC-1437 / USS Yeager / 联邦星舰耶格尔号'
+    ],
+    note: '卡德纳斯级的舰桥位于碟部正前方处，并在舰尾处搭载了两个穿梭机库'
   }
 }
