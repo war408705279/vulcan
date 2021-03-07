@@ -480,5 +480,24 @@ export const data: DataType = {
       'NCC-1437 / USS Yeager / 联邦星舰耶格尔号'
     ],
     note: '卡德纳斯级的舰桥位于碟部正前方处，并在舰尾处搭载了两个穿梭机库'
+  },
+  NimitzClass: {
+    name: '尼米兹级',
+    spec: '',
+    time: '23 世纪 50 年代',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [],
+    defend: '偏导护盾',
+    information: '尼米兹级是星际舰队于 23 世纪 50 年代服役的一批星舰，其设计和卡德纳斯级相似，搭载了四个曲速舱和一个完整的碟部',
+    known: [
+      'NCC-1648 / USS Europa / 联邦星舰欧罗巴号'
+    ],
+    note: '已知尼米兹级在舰体底部至少搭载一个牵引光束发生器'
   }
 }
