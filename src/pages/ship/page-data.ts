@@ -96,7 +96,7 @@ export const data: DataType[] = [{
     code: 'AmbassadorClass',
     label: '大使级 - Ambassador Class'
   }, {
-    code: '',
+    code: 'CentaurClass',
     label: '半人马级 - Centaur Class'
   }, {
     code: '',
