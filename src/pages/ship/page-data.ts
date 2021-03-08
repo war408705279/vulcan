@@ -99,7 +99,7 @@ export const data: DataType[] = [{
     code: 'CentaurClass',
     label: '半人马级 - Centaur Class'
   }, {
-    code: '',
+    code: 'CurryType',
     label: '卡瑞型 - Curry Type'
   }, {
     code: '',
