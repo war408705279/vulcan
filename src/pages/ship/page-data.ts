@@ -177,7 +177,7 @@ export const data: DataType[] = [{
 }, {
   title: '26 世纪',
   list: [{
-    code: '',
+    code: 'UniverseClass',
     label: '宇宙级 - Universe Class'
   }]
 }, {
