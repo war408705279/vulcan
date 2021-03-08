@@ -93,7 +93,7 @@ export const data: DataType[] = [{
 }, {
   title: '24 世纪',
   list: [{
-    code: '',
+    code: 'AmbassadorClass',
     label: '大使级 - Ambassador Class'
   }, {
     code: '',
