@@ -105,7 +105,7 @@ export const data: DataType[] = [{
     code: 'NiagaraClass',
     label: '尼亚加拉级 - Niagara Class'
   }, {
-    code: '',
+    code: 'FreedomClass',
     label: '自由级 - Freedom Class'
   }, {
     code: '',
