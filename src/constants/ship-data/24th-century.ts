@@ -101,5 +101,26 @@ export const data: DataType = {
       'NCC-59804 / USS Princeton / 联邦星舰普林斯顿号'
     ],
     note: ''
+  },
+  FreedomClass: {
+    name: '自由级',
+    spec: '',
+    time: '24 世纪',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位阵列 / 光子鱼雷发射管'
+    ],
+    defend: '偏导护盾',
+    information: '自由级星舰是星际舰队于 24 世纪晚期服役的一批星舰，和 23 世纪中叶的萨拉丁级和赫尔墨斯级的设计类似，自由级是少数只拥有一个曲速舱的星舰之一，通过一个曲速架将曲速舱和碟部连接在一起',
+    known: [
+      'NCC-68723 / USS Firebrand / 联邦星舰火炬号'
+    ],
+    note: ''
   }
 }
