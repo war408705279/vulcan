@@ -120,7 +120,7 @@ export const data: DataType[] = [{
     code: 'SpringfieldClass',
     label: '春田级 - Springfield Class'
   }, {
-    code: '',
+    code: 'GalaxyClass',
     label: '银河级 - Galaxy Class'
   }, {
     code: '',
