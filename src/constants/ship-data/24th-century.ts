@@ -143,5 +143,29 @@ export const data: DataType = {
       'NCC-71620 / USS Ahwahnee / 联邦星舰阿瓦尼号'
     ],
     note: ''
+  },
+  NewOrleansClass: {
+    name: '新奥尔良级',
+    spec: '护卫舰',
+    time: '24 世纪',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位阵列 / 光子鱼雷发射管'
+    ],
+    defend: '偏导护盾',
+    information: '新奥尔良级星舰是星际舰队于 24 世纪服役的一批护卫舰，其碟部设计和银河级相似，且搭载了 3 个传感器舱，但主要武器系统依旧是常见的相位阵列和光子鱼雷发射管',
+    known: [
+      'NCC-65491 / USS Kyushu / 联邦星舰九州号',
+      'NCC-65530 / USS Thomas Paine / 联邦星舰托马斯 · 佩恩号',
+      '未知舷号 / USS Rutledge / 联邦星舰拉特利奇号',
+      '未知舷号 / USS Renegade / 联邦星舰叛逆者号'
+    ],
+    note: ''
   }
 }
