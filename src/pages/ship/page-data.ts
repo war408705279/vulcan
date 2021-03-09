@@ -111,7 +111,7 @@ export const data: DataType[] = [{
     code: 'CheyenneClass',
     label: '夏延级 - Cheyenne Class'
   }, {
-    code: '',
+    code: 'NewOrleansClass',
     label: '新奥尔良级 - New Orleans Class'
   }, {
     code: '',
