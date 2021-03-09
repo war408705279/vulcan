@@ -167,5 +167,26 @@ export const data: DataType = {
       '未知舷号 / USS Renegade / 联邦星舰叛逆者号'
     ],
     note: ''
+  },
+  RavenType: {
+    name: '渡鸦型',
+    spec: '探索舰',
+    time: '24 世纪',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [
+      '极少'
+    ],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [],
+    defend: '偏导护盾',
+    information: '渡鸦型星舰是星际舰队于 24 世纪开始服役的一批小型，模块化的深空探索舰，其设计有点类似于多瑙河级小艇，被设计成只需要极少的船员操控便可以正常运作，同样的这一级星舰也具备一个小型穿梭机舱',
+    known: [
+      'NAR-32450 / USS Raven / 联邦星舰渡鸦号'
+    ],
+    note: ''
   }
 }
