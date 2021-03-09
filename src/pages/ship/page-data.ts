@@ -102,7 +102,7 @@ export const data: DataType[] = [{
     code: 'CurryType',
     label: '卡瑞型 - Curry Type'
   }, {
-    code: '',
+    code: 'NiagaraClass',
     label: '尼亚加拉级 - Niagara Class'
   }, {
     code: '',
