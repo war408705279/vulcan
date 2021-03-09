@@ -79,5 +79,27 @@ export const data: DataType = {
       'NCC-42264 / USS Raging Queen / 联邦星舰狂暴女皇号'
     ],
     note: '狂暴女皇号和卡瑞号在外表上不太一致，有一部分差别，因此狂暴女皇号是否算卡瑞型星舰并不肯定'
+  },
+  NiagaraClass: {
+    name: '尼亚加拉级',
+    spec: '',
+    time: '24 世纪',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位阵列 / 光子鱼雷发射管'
+    ],
+    defend: '偏导护盾',
+    information: '尼亚加拉级星舰是星际舰队主要服役于 24 世纪中叶的一批星舰，与传统星舰不同的是尼亚加拉级采取了三曲速舱的设计，全级一共只知道两艘星舰且均在 Wolf 359 战役中损毁',
+    known: [
+      'NCC-33821 / USS Wellington / 联邦星舰威林顿号',
+      'NCC-59804 / USS Princeton / 联邦星舰普林斯顿号'
+    ],
+    note: ''
   }
 }
