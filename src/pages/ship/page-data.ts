@@ -117,7 +117,7 @@ export const data: DataType[] = [{
     code: 'RavenType',
     label: '渡鸦型 - Raven Type'
   }, {
-    code: '',
+    code: 'SpringfieldClass',
     label: '春田级 - Springfield Class'
   }, {
     code: '',
