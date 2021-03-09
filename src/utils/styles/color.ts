@@ -1,4 +1,4 @@
-// the same as './vairables.less'
+// the same as './color.less'
 
 // color
 export const redOne = '#FEF8F9'

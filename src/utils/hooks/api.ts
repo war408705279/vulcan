@@ -1,6 +1,5 @@
 /**
  * @file 接口调用相关辅助 hooks
- * @description copy from https://github.com/qbox/www/blob/2020/front/2020/hooks/api.ts
  */
 
 import { useState, useCallback, useEffect, useRef } from 'react'

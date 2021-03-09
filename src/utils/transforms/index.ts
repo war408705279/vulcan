@@ -15,7 +15,6 @@ export function makeIDNumberAnon(id: string | number) {
 }
 
 // 隐藏银行卡号中间几位
-// 参考 https://github.com/qbox/portal-v4/blob/develop/service/src/app/gaea/controllers/user/identity/identity_show.go#L154
 export function makeBankAccountAnon(account: string | number) {
   const accountStr = `${account}`
   const length = accountStr.length

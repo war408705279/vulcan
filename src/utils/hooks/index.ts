@@ -1,6 +1,5 @@
 /**
  * @file index hooks
- * @description copy from https://github.com/qbox/www/blob/2020/front/2020/hooks/index.ts
  */
 
 import { useEffect, useRef, useState, useCallback } from 'react'
