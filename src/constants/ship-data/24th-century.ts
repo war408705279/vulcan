@@ -122,5 +122,26 @@ export const data: DataType = {
       'NCC-68723 / USS Firebrand / 联邦星舰火炬号'
     ],
     note: ''
+  },
+  CheyenneClass: {
+    name: '夏延级',
+    spec: '',
+    time: '24 世纪',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位阵列 / 光子鱼雷发射管'
+    ],
+    defend: '偏导护盾',
+    information: '夏延级星舰是星际舰队于 24 世纪服役的一批星舰，其主要特征便是拥有 4 个曲速舱之间连接碟部，和 23 世纪服役的星座级、尼米兹级、卡德纳斯级相似',
+    known: [
+      'NCC-71620 / USS Ahwahnee / 联邦星舰阿瓦尼号'
+    ],
+    note: ''
   }
 }
