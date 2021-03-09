@@ -114,7 +114,7 @@ export const data: DataType[] = [{
     code: 'NewOrleansClass',
     label: '新奥尔良级 - New Orleans Class'
   }, {
-    code: '',
+    code: 'RavenType',
     label: '渡鸦型 - Raven Type'
   }, {
     code: '',
