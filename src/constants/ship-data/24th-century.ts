@@ -188,5 +188,26 @@ export const data: DataType = {
       'NAR-32450 / USS Raven / 联邦星舰渡鸦号'
     ],
     note: ''
+  },
+  SpringfieldClass: {
+    name: '春田级',
+    spec: '',
+    time: '24 世纪',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位阵列 / 光子鱼雷发射器'
+    ],
+    defend: '',
+    information: '春田级星舰是星际舰队于 24 世纪服役的一批星舰，该级星舰资料极少，已知的是其设计类似于夏延级星舰，但是采取的是双曲速舱设计，且在碟部下方悬挂了一个主偏导仪，舰尾处安装了一个挂仓',
+    known: [
+      'NCC-57302 / USS Chekov / 联邦星舰契科夫号'
+    ],
+    note: '建造基地：旧金山轨道船坞'
   }
 }
