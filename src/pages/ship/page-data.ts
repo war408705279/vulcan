@@ -126,7 +126,7 @@ export const data: DataType[] = [{
     code: 'NebulaClass',
     label: '星云级 - Nebula Class'
   }, {
-    code: '',
+    code: 'DanubeClass',
     label: '多瑙河级 - Danube Class'
   }, {
     code: '',
