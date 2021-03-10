@@ -132,7 +132,7 @@ export const data: DataType[] = [{
     code: 'AkiraClass',
     label: '光明级 - Akira Class'
   }, {
-    code: '',
+    code: 'NovaClass',
     label: '新星级 - Nova Class'
   }, {
     code: '',
