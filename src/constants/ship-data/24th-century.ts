@@ -393,5 +393,26 @@ export const data: DataType = {
       'NCC-75418 / USS Valiant / 联邦星舰英勇号'
     ],
     note: '在普罗米修斯级服役之前，无畏级搭载了全星际舰队最好的导航系统和最高的航速，她的深空探索任务由一个主计算机处理器支持，能够同时访问 4700 万个数据通道，在 10 到 1790 开尔文的工作温度下，每纳秒可进行 575 万亿次计算。且无畏级是星际舰队中为数不多搭载了起落架，能自主在行星上降落的星舰'
+  },
+  NorwayClass: {
+    name: '挪威级',
+    spec: '',
+    time: '24 世纪',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位阵列 / 光子鱼雷发射管'
+    ],
+    defend: '偏导护盾',
+    information: '挪威级星舰是星际舰队于 24 世纪服役的一批星舰，已知该舰级在其舰背上有一门相位炮，其主舰体设计类似挑战级',
+    known: [
+      'NCC-64923 / USS Budapest / 联邦星舰布达佩斯号'
+    ],
+    note: ''
   }
 }
