@@ -280,5 +280,40 @@ export const data: DataType = {
       '未知舷号 / USS T\'Kumbra / 联邦星舰库姆拉布号'
     ],
     note: '星云级的建造时间从 2363 年到 2367 年不等。包括菲尼克斯号、普罗米修斯号和萨瑟兰号在内的船只都是在 A - 40 埃里达尼星际舰队造船厂（前两艘）和旧金山舰队造船厂建造的。星云级的主要任务覆盖了包括科学探索到巡逻运输在内的一系列多元化任务'
+  },
+  DanubeClass: {
+    name: '多瑙河级',
+    spec: '小型汽艇',
+    time: '2368 年',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [
+      '2 - 4 人'
+    ],
+    cruisingSpeed: [],
+    maxSpeed: [
+      '曲速 5 级'
+    ],
+    arms: [
+      '4 条相位阵列发射器 / 光子鱼雷发射管'
+    ],
+    defend: '偏导护盾',
+    information: '多瑙河级星舰是星际舰队于 2368 年开始服役的一批小型短程汽艇，有趣的是深空九号上所有的多瑙河级星舰都是以地球上河流的名字命名的',
+    known: [
+      '未知舷号 / USS Gander / 联邦星舰甘德号',
+      'NCC-72454 / USS Ganges / 联邦星舰恒河号',
+      '未知舷号 / USS Mekong / 联邦星舰湄公河号',
+      '未知舷号 / USS Orinoco / 联邦星舰奥里诺科河号',
+      'NCC-72452 / USS Rio Grande / 联邦星舰里奥格兰德河',
+      'NCC-72936 / USS Rubicon / 联邦星舰卢比肯河号',
+      'NCC-73024 / USS Shenandoah / 联邦星舰谢南多厄河号',
+      '未知舷号 / USS Volga / 联邦星舰伏尔加河号',
+      '未知舷号 / USS Yangtzee Kiang / 联邦星舰扬子江号',
+      '未知舷号 / USS Yukon / 联邦星舰育空河号',
+      'NCC-73918 / 未知英文名称 / 未知中文名称'
+    ],
+    note: ''
   }
 }
