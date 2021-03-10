@@ -123,7 +123,7 @@ export const data: DataType[] = [{
     code: 'GalaxyClass',
     label: '银河级 - Galaxy Class'
   }, {
-    code: '',
+    code: 'NebulaClass',
     label: '星云级 - Nebula Class'
   }, {
     code: '',
