@@ -243,5 +243,42 @@ export const data: DataType = {
       '未知舷号 / USS Magellan / 联邦星舰麦哲伦号'
     ],
     note: '银河级星舰具备碟舰分离能力，意思就是碟部和工程部可以分为两个部分独立飞行，为此银河级也搭载了主舰桥和战斗舰桥两个舰桥'
+  },
+  NebulaClass: {
+    name: '星云级',
+    spec: '',
+    time: '2363 年',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位阵列 / 光子鱼雷发射管'
+    ],
+    defend: '偏导护盾',
+    information: '星云级星舰与比她更大的银河级星舰在设计上有着众多相似的地方尤其是她的主和次级船壳以及曲速舱。在主船体的顶部是一个上部结构，可以支撑各种模块，例如配备鱼雷发射器的三角形平台（以萨瑟兰号为例的大部分星云级）、椭圆形平台（凤凰号）或额外的曲速短舱（最早出现于剧中的一个模型，在后期采访中剧组的工作人员承认在 Wolf 359 战役中损毁的两艘星云级的其中一艘也是这个设计）',
+    known: [
+      'NCC-62048 / USS Bellerophon / 联邦星舰贝勒罗芬号',
+      'NCC-70915 / USS Bonchune / 联邦星舰邦春号',
+      'NCC-60597 / USS Farragut / 联邦星舰法拉格特号',
+      'NCC-60205 / USS Honshu / 联邦星舰本州号',
+      'NCC-70352 / USS Leeds / 联邦星舰利兹号',
+      'NCC-30405 / USS Lexington / 联邦星舰列克星敦号',
+      'NCC-61827 / USS Merrimac / 联邦星舰梅里马克号',
+      'NCC-61826 / USS Monitor / 联邦星舰侦探号',
+      'NCC-65420 / USS Phoenix / 联邦星舰凤凰号',
+      'NCC-71201 / USS Prometheus / 联邦星舰普罗米修斯号',
+      'NCC-72015 / USS Sutherland / 联邦星舰萨瑟兰号',
+      'NCC-85183 / USS Albert Einstein / 联邦星舰阿尔伯特 · 爱因斯坦号',
+      'NCC-71805 / USS Endeavour / 联邦星舰奋进号',
+      '未知舷号 / USS Hera / 联邦星舰赫拉号',
+      '未知舷号 / USS Ulysses / 联邦星舰尤利西斯号',
+      '未知舷号 / USS Proxima / 联邦星舰比邻星号',
+      '未知舷号 / USS T\'Kumbra / 联邦星舰库姆拉布号'
+    ],
+    note: '星云级的建造时间从 2363 年到 2367 年不等。包括菲尼克斯号、普罗米修斯号和萨瑟兰号在内的船只都是在 A - 40 埃里达尼星际舰队造船厂（前两艘）和旧金山舰队造船厂建造的。星云级的主要任务覆盖了包括科学探索到巡逻运输在内的一系列多元化任务'
   }
 }
