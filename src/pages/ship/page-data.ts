@@ -129,7 +129,7 @@ export const data: DataType[] = [{
     code: 'DanubeClass',
     label: '多瑙河级 - Danube Class'
   }, {
-    code: '',
+    code: 'AkiraClass',
     label: '光明级 - Akira Class'
   }, {
     code: '',
