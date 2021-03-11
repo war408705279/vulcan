@@ -147,7 +147,7 @@ export const data: DataType[] = [{
     code: 'SteamrunnerClass',
     label: '气动级 - Steamrunner Class'
   }, {
-    code: '',
+    code: 'OlympicClass',
     label: '奥林匹克级 - Olympic Class'
   }, {
     code: '',
