@@ -150,7 +150,7 @@ export const data: DataType[] = [{
     code: 'OlympicClass',
     label: '奥林匹克级 - Olympic Class'
   }, {
-    code: '',
+    code: 'DefiantClass',
     label: '挑战级 - Defiant Class'
   }, {
     code: '',
