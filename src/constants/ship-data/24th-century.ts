@@ -435,5 +435,26 @@ export const data: DataType = {
       'NCC-61947 / USS Yeager / 联邦星舰耶格尔号'
     ],
     note: ''
+  },
+  SteamrunnerClass: {
+    name: '气动级',
+    spec: '',
+    time: '24 世纪 70 年代',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位阵列 / 光子鱼雷发射管'
+    ],
+    defend: '偏导护盾',
+    information: '气动级星舰是星际舰队于 24 世纪 70 年代服役的一批星舰，气动级在自治同盟战争和 001 星区战役中都十分活跃',
+    known: [
+      'NCC-52136 / USS Appalachia / 联邦星舰阿巴拉契亚号'
+    ],
+    note: '气动级与同时期其他星舰最大的不同是她具备一个完全独立的二级船体，整个曲速舱被嵌在了舰体后部的衔架内，其配套的巴萨德采集器则被安装在碟部舰桥部位的两侧，气动级的偏导仪同样也独立于主舰体之外，其偏导仪位于舰体的最后端，用两根衔架固定在两根曲速舱之间'
   }
 }
