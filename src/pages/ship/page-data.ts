@@ -141,7 +141,7 @@ export const data: DataType[] = [{
     code: 'NorwayClass',
     label: '挪威级 - Norway Class'
   }, {
-    code: '',
+    code: 'SaberClass',
     label: '军刀级 - Saber Class'
   }, {
     code: '',
