@@ -144,7 +144,7 @@ export const data: DataType[] = [{
     code: 'SaberClass',
     label: '军刀级 - Saber Class'
   }, {
-    code: '',
+    code: 'SteamrunnerClass',
     label: '气动级 - Steamrunner Class'
   }, {
     code: '',
