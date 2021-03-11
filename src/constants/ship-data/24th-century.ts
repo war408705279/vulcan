@@ -414,5 +414,26 @@ export const data: DataType = {
       'NCC-64923 / USS Budapest / 联邦星舰布达佩斯号'
     ],
     note: ''
+  },
+  SaberClass: {
+    name: '军刀级',
+    spec: '',
+    time: '24 世纪 70 年代',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位阵列 / 光子鱼雷发射管'
+    ],
+    defend: '偏导护盾',
+    information: '军刀级星舰是星际舰队于 24 世纪 70 年代服役的一批星舰，该舰级的最大特点便是其高度集成化的简体，主偏导仪和副船体集成在一起，且曲速舱直接安装在主舰体上',
+    known: [
+      'NCC-61947 / USS Yeager / 联邦星舰耶格尔号'
+    ],
+    note: ''
   }
 }
