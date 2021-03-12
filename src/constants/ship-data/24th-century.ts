@@ -585,5 +585,26 @@ export const data: DataType = {
       'NCC-12109 / USS Rubidoux / 联邦星舰鲁比多克斯号'
     ],
     note: ''
+  },
+  ParliamentClass: {
+    name: '国会级',
+    spec: '工程舰',
+    time: '24 世纪晚期',
+    length: '',
+    width: '',
+    height: '11 层甲板',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [
+      '已知速度：曲速 7 级'
+    ],
+    maxSpeed: [],
+    arms: [],
+    defend: '',
+    information: '国会级星舰是星际舰队于 24 世纪晚期服役的一批星舰，该级星舰主要被设计用来进行一系列工程任务，该级星舰拥有比加利福尼亚级星舰更加庞大的碟部，并且搭载了更为先进的设备。在设计上，国会级星舰的两根曲速舱安装在位于舰尾下方的曲速架上，两个脉冲引擎则安装在舰尾处。一个带有偏导仪的副舰体通过位于碟部下方的弯曲衔架与碟部进行连接',
+    known: [
+      'NCC-70492 / USS Vancouver / 联邦星舰温哥华号'
+    ],
+    note: ''
   }
 }
