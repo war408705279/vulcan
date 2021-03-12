@@ -567,7 +567,7 @@ export const data: DataType = {
     time: '24 世纪晚期',
     length: '',
     width: '',
-    height: '碟部共有 11 层甲板，副舰体甲板数未知',
+    height: '碟部共有 11 层甲板 / 副舰体甲板数未知',
     quality: [],
     crewNum: [],
     cruisingSpeed: [
