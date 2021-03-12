@@ -159,7 +159,7 @@ export const data: DataType[] = [{
     code: 'PrometheusClass',
     label: '普罗米修斯级 - Prometheus Class'
   }, {
-    code: '',
+    code: 'CaliforniaClass',
     label: '加利福尼亚级 - California Class'
   }, {
     code: '',
