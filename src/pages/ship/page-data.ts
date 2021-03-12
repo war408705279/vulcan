@@ -156,7 +156,7 @@ export const data: DataType[] = [{
     code: 'SovereignClass',
     label: '元首级 - Sovereign Class'
   }, {
-    code: '',
+    code: 'PrometheusClass',
     label: '普罗米修斯级 - Prometheus Class'
   }, {
     code: '',
