@@ -162,7 +162,7 @@ export const data: DataType[] = [{
     code: 'CaliforniaClass',
     label: '加利福尼亚级 - California Class'
   }, {
-    code: '',
+    code: 'ParliamentClass',
     label: '国会级 - Parliament Class'
   }, {
     code: '',
