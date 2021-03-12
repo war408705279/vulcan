@@ -153,7 +153,7 @@ export const data: DataType[] = [{
     code: 'DefiantClass',
     label: '挑战级 - Defiant Class'
   }, {
-    code: '',
+    code: 'SovereignClass',
     label: '元首级 - Sovereign Class'
   }, {
     code: '',
