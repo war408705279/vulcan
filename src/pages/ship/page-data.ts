@@ -165,7 +165,7 @@ export const data: DataType[] = [{
     code: 'ParliamentClass',
     label: '国会级 - Parliament Class'
   }, {
-    code: '',
+    code: 'CuriosityClass',
     label: '好奇级 - Curiosity Class'
   }, {
     code: '',
