@@ -168,10 +168,10 @@ export const data: DataType[] = [{
     code: 'CuriosityClass',
     label: '好奇级 - Curiosity Class'
   }, {
-    code: ' WallenbergClass',
+    code: 'WallenbergClass',
     label: '瓦伦贝里级 - Wallenberg Class'
   }, {
-    code: '',
+    code: 'InquiryClass',
     label: '调查级 - Inquiry Class'
   }]
 }, {
