@@ -606,5 +606,24 @@ export const data: DataType = {
       'NCC-70492 / USS Vancouver / 联邦星舰温哥华号'
     ],
     note: ''
+  },
+  CuriosityClass: {
+    name: '好奇级',
+    spec: '重型巡洋舰',
+    time: '24 世纪',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [],
+    defend: '',
+    information: '好奇级星舰是星际舰队于 24 世纪服役的一批重型巡洋舰',
+    known: [
+      'NCC-75710 / USS Ibn Majid / 联邦星舰伊本 · 马吉德号'
+    ],
+    note: ''
   }
 }
