@@ -643,8 +643,29 @@ export const data: DataType = {
     defend: '偏导护盾',
     information: '瓦伦贝里级是星际舰队于 24 世纪服役的一批大型可曲速运输舰，该级星舰均无正式的舷号',
     known: [
-      '未知舷号 / Nightingale / 夜莺号'
+      '无舷号 / Nightingale / 夜莺号'
     ],
     note: ''
+  },
+  InquiryClass: {
+    name: '调查级',
+    spec: '',
+    time: '24 世纪 90 年代',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位阵列'
+    ],
+    defend: '偏导护盾',
+    information: '调查级星舰是星际舰队于 24 世纪 90 年代服役的一批最新型星舰，该级星舰被描述为同时期星际舰队"最强，最快的星舰"',
+    known: [
+      '未知舷号 / USS Zheng He / 联邦星舰郑和号'
+    ],
+    note: '调查级的设计来自于网游《Star Trek Online》于 2007 年所设计的复仇者级战列巡洋舰（Avenger class Battlecruiser）的废稿'
   }
 }
