@@ -625,5 +625,26 @@ export const data: DataType = {
       'NCC-75710 / USS Ibn Majid / 联邦星舰伊本 · 马吉德号'
     ],
     note: ''
+  },
+  WallenbergClass: {
+    name: '瓦伦贝里级',
+    spec: '运输舰 / 拖船',
+    time: '2385 年',
+    length: '',
+    width: '',
+    height: '',
+    quality: [],
+    crewNum: [],
+    cruisingSpeed: [],
+    maxSpeed: [],
+    arms: [
+      '相位阵列'
+    ],
+    defend: '偏导护盾',
+    information: '瓦伦贝里级是星际舰队于 24 世纪服役的一批大型可曲速运输舰，该级星舰均无正式的舷号',
+    known: [
+      '未知舷号 / Nightingale / 夜莺号'
+    ],
+    note: ''
   }
 }
