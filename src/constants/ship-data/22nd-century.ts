@@ -5,8 +5,11 @@
 
 import { DataType } from '.'
 
+import IconGangesClass from './images/icon-ganges-class.jpg'
+
 export const data: DataType = {
   GangesClass: {
+    icon: IconGangesClass,
     name: '恒河级（非官方名称）',
     spec: '',
     time: '2119 年',
