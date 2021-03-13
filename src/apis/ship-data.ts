@@ -9,6 +9,7 @@ export type GetShipDataOptions = {
 }
 
 export type GetShipDataResp = {
+  icon?: string
   name: string
   spec: string
   time: string

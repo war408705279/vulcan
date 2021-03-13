@@ -5,7 +5,7 @@
 import React, { useEffect } from 'react'
 
 import { useQuery } from 'remax'
-import { View } from 'remax/one'
+import { View, Image } from 'remax/one'
 
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
@@ -74,6 +74,7 @@ type ContentProps = GetShipDataResp
 
 function Content(data: ContentProps) {
   const {
+    icon,
     name,
     spec,
     time,
@@ -90,6 +91,16 @@ function Content(data: ContentProps) {
     known,
     note
   } = data
+
+  const iconView = icon && (
+    <View className={styles.imgContainer}>
+      <Image
+        className={styles.img}
+        src={icon}
+        mode="widthFix"
+      />
+    </View>
+  )
 
   function renderQualityView() {
     if (!quality.length) return '-'
@@ -166,6 +177,7 @@ function Content(data: ContentProps) {
 
   return (
     <>
+      {iconView}
       <View className={styles.title}>
         名称
       </View>
