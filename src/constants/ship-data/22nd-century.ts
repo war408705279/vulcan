@@ -6,6 +6,7 @@
 import { DataType } from '.'
 
 import IconGangesClass from './images/icon-ganges-class.jpg'
+import IconIntrepidType from './images/icon-intrepid-type.jpg'
 
 export const data: DataType = {
   GangesClass: {
@@ -37,6 +38,7 @@ export const data: DataType = {
     note: '该型号的星舰并没有官方名称，一般用 Warp Delta 代替，但是在大量的媒体资料中该型星舰被命名为恒河级'
   },
   IntrepidType: {
+    icon: IconIntrepidType,
     name: '无畏型',
     spec: '',
     time: '22 世纪',
