@@ -25,16 +25,16 @@ export default function Loading({
   className
 }: Props) {
 
-  function getDotStyle() {
+  function getDotItemStyle() {
     const sizeNum = parseInt(size, 10)
-    const dotSize = `${parseInt(`${sizeNum / 4}`, 10)}rpx`
-    const dotBorderWidth = `${parseInt(`${sizeNum / 20}`, 10) || 2}rpx`
+    const dotItemSize = `${parseInt(`${sizeNum / 4}`, 10)}rpx`
+    const dotItemBorderWidth = `${parseInt(`${sizeNum / 20}`, 10) || 2}rpx`
     const transform = `${parseInt(`${sizeNum / 2}`, 10)}rpx`
 
     const style: CSSProperties = {
-      width: dotSize,
-      height: dotSize,
-      borderWidth: dotBorderWidth,
+      width: dotItemSize,
+      height: dotItemSize,
+      borderWidth: dotItemBorderWidth,
       borderColor: color,
       transformOrigin: `${transform} ${transform}`
     }
@@ -43,8 +43,8 @@ export default function Loading({
   }
 
   function renderDot() {
-    // 动态计算 dot 的 style
-    const dotStyle = getDotStyle()
+    // 动态计算 dot item 的 style
+    const dotItemStyle = getDotItemStyle()
 
     return (
       <View
@@ -57,15 +57,15 @@ export default function Loading({
           height: size
         }}
       >
-        <View style={dotStyle} />
-        <View style={dotStyle} />
-        <View style={dotStyle} />
-        <View style={dotStyle} />
-        <View style={dotStyle} />
-        <View style={dotStyle} />
-        <View style={dotStyle} />
-        <View style={dotStyle} />
-        <View style={dotStyle} />
+        <View style={dotItemStyle} />
+        <View style={dotItemStyle} />
+        <View style={dotItemStyle} />
+        <View style={dotItemStyle} />
+        <View style={dotItemStyle} />
+        <View style={dotItemStyle} />
+        <View style={dotItemStyle} />
+        <View style={dotItemStyle} />
+        <View style={dotItemStyle} />
       </View>
     )
   }
@@ -86,13 +86,13 @@ export default function Loading({
     )
   }
 
-  function getVulcanStyle() {
+  function getVulcanItemStyle() {
     const sizeNum = parseInt(size, 10)
-    const dotSize = `${parseInt(`${sizeNum / 4}`, 10)}rpx`
+    const vulcanItemSize = `${parseInt(`${sizeNum / 4}`, 10)}rpx`
 
     const style: CSSProperties = {
-      width: dotSize,
-      height: dotSize,
+      width: vulcanItemSize,
+      height: vulcanItemSize,
       backgroundColor: color
     }
 
@@ -100,8 +100,8 @@ export default function Loading({
   }
 
   function renderVulcan() {
-    // 动态计算 dot 的 style
-    const dotStyle = getVulcanStyle()
+    // 动态计算 vulcan item 的 style
+    const vulcanItemStyle = getVulcanItemStyle()
 
     return (
       <View
@@ -114,9 +114,9 @@ export default function Loading({
           height: size
         }}
       >
-        <View style={dotStyle} />
-        <View style={dotStyle} />
-        <View style={dotStyle} />
+        <View style={vulcanItemStyle} />
+        <View style={vulcanItemStyle} />
+        <View style={vulcanItemStyle} />
       </View>
     )
   }
