@@ -10,7 +10,7 @@ import { primaryColor } from '@/utils/styles/color'
 
 import styles from './style.less'
 
-type LoadingType = 'default' | 'dot' | 'vulcan'
+type LoadingType = 'default' | 'dot' | 'vulcan' | 'wave'
 
 export type Props = HTMLAttributes<HTMLElement> & {
   type?: LoadingType
@@ -121,12 +121,50 @@ export default function Loading({
     )
   }
 
+  function getWaveItemStyle() {
+    const sizeNum = parseInt(size, 10)
+    const waveItemWidth = `${parseInt(`${sizeNum / 7}`, 10)}rpx`
+
+    const style: CSSProperties = {
+      width: waveItemWidth,
+      height: size,
+      backgroundColor: color
+    }
+
+    return style
+  }
+
+  function renderWave() {
+    // 动态计算 wave item 的 style
+    const waveItemStyle: CSSProperties = getWaveItemStyle()
+
+    return (
+      <View
+        className={cls(
+          styles.wave,
+          className
+        )}
+        style={{
+          height: size
+        }}
+      >
+        <View style={waveItemStyle} />
+        <View style={waveItemStyle} />
+        <View style={waveItemStyle} />
+        <View style={waveItemStyle} />
+        <View style={waveItemStyle} />
+      </View>
+    )
+  }
+
   function renderLoadingByType(loadingType: LoadingType) {
     switch (loadingType) {
       case 'dot':
         return renderDot()
       case 'vulcan':
         return renderVulcan()
+      case 'wave':
+        return renderWave()
       default:
         return renderDefault()
     }
