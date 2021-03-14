@@ -76,6 +76,41 @@
   }
 }
 
+.vulcan {
+  width: 44rpx;
+  height: 44rpx;
+  position: relative;
+
+  view {
+    width: 10rpx;
+    height: 10rpx;
+    position: absolute;
+    border-radius: 50%;
+    background-color: @white;
+
+    &:nth-child(1) {
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      animation: loading-vulcan-one .4s ease-in-out infinite;
+    }
+
+    &:nth-child(2) {
+      top: 100%;
+      right: 0;
+      transform: translateY(-100%);
+      animation: loading-vulcan-two .4s ease-in-out infinite;
+    }
+
+    &:nth-child(3) {
+      top: 100%;
+      left: 0;
+      transform: translateY(-100%);
+      animation: loading-vulcan-three .4s ease-in-out infinite;
+    }
+  }
+}
+
 @keyframes loading {
   from {
     transform: rotate(0);
@@ -83,5 +118,65 @@
 
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-vulcan-one {
+  33.333% {
+    top: 33.333%;
+    left: 66.666%;
+    transform: translate(-50%, -50%);
+  }
+
+  66.666% {
+    top: 66.666%;
+    left: 83.333%;
+    transform: translate(-50%, -50%);
+  }
+
+  100% {
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, -100%);
+  }
+}
+
+@keyframes loading-vulcan-two {
+  33.333% {
+    top: 100%;
+    right: 33.333%;
+    transform: translate(50%, -100%);
+  }
+
+  66.666% {
+    top: 100%;
+    right: 66.666%;
+    transform: translate(50%, -100%);
+  }
+
+  100% {
+    top: 100%;
+    right: 100%;
+    transform: translate(100%, -100%);
+  }
+}
+
+@keyframes loading-vulcan-three {
+  33.333% {
+    top: 66.666%;
+    left: 16.666%;
+    transform: translate(-50%, -50%);
+  }
+
+  66.666% {
+    top: 33.333%;
+    left: 33.333%;
+    transform: translate(-50%, -50%);
+  }
+
+  100% {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
 }

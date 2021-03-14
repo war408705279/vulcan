@@ -10,7 +10,7 @@ import { primaryColor } from '@/utils/styles/color'
 
 import styles from './style.less'
 
-type LoadingType = 'default' | 'dot'
+type LoadingType = 'default' | 'dot' | 'vulcan'
 
 export type Props = HTMLAttributes<HTMLElement> & {
   type?: LoadingType
@@ -86,10 +86,47 @@ export default function Loading({
     )
   }
 
+  function getVulcanStyle() {
+    const sizeNum = parseInt(size, 10)
+    const dotSize = `${parseInt(`${sizeNum / 4}`, 10)}rpx`
+
+    const style: CSSProperties = {
+      width: dotSize,
+      height: dotSize,
+      backgroundColor: color
+    }
+
+    return style
+  }
+
+  function renderVulcan() {
+    // 动态计算 dot 的 style
+    const dotStyle = getVulcanStyle()
+
+    return (
+      <View
+        className={cls(
+          styles.vulcan,
+          className
+        )}
+        style={{
+          width: size,
+          height: size
+        }}
+      >
+        <View style={dotStyle} />
+        <View style={dotStyle} />
+        <View style={dotStyle} />
+      </View>
+    )
+  }
+
   function renderLoadingByType(loadingType: LoadingType) {
     switch (loadingType) {
       case 'dot':
         return renderDot()
+      case 'vulcan':
+        return renderVulcan()
       default:
         return renderDefault()
     }
