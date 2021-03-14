@@ -5,8 +5,11 @@
 
 import { DataType } from '.'
 
+import IconConstitutionClass from './images/23rd-century/icon-constitution-class.jpg'
+
 export const data: DataType = {
   ConstitutionClass: {
+    icon: IconConstitutionClass,
     name: '宪法级',
     spec: '重型巡洋舰',
     time: '23 世纪 40 年代',
