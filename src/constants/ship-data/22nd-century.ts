@@ -7,6 +7,7 @@ import { DataType } from '.'
 
 import IconGangesClass from './images/icon-ganges-class.jpg'
 import IconIntrepidType from './images/icon-intrepid-type.jpg'
+import IconNXClass from './images/icon-nx-class.jpg'
 
 export const data: DataType = {
   GangesClass: {
@@ -64,6 +65,7 @@ export const data: DataType = {
     note: ''
   },
   NXClass: {
+    icon: IconNXClass,
     name: 'NX 级',
     spec: '探索船',
     time: '2151 年',
