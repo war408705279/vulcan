@@ -5,10 +5,10 @@
 
 import { DataType } from '.'
 
-import IconGangesClass from './images/icon-ganges-class.jpg'
-import IconIntrepidType from './images/icon-intrepid-type.jpg'
-import IconNXClass from './images/icon-nx-class.jpg'
-import IconDaedalusClass from './images/icon-daedalus-class.jpg'
+import IconGangesClass from './images/22nd-century/icon-ganges-class.jpg'
+import IconIntrepidType from './images/22nd-century/icon-intrepid-type.jpg'
+import IconNXClass from './images/22nd-century/icon-nx-class.jpg'
+import IconDaedalusClass from './images/22nd-century/icon-daedalus-class.jpg'
 
 export const data: DataType = {
   GangesClass: {
