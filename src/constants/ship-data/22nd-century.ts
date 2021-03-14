@@ -8,6 +8,7 @@ import { DataType } from '.'
 import IconGangesClass from './images/icon-ganges-class.jpg'
 import IconIntrepidType from './images/icon-intrepid-type.jpg'
 import IconNXClass from './images/icon-nx-class.jpg'
+import IconDaedalusClass from './images/icon-daedalus-class.jpg'
 
 export const data: DataType = {
   GangesClass: {
@@ -96,6 +97,7 @@ export const data: DataType = {
     note: 'NX 级星舰在舰体设计上为只有一个碟部作为星舰的主舰体，并之间从舰桥两侧的舰体上向后延伸到舰尾处加以安装脉冲引擎，在脉冲引擎的两侧以两根衔架的方式安装曲速舱，同时在两个脉冲引擎的间隙中也额外悬挂了一个搭载了鱼雷发射管的挂舱。此外，NX 级的偏导仪阵列被直接安装到了碟部的正前方，在碟部的下侧则是安装了数门相位炮和鱼雷发射管'
   },
   DaedalusClass: {
+    icon: IconDaedalusClass,
     name: '代达罗斯级',
     spec: '',
     time: '2196 年之前',
