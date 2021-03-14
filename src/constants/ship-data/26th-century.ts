@@ -5,8 +5,11 @@
 
 import { DataType } from '.'
 
+import IconUniverseClass from './images/26th-century/icon-universe-class.jpg'
+
 export const data: DataType = {
   UniverseClass: {
+    icon: IconUniverseClass,
     name: '宇宙级',
     spec: '',
     time: '26 世纪',
