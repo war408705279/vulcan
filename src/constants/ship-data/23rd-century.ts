@@ -9,6 +9,7 @@ import IconConstitutionClass from './images/23rd-century/icon-constitution-class
 import IconConstitutionClassRetrofit from './images/23rd-century/icon-constitution-class-retrofit.jpg'
 import IconExcelsiorClass from './images/23rd-century/icon-excelsior-class.jpg'
 import IconExcelsiorClassRetrofit from './images/23rd-century/icon-excelsior-class-retrofit.jpg'
+import IconConstellationClass from './images/23rd-century/icon-constellation-class.jpg'
 
 export const data: DataType = {
   ConstitutionClass: {
@@ -176,6 +177,7 @@ export const data: DataType = {
     note: ''
   },
   ConstellationClass: {
+    icon: IconConstellationClass,
     name: '星座级',
     spec: '星际巡洋舰',
     time: '2285 年',
