@@ -8,6 +8,7 @@ import { DataType } from '.'
 import IconConstitutionClass from './images/23rd-century/icon-constitution-class.jpg'
 import IconConstitutionClassRetrofit from './images/23rd-century/icon-constitution-class-retrofit.jpg'
 import IconExcelsiorClass from './images/23rd-century/icon-excelsior-class.jpg'
+import IconExcelsiorClassRetrofit from './images/23rd-century/icon-excelsior-class-retrofit.jpg'
 
 export const data: DataType = {
   ConstitutionClass: {
@@ -151,6 +152,7 @@ export const data: DataType = {
     note: ''
   },
   ExcelsiorClassRetrofit: {
+    icon: IconExcelsiorClassRetrofit,
     name: '精进级改',
     spec: '',
     time: '23 世纪 90 年代',
