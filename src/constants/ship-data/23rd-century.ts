@@ -6,6 +6,7 @@
 import { DataType } from '.'
 
 import IconConstitutionClass from './images/23rd-century/icon-constitution-class.jpg'
+import IconConstitutionClassRetrofit from './images/23rd-century/icon-constitution-class-retrofit.jpg'
 
 export const data: DataType = {
   ConstitutionClass: {
@@ -69,6 +70,7 @@ export const data: DataType = {
     note: '宪法级的主要任务便是探索银河系和一些列外交出使，在很少的情况下也会执行一部分战术任务。在 2258 年时，宪法级的机库内至少搭载了上百架攻击无人机，其数量甚至能够围绕星舰本体形成一片密集的火力网'
   },
   ConstitutionClassRetrofit: {
+    icon: IconConstitutionClassRetrofit,
     name: '宪法级改',
     spec: '重型巡洋舰',
     time: '23 世纪 70 年代',
