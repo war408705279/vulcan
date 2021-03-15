@@ -7,6 +7,7 @@ import { DataType } from '.'
 
 export const data: DataType = {
   WellsClass: {
+    icon: '',
     name: '威尔斯级',
     spec: '时空舰',
     time: '29 世纪',
