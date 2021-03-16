@@ -11,6 +11,7 @@ import IconConstellationClass from './images/23rd-century/icon-constellation-cla
 import IconFederationClass from './images/23rd-century/icon-federation-class.jpg'
 // 无萨拉丁 / 赫尔墨斯级战舰 icon
 import IconMirandaClass from './images/23rd-century/icon-miranda-class.jpg'
+import IconOberthClass from './images/23rd-century/icon-oberth-class.jpg'
 
 import { DataType } from '.'
 
@@ -286,6 +287,7 @@ export const data: DataType = {
     note: '米兰达级的设计与同时期的联盟级星舰十分相似，其具体的设计思路承接自宪法级改造型。米兰达级并非全体一致一成不变，和星云级类似，米兰达级具备多种不同的改造版本，如以信望号为代表的传统双相位炮加鱼雷发射管的造型，以萨拉托加号为代表的双相位炮的造型，或者以安塔尔号为代表的双相位炮但三角平台的造型'
   },
   OberthClass: {
+    icon: IconOberthClass,
     name: '奥伯特级',
     spec: '科考舰',
     time: '23 世纪 80 年代',
