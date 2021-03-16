@@ -3,14 +3,16 @@
  * @description 23 世纪星舰
  */
 
-import { DataType } from '.'
-
 import IconConstitutionClass from './images/23rd-century/icon-constitution-class.jpg'
 import IconConstitutionClassRetrofit from './images/23rd-century/icon-constitution-class-retrofit.jpg'
 import IconExcelsiorClass from './images/23rd-century/icon-excelsior-class.jpg'
 import IconExcelsiorClassRetrofit from './images/23rd-century/icon-excelsior-class-retrofit.jpg'
 import IconConstellationClass from './images/23rd-century/icon-constellation-class.jpg'
 import IconFederationClass from './images/23rd-century/icon-federation-class.jpg'
+// 无萨拉丁 / 赫尔墨斯级战舰 icon
+import IconMirandaClass from './images/23rd-century/icon-miranda-class.jpg'
+
+import { DataType } from '.'
 
 export const data: DataType = {
   ConstitutionClass: {
@@ -225,6 +227,7 @@ export const data: DataType = {
     note: '在《Star Trek Star Fleet Technical Manual》这本非正史书籍中曾提到过关于联邦级外貌和设定。但是由于此书籍的内容并非正史因此不具备参考价值'
   },
   SaladinAndHermesClass: {
+    icon: '',
     name: '萨拉丁 / 赫尔墨斯级',
     spec: '驱逐舰 / 侦查船',
     time: '23 世纪',
@@ -247,6 +250,7 @@ export const data: DataType = {
     note: ''
   },
   MirandaClass: {
+    icon: IconMirandaClass,
     name: '米兰达级',
     spec: '',
     time: '23 世纪 60 年代',
