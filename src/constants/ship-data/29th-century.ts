@@ -3,6 +3,8 @@
  * @description 29 世纪星舰
  */
 
+// 无威尔斯级战舰 icon
+
 import { DataType } from '.'
 
 export const data: DataType = {

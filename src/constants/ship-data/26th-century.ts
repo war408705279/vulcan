@@ -3,9 +3,9 @@
  * @description 26 世纪星舰
  */
 
-import { DataType } from '.'
-
 import IconUniverseClass from './images/26th-century/icon-universe-class.jpg'
+
+import { DataType } from '.'
 
 export const data: DataType = {
   UniverseClass: {

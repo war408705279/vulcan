@@ -3,12 +3,12 @@
  * @description 22 世纪星舰
  */
 
-import { DataType } from '.'
-
 import IconGangesClass from './images/22nd-century/icon-ganges-class.jpg'
 import IconIntrepidType from './images/22nd-century/icon-intrepid-type.jpg'
 import IconNXClass from './images/22nd-century/icon-nx-class.jpg'
 import IconDaedalusClass from './images/22nd-century/icon-daedalus-class.jpg'
+
+import { DataType } from '.'
 
 export const data: DataType = {
   GangesClass: {
