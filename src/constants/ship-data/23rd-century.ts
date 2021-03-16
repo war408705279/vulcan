@@ -10,6 +10,7 @@ import IconConstitutionClassRetrofit from './images/23rd-century/icon-constituti
 import IconExcelsiorClass from './images/23rd-century/icon-excelsior-class.jpg'
 import IconExcelsiorClassRetrofit from './images/23rd-century/icon-excelsior-class-retrofit.jpg'
 import IconConstellationClass from './images/23rd-century/icon-constellation-class.jpg'
+import IconFederationClass from './images/23rd-century/icon-federation-class.jpg'
 
 export const data: DataType = {
   ConstitutionClass: {
@@ -206,6 +207,7 @@ export const data: DataType = {
     note: ''
   },
   FederationClass: {
+    icon: IconFederationClass,
     name: '联邦级',
     spec: '无畏舰',
     time: '23 世纪中期',
