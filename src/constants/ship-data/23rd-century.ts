@@ -14,6 +14,7 @@ import IconMirandaClass from './images/23rd-century/icon-miranda-class.jpg'
 import IconOberthClass from './images/23rd-century/icon-oberth-class.jpg'
 import IconAntaresType from './images/23rd-century/icon-antares-type.jpg'
 import IconSydneyClass from './images/23rd-century/icon-sydney-class.jpg'
+import IconCrossfieldClass from './images/23rd-century/icon-crossfield-class.jpg'
 
 import { DataType } from '.'
 
@@ -372,6 +373,7 @@ export const data: DataType = {
     note: ''
   },
   CrossfieldClass: {
+    icon: IconCrossfieldClass,
     name: '克罗斯菲尔德级',
     spec: '科研舰 / 战舰',
     time: '23 世纪 50 年代（以及 32 世纪）',
