@@ -15,6 +15,7 @@ import IconOberthClass from './images/23rd-century/icon-oberth-class.jpg'
 import IconAntaresType from './images/23rd-century/icon-antares-type.jpg'
 import IconSydneyClass from './images/23rd-century/icon-sydney-class.jpg'
 import IconCrossfieldClass from './images/23rd-century/icon-crossfield-class.jpg'
+import IconWalkerClass from './images/23rd-century/icon-walker-class.jpg'
 
 import { DataType } from '.'
 
@@ -401,6 +402,7 @@ export const data: DataType = {
     note: '虽然克罗斯菲尔德级的总长度较长，但是实际的舰体部分大小和宪法级相似'
   },
   WalkerClass: {
+    icon: IconWalkerClass,
     name: '沃克级',
     spec: '',
     time: '23 世纪 40 年代 - 23 实际 50 年代',
