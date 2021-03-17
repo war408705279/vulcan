@@ -12,6 +12,7 @@ import IconFederationClass from './images/23rd-century/icon-federation-class.jpg
 // 无萨拉丁 / 赫尔墨斯级战舰 icon
 import IconMirandaClass from './images/23rd-century/icon-miranda-class.jpg'
 import IconOberthClass from './images/23rd-century/icon-oberth-class.jpg'
+import IconAntaresType from './images/23rd-century/icon-antares-type.jpg'
 
 import { DataType } from '.'
 
@@ -324,6 +325,7 @@ export const data: DataType = {
     note: '奥伯特级的设计在当时也是属于非典型设计，曲速舱被安排在碟部的两侧，由两根衔架加以固定下方的二级船体，脉冲引擎则安装在二级船体的后方延伸部分'
   },
   AntaresType: {
+    icon: IconAntaresType,
     name: '安塔尔型',
     spec: '货船 / 自动运输船',
     time: '23 世纪 60 年代',
