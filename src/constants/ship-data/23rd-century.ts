@@ -13,6 +13,7 @@ import IconFederationClass from './images/23rd-century/icon-federation-class.jpg
 import IconMirandaClass from './images/23rd-century/icon-miranda-class.jpg'
 import IconOberthClass from './images/23rd-century/icon-oberth-class.jpg'
 import IconAntaresType from './images/23rd-century/icon-antares-type.jpg'
+import IconSydneyClass from './images/23rd-century/icon-sydney-class.jpg'
 
 import { DataType } from '.'
 
@@ -350,6 +351,7 @@ export const data: DataType = {
     note: '虽然安塔尔型的体型要比宪法级小，但是在货舱这方面安塔尔型比宪法级大得多。部分型号的安塔尔型拆除了舰桥部分，改为纯自动驾驶'
   },
   SydneyClass: {
+    icon: IconSydneyClass,
     name: '悉尼级',
     spec: '运输船',
     time: '23 世纪',
