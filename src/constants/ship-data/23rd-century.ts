@@ -18,6 +18,7 @@ import IconCrossfieldClass from './images/23rd-century/icon-crossfield-class.jpg
 import IconWalkerClass from './images/23rd-century/icon-walker-class.jpg'
 import IconShepardClass from './images/23rd-century/icon-shepard-class.jpg'
 import IconMalachowskiClass from './images/23rd-century/icon-malachowski-class.jpg'
+// 麦基级战舰 icon
 
 import { DataType } from '.'
 
@@ -473,6 +474,7 @@ export const data: DataType = {
     note: ''
   },
   MageeClass: {
+    icon: '',
     name: '麦基级',
     spec: '',
     time: '23 世纪 50 年代',
