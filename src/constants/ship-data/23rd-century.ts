@@ -19,6 +19,7 @@ import IconWalkerClass from './images/23rd-century/icon-walker-class.jpg'
 import IconShepardClass from './images/23rd-century/icon-shepard-class.jpg'
 import IconMalachowskiClass from './images/23rd-century/icon-malachowski-class.jpg'
 // 麦基级战舰 icon
+import IconCardenasClass from './images/23rd-century/icon-cardenas-class.jpg'
 
 import { DataType } from '.'
 
@@ -495,6 +496,7 @@ export const data: DataType = {
     note: '该舰级的星舰主舰体只有一个碟部，其两个曲速舱以非常罕见的形式直接穿透了整个碟部'
   },
   CardenasClass: {
+    icon: IconCardenasClass,
     name: '卡德纳斯级',
     spec: '',
     time: '23 世纪 50 年代',
