@@ -16,6 +16,7 @@ import IconAntaresType from './images/23rd-century/icon-antares-type.jpg'
 import IconSydneyClass from './images/23rd-century/icon-sydney-class.jpg'
 import IconCrossfieldClass from './images/23rd-century/icon-crossfield-class.jpg'
 import IconWalkerClass from './images/23rd-century/icon-walker-class.jpg'
+import IconShepardClass from './images/23rd-century/icon-shepard-class.jpg'
 
 import { DataType } from '.'
 
@@ -424,6 +425,7 @@ export const data: DataType = {
     note: '沃克级至少具备 15 层甲板和两个穿梭机库，并同时搭载了穿梭机和工蜂，以及可以从碟部顶部发射的逃生舱。同时该级星舰可以通过利用分布在碟部下侧的推进器在大气层中飞行，并在碟部上安装了相位加农炮和光子鱼雷发射管'
   },
   ShepardClass: {
+    icon: IconShepardClass,
     name: '谢帕德级',
     spec: '',
     time: '23 世纪 50 年代',
