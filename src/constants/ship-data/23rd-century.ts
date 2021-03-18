@@ -22,6 +22,7 @@ import IconMalachowskiClass from './images/23rd-century/icon-malachowski-class.j
 import IconCardenasClass from './images/23rd-century/icon-cardenas-class.jpg'
 import IconNimitzClass from './images/23rd-century/icon-nimitz-class.jpg'
 import IconHooverClass from './images/23rd-century/icon-hoover-class.jpg'
+import IconEngleClass from './images/23rd-century/icon-engle-class.jpg'
 
 import { DataType } from '.'
 
@@ -563,6 +564,7 @@ export const data: DataType = {
     note: ''
   },
   EngleClass: {
+    icon: IconEngleClass,
     name: '恩格尔级',
     spec: '',
     time: '23 世纪 50 年代',
