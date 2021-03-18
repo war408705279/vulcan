@@ -21,6 +21,7 @@ import IconMalachowskiClass from './images/23rd-century/icon-malachowski-class.j
 // 麦基级战舰 icon
 import IconCardenasClass from './images/23rd-century/icon-cardenas-class.jpg'
 import IconNimitzClass from './images/23rd-century/icon-nimitz-class.jpg'
+import IconHooverClass from './images/23rd-century/icon-hoover-class.jpg'
 
 import { DataType } from '.'
 
@@ -538,6 +539,7 @@ export const data: DataType = {
     note: '已知尼米兹级在舰体底部至少搭载一个牵引光束发生器'
   },
   HooverClass: {
+    icon: IconHooverClass,
     name: '胡佛级',
     spec: '',
     time: '23 世纪 50 年代',
