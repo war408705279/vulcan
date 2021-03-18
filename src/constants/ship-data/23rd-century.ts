@@ -20,6 +20,7 @@ import IconShepardClass from './images/23rd-century/icon-shepard-class.jpg'
 import IconMalachowskiClass from './images/23rd-century/icon-malachowski-class.jpg'
 // 麦基级战舰 icon
 import IconCardenasClass from './images/23rd-century/icon-cardenas-class.jpg'
+import IconNimitzClass from './images/23rd-century/icon-nimitz-class.jpg'
 
 import { DataType } from '.'
 
@@ -517,6 +518,7 @@ export const data: DataType = {
     note: '卡德纳斯级的舰桥位于碟部正前方处，并在舰尾处搭载了两个穿梭机库'
   },
   NimitzClass: {
+    icon: IconNimitzClass,
     name: '尼米兹级',
     spec: '',
     time: '23 世纪 50 年代',
