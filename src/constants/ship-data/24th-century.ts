@@ -4,6 +4,7 @@
  */
 
 import IconAmbassadorClass from './images/24th-century/icon-ambassador-class.jpg'
+import IconCentaurClass from './images/24th-century/icon-centaur-class.jpg'
 
 import { DataType } from '.'
 
@@ -40,6 +41,7 @@ export const data: DataType = {
     note: '大使级的设计和绝大部分的联邦星舰相似，大使级依旧采取碟部 - 工程部 - 曲速舱的设计，其尺寸大小介于精进级和银河级之间。许多大使级的外形在后来的升级中发生了一些小改动，碟部和工程部的连接处稍稍向后移动了一点，两侧的曲速架也以完全相同的方式进行了微微的移动，并在巴萨德采集器周围添加了曲速线圈使其看上去更接近银河级，同时脉冲引擎的颜色也由之前的蓝色变为红色'
   },
   CentaurClass: {
+    icon: IconCentaurClass,
     name: '半人马级',
     spec: '驱逐舰',
     time: '24 世纪',
