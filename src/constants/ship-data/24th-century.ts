@@ -3,10 +3,13 @@
  * @description 24 世纪星舰
  */
 
+import IconAmbassadorClass from './images/24th-century/icon-ambassador-class.jpg'
+
 import { DataType } from '.'
 
 export const data: DataType = {
   AmbassadorClass: {
+    icon: IconAmbassadorClass,
     name: '大使级',
     spec: '重型巡洋舰',
     time: '24 世纪',
