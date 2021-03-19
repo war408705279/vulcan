@@ -6,6 +6,7 @@
 import IconAmbassadorClass from './images/24th-century/icon-ambassador-class.jpg'
 import IconCentaurClass from './images/24th-century/icon-centaur-class.jpg'
 import IconCurryType from './images/24th-century/icon-curry-type.jpg'
+import IconNiagaraClass from './images/24th-century/icon-niagara-class.jpg'
 
 import { DataType } from '.'
 
@@ -88,6 +89,7 @@ export const data: DataType = {
     note: '狂暴女皇号和卡瑞号在外表上不太一致，有一部分差别，因此狂暴女皇号是否算卡瑞型星舰并不肯定'
   },
   NiagaraClass: {
+    icon: IconNiagaraClass,
     name: '尼亚加拉级',
     spec: '',
     time: '24 世纪',
