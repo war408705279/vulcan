@@ -8,6 +8,7 @@ import IconCentaurClass from './images/24th-century/icon-centaur-class.jpg'
 import IconCurryType from './images/24th-century/icon-curry-type.jpg'
 import IconNiagaraClass from './images/24th-century/icon-niagara-class.jpg'
 import IconFreedomClass from './images/24th-century/icon-freedom-class.jpg'
+import IconCheyenneClass from './images/24th-century/icon-cheyenne-class.jpg'
 
 import { DataType } from '.'
 
@@ -135,6 +136,7 @@ export const data: DataType = {
     note: ''
   },
   CheyenneClass: {
+    icon: IconCheyenneClass,
     name: '夏延级',
     spec: '',
     time: '24 世纪',
