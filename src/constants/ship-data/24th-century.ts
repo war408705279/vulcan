@@ -7,6 +7,7 @@ import IconAmbassadorClass from './images/24th-century/icon-ambassador-class.jpg
 import IconCentaurClass from './images/24th-century/icon-centaur-class.jpg'
 import IconCurryType from './images/24th-century/icon-curry-type.jpg'
 import IconNiagaraClass from './images/24th-century/icon-niagara-class.jpg'
+import IconFreedomClass from './images/24th-century/icon-freedom-class.jpg'
 
 import { DataType } from '.'
 
@@ -112,6 +113,7 @@ export const data: DataType = {
     note: ''
   },
   FreedomClass: {
+    icon: IconFreedomClass,
     name: '自由级',
     spec: '',
     time: '24 世纪',
