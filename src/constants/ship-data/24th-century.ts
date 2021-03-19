@@ -5,6 +5,7 @@
 
 import IconAmbassadorClass from './images/24th-century/icon-ambassador-class.jpg'
 import IconCentaurClass from './images/24th-century/icon-centaur-class.jpg'
+import IconCurryType from './images/24th-century/icon-curry-type.jpg'
 
 import { DataType } from '.'
 
@@ -66,6 +67,7 @@ export const data: DataType = {
     note: '半人马型的总体设计很紧凑，只有一个碟形部分直接连接到一个小型的次级武器吊舱，里面装有 4 具光子鱼雷发射管。其武器吊舱与米兰达级的武器吊舱配置相同，该型与老式的沃克级在设计上有着一部分相似之处。半人马型并没有采用和常见星舰一样的设计，其主偏导仪从外部不可见，最为特殊的一点便是半人马级的穿梭机库位于舰桥正前方而非后方'
   },
   CurryType: {
+    icon: IconCurryType,
     name: '卡瑞型',
     spec: '',
     time: '24 世纪',
