@@ -9,6 +9,7 @@ import IconCurryType from './images/24th-century/icon-curry-type.jpg'
 import IconNiagaraClass from './images/24th-century/icon-niagara-class.jpg'
 import IconFreedomClass from './images/24th-century/icon-freedom-class.jpg'
 import IconCheyenneClass from './images/24th-century/icon-cheyenne-class.jpg'
+import IconNewOrleansClass from './images/24th-century/icon-neworleans-class.jpg'
 
 import { DataType } from '.'
 
@@ -158,6 +159,7 @@ export const data: DataType = {
     note: ''
   },
   NewOrleansClass: {
+    icon: IconNewOrleansClass,
     name: '新奥尔良级',
     spec: '护卫舰',
     time: '24 世纪',
