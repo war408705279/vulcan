@@ -11,6 +11,7 @@ import IconFreedomClass from './images/24th-century/icon-freedom-class.jpg'
 import IconCheyenneClass from './images/24th-century/icon-cheyenne-class.jpg'
 import IconNewOrleansClass from './images/24th-century/icon-neworleans-class.jpg'
 import IconRavenType from './images/24th-century/icon-raven-type.jpg'
+import IconSpringfieldClass from './images/24th-century/icon-springfield-class.jpg'
 
 import { DataType } from '.'
 
@@ -207,6 +208,7 @@ export const data: DataType = {
     note: ''
   },
   SpringfieldClass: {
+    icon: IconSpringfieldClass,
     name: '春田级',
     spec: '',
     time: '24 世纪',
