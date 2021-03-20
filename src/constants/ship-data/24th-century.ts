@@ -12,6 +12,7 @@ import IconCheyenneClass from './images/24th-century/icon-cheyenne-class.jpg'
 import IconNewOrleansClass from './images/24th-century/icon-neworleans-class.jpg'
 import IconRavenType from './images/24th-century/icon-raven-type.jpg'
 import IconSpringfieldClass from './images/24th-century/icon-springfield-class.jpg'
+import IconGalaxyClass from './images/24th-century/icon-galaxy-class.jpg'
 
 import { DataType } from '.'
 
@@ -230,6 +231,7 @@ export const data: DataType = {
     note: '建造基地：旧金山轨道船坞'
   },
   GalaxyClass: {
+    icon: IconGalaxyClass,
     name: '银河级',
     spec: '探索舰',
     time: '24 世纪 60 年代',
