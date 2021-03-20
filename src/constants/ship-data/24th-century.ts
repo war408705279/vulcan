@@ -13,6 +13,7 @@ import IconNewOrleansClass from './images/24th-century/icon-neworleans-class.jpg
 import IconRavenType from './images/24th-century/icon-raven-type.jpg'
 import IconSpringfieldClass from './images/24th-century/icon-springfield-class.jpg'
 import IconGalaxyClass from './images/24th-century/icon-galaxy-class.jpg'
+import IconNebulaClass from './images/24th-century/icon-nebula-class.jpg'
 
 import { DataType } from '.'
 
@@ -266,6 +267,7 @@ export const data: DataType = {
     note: '银河级星舰具备碟舰分离能力，意思就是碟部和工程部可以分为两个部分独立飞行，为此银河级也搭载了主舰桥和战斗舰桥两个舰桥'
   },
   NebulaClass: {
+    icon: IconNebulaClass,
     name: '星云级',
     spec: '',
     time: '2363 年',
