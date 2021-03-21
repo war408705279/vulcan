@@ -18,6 +18,7 @@ import IconDanubeClass from './images/24th-century/icon-danube-class.jpg'
 import IconAkiraClass from './images/24th-century/icon-akira-class.jpg'
 import IconNovaClass from './images/24th-century/icon-nova-class.jpg'
 import IconIntrepidClass from './images/24th-century/icon-intrepid-class.jpg'
+import IconNorwayClass from './images/24th-century/icon-norway-class.jpg'
 
 import { DataType } from '.'
 
@@ -426,6 +427,7 @@ export const data: DataType = {
     note: '在普罗米修斯级服役之前，无畏级搭载了全星际舰队最好的导航系统和最高的航速，她的深空探索任务由一个主计算机处理器支持，能够同时访问 4700 万个数据通道，在 10 到 1790 开尔文的工作温度下，每纳秒可进行 575 万亿次计算。且无畏级是星际舰队中为数不多搭载了起落架，能自主在行星上降落的星舰'
   },
   NorwayClass: {
+    icon: IconNorwayClass,
     name: '挪威级',
     spec: '',
     time: '24 世纪',
