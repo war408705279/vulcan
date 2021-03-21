@@ -14,6 +14,7 @@ import IconRavenType from './images/24th-century/icon-raven-type.jpg'
 import IconSpringfieldClass from './images/24th-century/icon-springfield-class.jpg'
 import IconGalaxyClass from './images/24th-century/icon-galaxy-class.jpg'
 import IconNebulaClass from './images/24th-century/icon-nebula-class.jpg'
+import IconDanubeClass from './images/24th-century/icon-danube-class.jpg'
 
 import { DataType } from '.'
 
@@ -305,6 +306,7 @@ export const data: DataType = {
     note: '星云级的建造时间从 2363 年到 2367 年不等。包括菲尼克斯号、普罗米修斯号和萨瑟兰号在内的船只都是在 A - 40 埃里达尼星际舰队造船厂（前两艘）和旧金山舰队造船厂建造的。星云级的主要任务覆盖了包括科学探索到巡逻运输在内的一系列多元化任务'
   },
   DanubeClass: {
+    icon: IconDanubeClass,
     name: '多瑙河级',
     spec: '小型汽艇',
     time: '2368 年',
