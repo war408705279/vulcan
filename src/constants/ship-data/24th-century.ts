@@ -17,6 +17,7 @@ import IconNebulaClass from './images/24th-century/icon-nebula-class.jpg'
 import IconDanubeClass from './images/24th-century/icon-danube-class.jpg'
 import IconAkiraClass from './images/24th-century/icon-akira-class.jpg'
 import IconNovaClass from './images/24th-century/icon-nova-class.jpg'
+import IconIntrepidClass from './images/24th-century/icon-intrepid-class.jpg'
 
 import { DataType } from '.'
 
@@ -394,6 +395,7 @@ export const data: DataType = {
     note: '在某条平行时间线中，新星级在 25 世纪经历了一次大规模改造，最具代表性的就是罗德岛号，在改装后新星级的防护和火力有了极为明显的提高，能够独自一舰抵抗两艘克林贡的 Negh\'Var 级战舰'
   },
   IntrepidClass: {
+    icon: IconIntrepidClass,
     name: '无畏级',
     spec: '深空探索舰',
     time: '24 世纪 70 年代',
