@@ -15,6 +15,7 @@ import IconSpringfieldClass from './images/24th-century/icon-springfield-class.j
 import IconGalaxyClass from './images/24th-century/icon-galaxy-class.jpg'
 import IconNebulaClass from './images/24th-century/icon-nebula-class.jpg'
 import IconDanubeClass from './images/24th-century/icon-danube-class.jpg'
+import IconAkiraClass from './images/24th-century/icon-akira-class.jpg'
 
 import { DataType } from '.'
 
@@ -342,6 +343,7 @@ export const data: DataType = {
     note: ''
   },
   AkiraClass: {
+    icon: IconAkiraClass,
     name: '光明级',
     spec: '',
     time: '24 世纪 70 年代',
