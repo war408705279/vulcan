@@ -16,6 +16,7 @@ import IconGalaxyClass from './images/24th-century/icon-galaxy-class.jpg'
 import IconNebulaClass from './images/24th-century/icon-nebula-class.jpg'
 import IconDanubeClass from './images/24th-century/icon-danube-class.jpg'
 import IconAkiraClass from './images/24th-century/icon-akira-class.jpg'
+import IconNovaClass from './images/24th-century/icon-nova-class.jpg'
 
 import { DataType } from '.'
 
@@ -365,6 +366,7 @@ export const data: DataType = {
     note: '光明级星舰抛弃了传统的碟部加主工程部的设计，转而采取类似NX级一样的一体化设计，工程部被安放在碟部的下方，用来安装主偏导仪和一部分战术系统，通过双舰体的方式链接两个曲速舱，并向上链接到一个大型武器平台，该平台上安装了数个鱼雷发射管'
   },
   NovaClass: {
+    icon: IconNovaClass,
     name: '新星级',
     spec: '科考舰',
     time: '24 世纪 70 年代',
