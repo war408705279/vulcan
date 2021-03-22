@@ -19,6 +19,7 @@ import IconAkiraClass from './images/24th-century/icon-akira-class.jpg'
 import IconNovaClass from './images/24th-century/icon-nova-class.jpg'
 import IconIntrepidClass from './images/24th-century/icon-intrepid-class.jpg'
 import IconNorwayClass from './images/24th-century/icon-norway-class.jpg'
+import IconSaberClass from './images/24th-century/icon-saber-class.jpg'
 
 import { DataType } from '.'
 
@@ -449,6 +450,7 @@ export const data: DataType = {
     note: ''
   },
   SaberClass: {
+    icon: IconSaberClass,
     name: '军刀级',
     spec: '',
     time: '24 世纪 70 年代',
