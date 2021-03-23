@@ -28,6 +28,7 @@ import IconPrometheusClass from './images/24th-century/icon-prometheus-class.jpg
 // 无加利福尼亚级战舰 icon
 // 无国会级战舰 icon
 // 无好奇级战舰 icon
+import IconWallenbergClass from './images/24th-century/icon-wallenberg-class.jpg'
 
 import { DataType } from '.'
 
@@ -678,6 +679,7 @@ export const data: DataType = {
     note: ''
   },
   WallenbergClass: {
+    icon: IconWallenbergClass,
     name: '瓦伦贝里级',
     spec: '运输舰 / 拖船',
     time: '2385 年',
