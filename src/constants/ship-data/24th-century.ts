@@ -22,6 +22,7 @@ import IconNorwayClass from './images/24th-century/icon-norway-class.jpg'
 import IconSaberClass from './images/24th-century/icon-saber-class.jpg'
 import IconSteamrunnerClass from './images/24th-century/icon-steamrunner-class.jpg'
 import IconOlympicClass from './images/24th-century/icon-olympic-class.jpg'
+import IconDefiantClass from './images/24th-century/icon-defiant-class.jpg'
 
 import { DataType } from '.'
 
@@ -521,6 +522,7 @@ export const data: DataType = {
     note: '奥林匹克级的主偏导仪被安装在主舰体下方的四分之一部分，和常规的圆形偏导仪不同，它更偏向于条形，此外她的脉冲引擎位于后船体的上三分之一处，一个大型穿梭机舱位于次船体的中上部背侧'
   },
   DefiantClass: {
+    icon: IconDefiantClass,
     name: '挑战级',
     spec: '护航舰 / 战舰',
     time: '24 世纪 70 年代',
