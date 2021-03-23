@@ -25,6 +25,9 @@ import IconOlympicClass from './images/24th-century/icon-olympic-class.jpg'
 import IconDefiantClass from './images/24th-century/icon-defiant-class.jpg'
 import IconSovereignClass from './images/24th-century/icon-sovereign-class.jpg'
 import IconPrometheusClass from './images/24th-century/icon-prometheus-class.jpg'
+// 无加利福尼亚级战舰 icon
+// 无国会级战舰 icon
+// 无好奇级战舰 icon
 
 import { DataType } from '.'
 
@@ -607,6 +610,7 @@ export const data: DataType = {
     note: '1. 普罗米修斯级星舰搭载了 6 根曲速舱，除去背上的 4 根和顶部的 1 根之外在分离后的最上层部位的正下方还有 1 根，但是剧中因为并没有伸出来导致很多粉丝没能注意到这第 6 根；2. 普罗米修斯级原型舰普罗米修斯号具备两个舷号，分别是 NX-59650 和 NX-74913，实际上普罗米修斯号从来没有更换过舷号这件事，之所以会有两个舷号是因为在拍摄时内设组的信息没能及时正确的传递到模型组中，导致模型组在制作模型时自己编了一个 NX-59650 的舷号在舰体上，等双方反应过来时已经来不及更改了，所以说实际上普罗米修斯号的两个舷号是同时存在的而非后期更改的'
   },
   CaliforniaClass: {
+    icon: '',
     name: '加利福尼亚级',
     spec: '',
     time: '24 世纪晚期',
@@ -632,6 +636,7 @@ export const data: DataType = {
     note: ''
   },
   ParliamentClass: {
+    icon: '',
     name: '国会级',
     spec: '工程舰',
     time: '24 世纪晚期',
@@ -653,6 +658,7 @@ export const data: DataType = {
     note: ''
   },
   CuriosityClass: {
+    icon: '',
     name: '好奇级',
     spec: '重型巡洋舰',
     time: '24 世纪',
