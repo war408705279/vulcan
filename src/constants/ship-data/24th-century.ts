@@ -29,6 +29,7 @@ import IconPrometheusClass from './images/24th-century/icon-prometheus-class.jpg
 // 无国会级战舰 icon
 // 无好奇级战舰 icon
 import IconWallenbergClass from './images/24th-century/icon-wallenberg-class.jpg'
+import IconInquiryClass from './images/24th-century/icon-inquiry-class.jpg'
 
 import { DataType } from '.'
 
@@ -701,6 +702,7 @@ export const data: DataType = {
     note: ''
   },
   InquiryClass: {
+    icon: IconInquiryClass,
     name: '调查级',
     spec: '',
     time: '24 世纪 90 年代',
