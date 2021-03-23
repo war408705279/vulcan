@@ -24,6 +24,7 @@ import IconSteamrunnerClass from './images/24th-century/icon-steamrunner-class.j
 import IconOlympicClass from './images/24th-century/icon-olympic-class.jpg'
 import IconDefiantClass from './images/24th-century/icon-defiant-class.jpg'
 import IconSovereignClass from './images/24th-century/icon-sovereign-class.jpg'
+import IconPrometheusClass from './images/24th-century/icon-prometheus-class.jpg'
 
 import { DataType } from '.'
 
@@ -580,6 +581,7 @@ export const data: DataType = {
     note: '已知的是在 2379 年之前元首级经历过一次改造，最突出的地方便是额外装配了 5 具鱼雷管和 4 条相位阵列，且曲速架也进行了一些细微的改动'
   },
   PrometheusClass: {
+    icon: IconPrometheusClass,
     name: '普罗米修斯级',
     spec: '战舰',
     time: '24 世纪 70 年代',
