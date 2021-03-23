@@ -23,6 +23,7 @@ import IconSaberClass from './images/24th-century/icon-saber-class.jpg'
 import IconSteamrunnerClass from './images/24th-century/icon-steamrunner-class.jpg'
 import IconOlympicClass from './images/24th-century/icon-olympic-class.jpg'
 import IconDefiantClass from './images/24th-century/icon-defiant-class.jpg'
+import IconSovereignClass from './images/24th-century/icon-sovereign-class.jpg'
 
 import { DataType } from '.'
 
@@ -555,6 +556,7 @@ export const data: DataType = {
     note: '挑战级搭载了十分先进的 7 级曲速引擎（无畏级为 6 级曲速引擎）和极度厚重的抗烧蚀装甲，同时也安装了威力巨大的相位脉冲炮和量子鱼雷，而最不可思议的是，这样一艘战斗力强悍星舰体型却是整个星际舰队中数一数二的小，因此挑战级具备一般星舰都不具备的高机动性'
   },
   SovereignClass: {
+    icon: IconSovereignClass,
     name: '元首级',
     spec: '',
     time: '24 世纪 70 年代',
