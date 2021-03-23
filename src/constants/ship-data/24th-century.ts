@@ -21,6 +21,7 @@ import IconIntrepidClass from './images/24th-century/icon-intrepid-class.jpg'
 import IconNorwayClass from './images/24th-century/icon-norway-class.jpg'
 import IconSaberClass from './images/24th-century/icon-saber-class.jpg'
 import IconSteamrunnerClass from './images/24th-century/icon-steamrunner-class.jpg'
+import IconOlympicClass from './images/24th-century/icon-olympic-class.jpg'
 
 import { DataType } from '.'
 
@@ -495,6 +496,7 @@ export const data: DataType = {
     note: '气动级与同时期其他星舰最大的不同是她具备一个完全独立的二级船体，整个曲速舱被嵌在了舰体后部的衔架内，其配套的巴萨德采集器则被安装在碟部舰桥部位的两侧，气动级的偏导仪同样也独立于主舰体之外，其偏导仪位于舰体的最后端，用两根衔架固定在两根曲速舱之间'
   },
   OlympicClass: {
+    icon: IconOlympicClass,
     name: '奥林匹克级',
     spec: '医疗舰',
     time: '24 世纪 70 年代',
