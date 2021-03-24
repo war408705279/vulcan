@@ -4,18 +4,39 @@
 
 import React from 'react'
 
+import { View, Image } from 'remax/one'
+
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
-import UnderConstruction from '@/components/UnderConstruction'
 
 import { nameMap } from '@/constants/route'
 
-import './index.less'
+import IconCrew from './images/icon-crew.jpg'
+
+import styles from './index.less'
 
 export default function Crew() {
+  function renderMainView() {
+    return (
+      <View className={styles.emptyTip}>
+        没有查找到数据哦~
+      </View>
+    )
+  }
+
   return (
     <Scaffold appBar={<AppBar title={nameMap.crew} />}>
-      <UnderConstruction tip="页面开发中..." />
+      <View className={styles.main}>
+        <View className={styles.imgContainer}>
+          <Image
+            className={styles.img}
+            src={IconCrew}
+            mode="widthFix"
+          />
+        </View>
+
+        {renderMainView()}
+      </View>
     </Scaffold>
   )
 }
