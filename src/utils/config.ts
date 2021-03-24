@@ -12,6 +12,7 @@ import {
   mainRoutes,
   indexRoutes,
   shipRoutes,
+  crewRoutes,
   uiRoutes,
   mineRoutes,
   titlePrefix,
@@ -32,6 +33,10 @@ export function getWechatAppConfig(title?: string): WechatAppConfig {
       root: 'pages/ship-pages',
       name: 'shipPackage',
       pages: [...shipRoutes]
+    }, {
+      root: 'pages/crew-pages',
+      name: 'crewPackage',
+      pages: [...crewRoutes]
     }, {
       root: 'pages/ui-pages',
       name: 'uiPackage',

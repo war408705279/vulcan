@@ -13,6 +13,7 @@ export enum Pages {
   WebView = 'web_view',
   IndexIntroduce = 'index_introduce',
   ShipIntroduce = 'ship_introduce',
+  CrewIntroduce = 'crew_introduce',
   UiCell = 'ui_cell',
   UiIcon = 'ui_icon',
   UiPopup = 'ui_popup',
@@ -42,6 +43,7 @@ export const nameMap = {
   [Pages.Mine]: '我的',
   [Pages.IndexIntroduce]: '电影详情',
   [Pages.ShipIntroduce]: '战舰详情',
+  [Pages.CrewIntroduce]: '机组人员详情',
   [Pages.UiCell]: 'Cell 组件',
   [Pages.UiIcon]: 'Icon 组件',
   [Pages.UiPopup]: 'Popup 组件',
@@ -89,6 +91,13 @@ export const shipPackageUrlMap = {
 export const shipRoutes = Object.values(shipPackageUrlMap)
 
 // subpackages 里面的 root 已经添加了前缀
+export const crewPackageUrlMap = {
+  [Pages.CrewIntroduce]: 'introduce/index'
+}
+
+export const crewRoutes = Object.values(crewPackageUrlMap)
+
+// subpackages 里面的 root 已经添加了前缀
 export const uiPackageUrlMap = {
   [Pages.UiCell]: 'cell/index',
   [Pages.UiIcon]: 'icon/index',
@@ -129,6 +138,7 @@ export const routeMap = {
   [Pages.WebView]: '/pages/web-view/index',
   [Pages.IndexIntroduce]: '/pages/index-pages/introduce/index',
   [Pages.ShipIntroduce]: '/pages/ship-pages/introduce/index',
+  [Pages.CrewIntroduce]: '/pages/crew-pages/introduce/index',
   [Pages.UiCell]: '/pages/ui-pages/cell/index',
   [Pages.UiIcon]: '/pages/ui-pages/icon/index',
   [Pages.UiPopup]: '/pages/ui-pages/popup/index',
