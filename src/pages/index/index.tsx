@@ -52,7 +52,7 @@ export default function Index() {
       return <PageLoading loading />
     }
 
-    if (!pageData) {
+    if (!pageData || !pageData.length) {
       return (
         <View className={styles.emptyTip}>
           没有查找到数据哦~
