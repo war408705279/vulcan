@@ -4,7 +4,7 @@
 
 import React, { useEffect } from 'react'
 
-import { View, Image } from 'remax/one'
+import { View, Text, Image } from 'remax/one'
 
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
@@ -109,13 +109,22 @@ type ItemProps = PageDataType
 
 function Item({
   code,
-  label
+  actor,
+  role
 }: ItemProps) {
+  const labelView = (
+    <>
+      {actor || '-'}
+      <Text className={styles.separator}>饰</Text>
+      {role || '-'}
+    </>
+  )
+
   if (!code) {
     return (
       <Cell
         className={styles.cell}
-        label={label}
+        label={labelView}
       />
     )
   }
@@ -127,7 +136,7 @@ function Item({
       action="navigate"
     >
       <Cell
-        label={label}
+        label={labelView}
         arrow
       />
     </Navigator>
