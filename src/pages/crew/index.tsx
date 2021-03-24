@@ -2,24 +2,75 @@
  * @file crew index page
  */
 
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import { View, Image } from 'remax/one'
 
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
+import Navigator from '@/components/Navigator'
+
+import PageLoading from '@/ui/PageLoading'
+import Cell from '@/ui/Cell'
 
 import { nameMap } from '@/constants/route'
+
+import { useApi } from '@/utils/hooks/api'
+
+import {
+  DataType as PageDataType,
+  data as originPageData
+} from './page-data'
 
 import IconCrew from './images/icon-crew.jpg'
 
 import styles from './index.less'
 
+function getPageData(): Promise<PageDataType[]> {
+  return new Promise(resolve => {
+    const timeoutID = setTimeout(() => {
+      clearTimeout(timeoutID)
+      resolve(originPageData)
+    }, 1500)
+  })
+}
+
 export default function Crew() {
+  const {
+    $: pageData,
+    loading: getPageDataLoading,
+    call: callGetPageData
+  } = useApi(getPageData)
+
+  useEffect(() => {
+    callGetPageData()
+  }, [callGetPageData])
+
   function renderMainView() {
+    if (getPageDataLoading) {
+      return <PageLoading loading />
+    }
+
+    if (!pageData || !pageData.length) {
+      return (
+        <View className={styles.emptyTip}>
+          没有查找到数据哦~
+        </View>
+      )
+    }
+
+    const cellsView = pageData.map(
+      (data, index) => (
+        <Item
+          key={index}
+          {...data}
+        />
+      )
+    )
+
     return (
-      <View className={styles.emptyTip}>
-        没有查找到数据哦~
+      <View className={styles.cells}>
+        {cellsView}
       </View>
     )
   }
@@ -51,5 +102,34 @@ export default function Crew() {
         {renderMainView()}
       </View>
     </Scaffold>
+  )
+}
+
+type ItemProps = PageDataType
+
+function Item({
+  code,
+  label
+}: ItemProps) {
+  if (!code) {
+    return (
+      <Cell
+        className={styles.cell}
+        label={label}
+      />
+    )
+  }
+
+  return (
+    <Navigator
+      className={styles.cell}
+      url="TODO"
+      action="navigate"
+    >
+      <Cell
+        label={label}
+        arrow
+      />
+    </Navigator>
   )
 }
