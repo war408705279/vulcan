@@ -35,6 +35,19 @@ export default function Crew() {
           />
         </View>
 
+        <View className={styles.tipContainer}>
+          提示
+          <View className={styles.tipItem}>
+            1. 由于演员较多，这边先列举大家比较熟悉的，后续会慢慢补充，望大家海涵~
+          </View>
+          <View className={styles.tipItem}>
+            2. 排名不分先后
+          </View>
+          <View className={styles.tipItem}>
+            3. 大体按照以下顺序展开：原初 -&gt; 下一代 -&gt; 开尔文时间线
+          </View>
+        </View>
+
         {renderMainView()}
       </View>
     </Scaffold>
