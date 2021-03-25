@@ -5,6 +5,7 @@
 import React, { useEffect } from 'react'
 
 import { View, Image } from 'remax/one'
+import { usePageEvent } from 'remax/macro'
 
 import Scaffold from '@/components/Scaffold'
 import AppBar from '@/components/AppBar'
@@ -12,6 +13,8 @@ import Navigator from '@/components/Navigator'
 
 import PageLoading from '@/ui/PageLoading'
 import Cell from '@/ui/Cell'
+
+import { stopPullDownRefresh } from '@/runtime'
 
 import { nameMap, routeMap } from '@/constants/route'
 
@@ -46,6 +49,11 @@ export default function Ship() {
   useEffect(() => {
     callGetPageData()
   }, [callGetPageData])
+
+  usePageEvent('onPullDownRefresh', () => {
+    stopPullDownRefresh()
+    callGetPageData()
+  })
 
   function renderMainView() {
     if (getPageDataLoading) {
