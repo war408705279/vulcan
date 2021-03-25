@@ -11,6 +11,6 @@ export type Props = {
   complete?: () => void
 }
 
-export default function stopPullDownRefresh(props: Props) {
+export default function stopPullDownRefresh(props?: Props) {
   return aliStopPullDownRefresh(props)
 }
