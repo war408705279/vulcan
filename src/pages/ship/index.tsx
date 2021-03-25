@@ -60,7 +60,7 @@ export default function Ship() {
       )
     }
 
-    return pageData.map(
+    const pageDataView = pageData.map(
       (data, outerIndex) => {
         const { title, list } = data
         const listView = list.map(
@@ -83,6 +83,21 @@ export default function Ship() {
           </View>
         )
       }
+    )
+
+    const showEggs = Math.random() < 0.5
+
+    if (!showEggs) {
+      return pageDataView
+    }
+
+    return (
+      <>
+        {pageDataView}
+        <View className={styles.eggs}>
+          咦？这里有个彩蛋
+        </View>
+      </>
     )
   }
 
