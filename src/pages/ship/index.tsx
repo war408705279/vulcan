@@ -102,9 +102,13 @@ export default function Ship() {
     return (
       <>
         {pageDataView}
-        <View className={styles.eggs}>
+        <Navigator
+          className={styles.eggs}
+          url={routeMap.ship_eggs}
+          action="navigate"
+        >
           咦？这里有个彩蛋
-        </View>
+        </Navigator>
       </>
     )
   }
