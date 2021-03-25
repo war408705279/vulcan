@@ -72,6 +72,7 @@ yarn dev wechat
   ├── pages # 小程序页面
   ├── stores
   ├── utils # 各种 tools
+  ├── runtime # 统一各平台基础组件、API 等（可拓展）
   └── ... # 后续有需要再添加新的目录
 ```
 
