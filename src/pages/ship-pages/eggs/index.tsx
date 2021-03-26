@@ -18,6 +18,8 @@ import IconEggsTwoTwo from './images/icon-eggs-two-two.gif'
 import IconEggsTwoThree from './images/icon-eggs-two-three.jpg'
 import IconEggsFourOne from './images/icon-eggs-four-one.jpg'
 import IconEggsFourTwo from './images/icon-eggs-four-two.gif'
+import IconEggsFiveOne from './images/icon-eggs-five-one.jpg'
+import IconEggsFiveTwo from './images/icon-eggs-five-two.jpg'
 
 import styles from './index.less'
 
@@ -147,6 +149,37 @@ export default function ShipEggs() {
               </View>
               <View className={styles.text}>
                 没错，这又是在致敬 50 周年...
+              </View>
+            </View>
+          </View>
+
+          <View className={styles.item}>
+            <View className={styles.title}>
+              亚马逊 CEO 客串
+            </View>
+
+            <View className={styles.content}>
+              <Image
+                className={styles.img}
+                src={IconEggsFiveOne}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                没想到，亚马逊的创始人兼 CEO 杰夫 · 贝佐斯（Jeff Bezos）也是星际迷航粉
+              </View>
+              <View className={styles.text}>
+                他在影片开头饰演了一位空间站员工，为前来求助的外星人做检查
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsFiveTwo}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                杰夫 · 贝佐斯从小就非常喜欢《星际迷航》，甚至亚马逊总部还有个缩小版进取号模型
+              </View>
+              <View className={styles.text}>
+                能在片中客串，也算是完成了一桩心愿
               </View>
             </View>
           </View>
