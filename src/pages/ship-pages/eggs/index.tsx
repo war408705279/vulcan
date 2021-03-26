@@ -16,6 +16,8 @@ import IconEggsOne from './images/icon-eggs-one.jpg'
 import IconEggsTwoOne from './images/icon-eggs-two-one.jpg'
 import IconEggsTwoTwo from './images/icon-eggs-two-two.gif'
 import IconEggsTwoThree from './images/icon-eggs-two-three.jpg'
+import IconEggsFourOne from './images/icon-eggs-four-one.jpg'
+import IconEggsFourTwo from './images/icon-eggs-four-two.gif'
 
 import styles from './index.less'
 
@@ -114,6 +116,37 @@ export default function ShipEggs() {
               </View>
               <View className={styles.text}>
                 两条时间线开始有了相对应的事件
+              </View>
+            </View>
+          </View>
+
+          <View className={styles.item}>
+            <View className={styles.title}>
+              50 个新外星种族
+            </View>
+
+            <View className={styles.content}>
+              <Image
+                className={styles.img}
+                src={IconEggsFourOne}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                为了向《星际迷航》开播 50 周年致敬，剧组简直什么手段都用上了
+              </View>
+              <View className={styles.text}>
+                如果你细心品味，会发现本作中的外星人种族特别多...
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsFourTwo}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                一共达到 50 种
+              </View>
+              <View className={styles.text}>
+                没错，这又是在致敬 50 周年...
               </View>
             </View>
           </View>
