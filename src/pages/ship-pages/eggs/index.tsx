@@ -20,6 +20,9 @@ import IconEggsFourOne from './images/icon-eggs-four-one.jpg'
 import IconEggsFourTwo from './images/icon-eggs-four-two.gif'
 import IconEggsFiveOne from './images/icon-eggs-five-one.jpg'
 import IconEggsFiveTwo from './images/icon-eggs-five-two.jpg'
+import IconEggsSixOne from './images/icon-eggs-six-one.jpg'
+import IconEggsSixTwo from './images/icon-eggs-six-two.gif'
+import IconEggsSixThree from './images/icon-eggs-six-three.jpg'
 
 import styles from './index.less'
 
@@ -180,6 +183,42 @@ export default function ShipEggs() {
               </View>
               <View className={styles.text}>
                 能在片中客串，也算是完成了一桩心愿
+              </View>
+            </View>
+          </View>
+
+          <View className={styles.item}>
+            <View className={styles.title}>
+              又见撕衣梗
+            </View>
+
+            <View className={styles.content}>
+              <Image
+                className={styles.img}
+                src={IconEggsSixOne}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                《星际迷航》有个梗，柯克舰长的衣服总是被各种原因弄坏
+              </View>
+              <View className={styles.text}>
+                本作中，一开场柯克舰长的制服就在谈判中被撕开了
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsSixTwo}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                而在原初系列，甚至动画里，我们还能看到很多柯克的爆衣场面
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsSixThree}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                真是令人羞涩啊...
               </View>
             </View>
           </View>
