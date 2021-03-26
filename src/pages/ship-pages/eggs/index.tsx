@@ -15,6 +15,7 @@ import { nameMap } from '@/constants/route'
 import IconEggsOne from './images/icon-eggs-one.jpg'
 import IconEggsTwoOne from './images/icon-eggs-two-one.jpg'
 import IconEggsTwoTwo from './images/icon-eggs-two-two.gif'
+import IconEggsTwoThree from './images/icon-eggs-two-three.jpg'
 
 import styles from './index.less'
 
@@ -84,6 +85,35 @@ export default function ShipEggs() {
               </View>
               <View className={styles.text}>
                 这些演员中已经有 3 位离世，电影以这种特殊的形式，向原初系列的演员进行了致敬
+              </View>
+            </View>
+          </View>
+
+          <View className={styles.item}>
+            <View className={styles.title}>
+              966 天
+            </View>
+
+            <View className={styles.content}>
+              <Image
+                className={styles.img}
+                src={IconEggsTwoThree}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                在电影开头，柯克舰长的航行日志中提到这是他们在宇宙中的第 966 天
+              </View>
+              <View className={styles.text}>
+                很明显这是在致敬 1966 年《星际迷航》电视剧的开播
+              </View>
+              <View className={styles.text}>
+                此外，柯克的话语中提到了 5 年航行计划
+              </View>
+              <View className={styles.text}>
+                这是故事重启后第一次提到这个计划，而原初系列讲得就是 5 年航行计划中的故事
+              </View>
+              <View className={styles.text}>
+                两条时间线开始有了相对应的事件
               </View>
             </View>
           </View>
