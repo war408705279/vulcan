@@ -23,6 +23,8 @@ import IconEggsFiveTwo from './images/icon-eggs-five-two.jpg'
 import IconEggsSixOne from './images/icon-eggs-six-one.jpg'
 import IconEggsSixTwo from './images/icon-eggs-six-two.gif'
 import IconEggsSixThree from './images/icon-eggs-six-three.jpg'
+import IconEggsSevenOne from './images/icon-eggs-seven-one.jpg'
+import IconEggsSevenTwo from './images/icon-eggs-seven-two.jpg'
 
 import styles from './index.less'
 
@@ -219,6 +221,40 @@ export default function ShipEggs() {
               />
               <View className={styles.text}>
                 真是令人羞涩啊...
+              </View>
+            </View>
+          </View>
+
+          <View className={styles.item}>
+            <View className={styles.title}>
+              队友 / 酒友
+            </View>
+
+            <View className={styles.content}>
+              <Image
+                className={styles.img}
+                src={IconEggsSevenOne}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                影片开头，柯克舰长和医疗官麦考伊一起借酒消愁
+              </View>
+              <View className={styles.text}>
+                麦考伊还从契诃夫的柜子中借来一瓶伏特加，让两人赞不绝口
+              </View>
+              <View className={styles.text}>
+                这个场景其实也是在致敬经典
+              </View>
+              <View className={styles.text}>
+                在《星际迷航 2：可汗之怒》中，也有两人的对饮场景
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsSevenTwo}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                为了庆祝柯克的生日，麦考伊拿来一瓶 2283 年的陈酿，还送了舰长一副眼镜
               </View>
             </View>
           </View>
