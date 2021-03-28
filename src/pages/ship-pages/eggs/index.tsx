@@ -12,19 +12,27 @@ import BackLeading from '@/components/AppBar/BackLeading'
 
 import { nameMap } from '@/constants/route'
 
+// 彩蛋一：致敬版海报
 import IconEggsOne from './images/icon-eggs-one.jpg'
+// 彩蛋二：老班底合影
 import IconEggsTwoOne from './images/icon-eggs-two-one.jpg'
 import IconEggsTwoTwo from './images/icon-eggs-two-two.gif'
-import IconEggsTwoThree from './images/icon-eggs-two-three.jpg'
+// 彩蛋三：966 天
+import IconEggsThree from './images/icon-eggs-three.jpg'
+// 彩蛋四：50 个新外星种族
 import IconEggsFourOne from './images/icon-eggs-four-one.jpg'
 import IconEggsFourTwo from './images/icon-eggs-four-two.gif'
+// 彩蛋五：亚马逊 CEO 客串
 import IconEggsFiveOne from './images/icon-eggs-five-one.jpg'
 import IconEggsFiveTwo from './images/icon-eggs-five-two.jpg'
+// 彩蛋六：又见撕衣梗
 import IconEggsSixOne from './images/icon-eggs-six-one.jpg'
 import IconEggsSixTwo from './images/icon-eggs-six-two.gif'
 import IconEggsSixThree from './images/icon-eggs-six-three.jpg'
+// 彩蛋七：队友 / 酒友
 import IconEggsSevenOne from './images/icon-eggs-seven-one.jpg'
 import IconEggsSevenTwo from './images/icon-eggs-seven-two.jpg'
+// 彩蛋八：导演的儿子
 import IconEggsEightOne from './images/icon-eggs-eight-one.jpg'
 import IconEggsEightTwo from './images/icon-eggs-eight-two.gif'
 
@@ -108,7 +116,7 @@ export default function ShipEggs() {
             <View className={styles.content}>
               <Image
                 className={styles.img}
-                src={IconEggsTwoThree}
+                src={IconEggsThree}
                 mode="widthFix"
               />
               <View className={styles.text}>
