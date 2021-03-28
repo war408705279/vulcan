@@ -25,6 +25,8 @@ import IconEggsSixTwo from './images/icon-eggs-six-two.gif'
 import IconEggsSixThree from './images/icon-eggs-six-three.jpg'
 import IconEggsSevenOne from './images/icon-eggs-seven-one.jpg'
 import IconEggsSevenTwo from './images/icon-eggs-seven-two.jpg'
+import IconEggsEightOne from './images/icon-eggs-eight-one.jpg'
+import IconEggsEightTwo from './images/icon-eggs-eight-two.gif'
 
 import styles from './index.less'
 
@@ -255,6 +257,34 @@ export default function ShipEggs() {
               />
               <View className={styles.text}>
                 为了庆祝柯克的生日，麦考伊拿来一瓶 2283 年的陈酿，还送了舰长一副眼镜
+              </View>
+            </View>
+          </View>
+
+          <View className={styles.item}>
+            <View className={styles.title}>
+              导演的儿子
+            </View>
+
+            <View className={styles.content}>
+              <Image
+                className={styles.img}
+                src={IconEggsEightOne}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                《星际迷航 3：超越星辰》的导演由 J · J · 艾布拉姆斯换成了林诣彬
+              </View>
+              <View className={styles.text}>
+                林诣彬随后以权谋私，让自己 6 岁的儿子在片中客串了一把
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsEightTwo}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                影片开头进取号进入约克城空间站的画面中，那个绿脸的外星人就是林导的儿子
               </View>
             </View>
           </View>
