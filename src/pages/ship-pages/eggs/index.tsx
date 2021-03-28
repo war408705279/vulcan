@@ -35,6 +35,10 @@ import IconEggsSevenTwo from './images/icon-eggs-seven-two.jpg'
 // 彩蛋八：导演的儿子
 import IconEggsEightOne from './images/icon-eggs-eight-one.jpg'
 import IconEggsEightTwo from './images/icon-eggs-eight-two.gif'
+// 彩蛋九：进取号又双叒叕毁了
+import IconEggsNineOne from './images/icon-eggs-nine-one.jpg'
+import IconEggsNineTwo from './images/icon-eggs-nine-two.gif'
+import IconEggsNineThree from './images/icon-eggs-nine-three.gif'
 
 import styles from './index.less'
 
@@ -293,6 +297,60 @@ export default function ShipEggs() {
               />
               <View className={styles.text}>
                 影片开头进取号进入约克城空间站的画面中，那个绿脸的外星人就是林导的儿子
+              </View>
+            </View>
+          </View>
+
+          <View className={styles.item}>
+            <View className={styles.title}>
+              进取号又双叒叕毁了
+            </View>
+
+            <View className={styles.content}>
+              <Image
+                className={styles.img}
+                src={IconEggsNineOne}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                《星际迷航》有个喜欢炸船的传统
+              </View>
+              <View className={styles.text}>
+                进取号在电视剧和电影中都被毁了很多次，而且是彻底没法修复的那种毁...
+              </View>
+              <View className={styles.text}>
+                在 1984 年的电影《星际迷航 3：石破天惊》中，进取号就被炸了个粉碎
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsNineTwo}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                随后的电视剧《星际迷航：下一代》中，进取号更是被毁了 2 遍
+              </View>
+              <View className={styles.text}>
+                在 1994 年的电影《星际迷航 7：星空奇兵》中，进取号又被重重摔倒了地面上
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsNineThree}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                当然，这些舰船只不过是舰名一样，但型号均不同
+              </View>
+              <View className={styles.text}>
+                这也是现实中军舰的命名原则之一，同一个舰名会在不同代、不同用途的军舰之间传承
+              </View>
+              <View className={styles.text}>
+                虽然本作一开场进取号就被毁了，但在片尾柯克舰长和舰员们迎来了新的战舰：NCC-1701-A
+              </View>
+              <View className={styles.text}>
+                原来的进取号型号是 NCC-1701，新战舰是旧进取号的改进型
+              </View>
+              <View className={styles.text}>
+                而星际迷航不同的故事，进取号的型号也不同，比如下一代就是 NCC-1701-D 型
               </View>
             </View>
           </View>
