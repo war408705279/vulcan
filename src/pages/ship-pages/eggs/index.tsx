@@ -39,6 +39,10 @@ import IconEggsEightTwo from './images/icon-eggs-eight-two.gif'
 import IconEggsNineOne from './images/icon-eggs-nine-one.jpg'
 import IconEggsNineTwo from './images/icon-eggs-nine-two.gif'
 import IconEggsNineThree from './images/icon-eggs-nine-three.gif'
+// 彩蛋十：这个胖子...好眼熟
+import IconEggsTenOne from './images/icon-eggs-ten-one.jpg'
+import IconEggsTenTwo from './images/icon-eggs-ten-two.jpg'
+import IconEggsTenThree from './images/icon-eggs-ten-three.jpg'
 
 import styles from './index.less'
 
@@ -351,6 +355,57 @@ export default function ShipEggs() {
               </View>
               <View className={styles.text}>
                 而星际迷航不同的故事，进取号的型号也不同，比如下一代就是 NCC-1701-D 型
+              </View>
+            </View>
+          </View>
+
+          <View className={styles.item}>
+            <View className={styles.title}>
+              这个胖子...好眼熟
+            </View>
+
+            <View className={styles.content}>
+              <Image
+                className={styles.img}
+                src={IconEggsTenOne}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                细心的人应该发现了，有个演员同时出现在了《星球大战：原力觉醒》和《星际迷航 3：超越星辰》中
+              </View>
+              <View className={styles.text}>
+                他是约克城空间站的基层官员，也是星战中反抗军的 X 翼战机飞行员
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsTenTwo}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                能同时在两大科幻故事中出场，这位小哥你背景很深啊！
+              </View>
+              <View className={styles.text}>
+                其实不是他背景深，而是他和 J · J · 艾布拉姆斯的关系铁
+              </View>
+              <View className={styles.text}>
+                他叫格雷戈·格伦伯格（Greg Grunberg），美剧常客
+              </View>
+              <View className={styles.text}>
+                美剧《迷失》、电影《超级 8》中都有他的身影
+              </View>
+              <View className={styles.text}>
+                而和 J · J · 艾布拉姆斯长期的合作，也让他赢得了在《星球大战：原力觉醒》中露面的机会
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsTenThree}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                2009 年的《星际迷航》中也有他，不过只是贡献了声音
+              </View>
+              <View className={styles.text}>
+                这次终于以真人面目成为联邦一员
               </View>
             </View>
           </View>
