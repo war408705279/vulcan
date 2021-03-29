@@ -47,6 +47,9 @@ import IconEggsTenThree from './images/icon-eggs-ten-three.jpg'
 import IconEggsElevenOne from './images/icon-eggs-eleven-one.jpg'
 import IconEggsElevenTwo from './images/icon-eggs-eleven-two.jpg'
 import IconEggsElevenThree from './images/icon-eggs-eleven-three.gif'
+// 彩蛋十二：一首歌怎么就打败外星人了？
+import IconEggsTwelveOne from './images/icon-eggs-twelve-one.gif'
+import IconEggsTwelveTwo from './images/icon-eggs-twelve-two.jpg'
 
 import styles from './index.less'
 
@@ -473,6 +476,64 @@ export default function ShipEggs() {
               />
               <View className={styles.text}>
                 在阿汤哥的《新木乃伊》中她也有精彩表现
+              </View>
+            </View>
+          </View>
+
+          <View className={styles.item}>
+            <View className={styles.title}>
+              12. 一首歌怎么就打败外星人了？
+            </View>
+
+            <View className={styles.content}>
+              <Image
+                className={styles.img}
+                src={IconEggsTwelveOne}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                看完电影，大家都应该有个问题：打败外星人的那首歌叫啥
+              </View>
+              <View className={styles.text}>
+                说到这首歌，就不得不提到一个名叫 Beastie Boys（野兽男孩）的乐队
+              </View>
+              <View className={styles.text}>
+                在重启版的《星际迷航》三部曲中，每一部都有这支乐队的配乐出现
+              </View>
+              <View className={styles.text}>
+                而打败外星人的这首歌是乐队在 1994 年推出的歌曲，名叫《破坏者》（Sabotage）
+              </View>
+              <View className={styles.text}>
+                在 2009 年的《星际迷航》里，影片开头小柯克借了一辆车在公路上驰骋，车载音响播放的就是这首歌
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsTwelveTwo}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                所以在柯克舰长才会在听到这首歌时说选的不错，因为这是他自己的青春啊
+              </View>
+            </View>
+          </View>
+
+          <View className={styles.item}>
+            <View className={styles.title}>
+              写在结尾
+            </View>
+
+            <View className={styles.content}>
+              <View className={styles.text}>
+                以上就是《星际迷航 3：超越星辰》的主要彩蛋了
+              </View>
+              <View className={styles.text}>
+                其实影片中的彩蛋还有很多，不过大多数梗都比较深
+              </View>
+              <View className={styles.text}>
+                比如空间站之所以叫约克城，是因为进取号在最开始的设定中就叫约克城，西蒙 · 佩吉为了纪念 50 周年而为空间站起了这个名字
+              </View>
+              <View className={styles.text}>
+                还有在下一部《星际迷航 4》中，已经确认柯克舰长的父亲，也就是锤哥克里斯 · 海姆斯沃斯将会回归等等
               </View>
             </View>
           </View>
