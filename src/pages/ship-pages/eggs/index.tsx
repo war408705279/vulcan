@@ -64,7 +64,7 @@ export default function ShipEggs() {
         <View className={styles.itemList}>
           <View className={styles.item}>
             <View className={styles.title}>
-              致敬版海报
+              1. 致敬版海报
             </View>
 
             <View className={styles.content}>
@@ -87,7 +87,7 @@ export default function ShipEggs() {
 
           <View className={styles.item}>
             <View className={styles.title}>
-              老班底合影
+              2. 老班底合影
             </View>
 
             <View className={styles.content}>
@@ -118,7 +118,7 @@ export default function ShipEggs() {
 
           <View className={styles.item}>
             <View className={styles.title}>
-              966 天
+              3. 966 天
             </View>
 
             <View className={styles.content}>
@@ -147,7 +147,7 @@ export default function ShipEggs() {
 
           <View className={styles.item}>
             <View className={styles.title}>
-              50 个新外星种族
+              4. 50 个新外星种族
             </View>
 
             <View className={styles.content}>
@@ -178,7 +178,7 @@ export default function ShipEggs() {
 
           <View className={styles.item}>
             <View className={styles.title}>
-              亚马逊 CEO 客串
+              5. 亚马逊 CEO 客串
             </View>
 
             <View className={styles.content}>
@@ -209,7 +209,7 @@ export default function ShipEggs() {
 
           <View className={styles.item}>
             <View className={styles.title}>
-              又见撕衣梗
+              6. 又见撕衣梗
             </View>
 
             <View className={styles.content}>
@@ -245,7 +245,7 @@ export default function ShipEggs() {
 
           <View className={styles.item}>
             <View className={styles.title}>
-              队友 / 酒友
+              7. 队友 / 酒友
             </View>
 
             <View className={styles.content}>
@@ -279,7 +279,7 @@ export default function ShipEggs() {
 
           <View className={styles.item}>
             <View className={styles.title}>
-              导演的儿子
+              8. 导演的儿子
             </View>
 
             <View className={styles.content}>
@@ -307,7 +307,7 @@ export default function ShipEggs() {
 
           <View className={styles.item}>
             <View className={styles.title}>
-              进取号又双叒叕毁了
+              9. 进取号又双叒叕毁了
             </View>
 
             <View className={styles.content}>
@@ -361,7 +361,7 @@ export default function ShipEggs() {
 
           <View className={styles.item}>
             <View className={styles.title}>
-              这个胖子...好眼熟
+              10. 这个胖子...好眼熟
             </View>
 
             <View className={styles.content}>
