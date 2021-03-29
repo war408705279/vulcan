@@ -43,6 +43,10 @@ import IconEggsNineThree from './images/icon-eggs-nine-three.gif'
 import IconEggsTenOne from './images/icon-eggs-ten-one.jpg'
 import IconEggsTenTwo from './images/icon-eggs-ten-two.jpg'
 import IconEggsTenThree from './images/icon-eggs-ten-three.jpg'
+// 彩蛋十一：婕拉是个有故事的妹子
+import IconEggsElevenOne from './images/icon-eggs-eleven-one.jpg'
+import IconEggsElevenTwo from './images/icon-eggs-eleven-two.jpg'
+import IconEggsElevenThree from './images/icon-eggs-eleven-three.gif'
 
 import styles from './index.less'
 
@@ -406,6 +410,69 @@ export default function ShipEggs() {
               </View>
               <View className={styles.text}>
                 这次终于以真人面目成为联邦一员
+              </View>
+            </View>
+          </View>
+
+          <View className={styles.item}>
+            <View className={styles.title}>
+              11. 婕拉是个有故事的妹子
+            </View>
+
+            <View className={styles.content}>
+              <Image
+                className={styles.img}
+                src={IconEggsElevenOne}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                婕拉无疑是影片中最能打的妹子
+              </View>
+              <View className={styles.text}>
+                除了身手了得，她的性格也非常讨人喜欢
+              </View>
+              <View className={styles.text}>
+                鲁莽中有些天真，不太懂团队配合，但是个值得信赖的人
+              </View>
+              <View className={styles.text}>
+                也许你想不到，这种角色性格源自大表姐詹妮弗 · 劳伦斯的成名作《冬天的骨头》
+              </View>
+              <View className={styles.text}>
+                影片在圣丹斯电影节大放异彩，也让大表姐一举成名
+              </View>
+              <View className={styles.text}>
+                在影片上映前，编剧就曾经透露婕拉就是受到这部电影的启发而来
+              </View>
+              <View className={styles.text}>
+                婕拉的名字 Jaylah 也是詹妮弗 · 劳伦斯简称 JanLaw 的变体
+              </View>
+              <View className={styles.text}>
+                此外，饰演婕拉的演员也很有说头
+              </View>
+              <View className={styles.text}>
+                她叫索菲亚 · 宝特拉（Sofia Boutella），不过大家更喜欢叫她刀锋女
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsElevenTwo}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                是不是上了浓妆认不出来了
+              </View>
+              <View className={styles.text}>
+                她是一位有多年经验的专业舞者，曾经是法国国家体操队队员
+              </View>
+              <View className={styles.text}>
+                所以拍起打戏来魅力十足，非常有舞蹈的韵律美
+              </View>
+              <Image
+                className={styles.img}
+                src={IconEggsElevenThree}
+                mode="widthFix"
+              />
+              <View className={styles.text}>
+                在阿汤哥的《新木乃伊》中她也有精彩表现
               </View>
             </View>
           </View>
