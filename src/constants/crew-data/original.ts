@@ -3,11 +3,13 @@
  * @description 原初 && 下一代系列演员信息
  */
 
+import IconWilliamShatner from './images/original/icon-william-shatner.jpg'
+
 import { DataType } from '.'
 
 export const data: DataType = {
   WilliamShatner: {
-    icon: '',
+    icon: IconWilliamShatner,
     zhName: '威廉 · 夏特纳',
     enName: [
       '本命：William Alan Shatner',
