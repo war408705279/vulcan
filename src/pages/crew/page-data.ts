@@ -9,7 +9,7 @@ export type DataType = {
 }
 
 export const data: DataType[] = [{
-  code: '',
+  code: 'WilliamShatner',
   actor: '威廉 · 夏特纳',
   role: '詹姆斯 · T · 柯克'
 }, {
