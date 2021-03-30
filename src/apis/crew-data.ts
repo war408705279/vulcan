@@ -14,7 +14,7 @@ export type GetCrewDataResp = {
   zhName: string
   // 英文名
   enName: string[]
-  // 别称
+  // 别名
   alias: string[]
   // 国籍
   nationality: string
