@@ -13,7 +13,7 @@ export const data: DataType[] = [{
   actor: '威廉 · 夏特纳',
   role: '詹姆斯 · T · 柯克'
 }, {
-  code: '',
+  code: 'LeonardNimoy',
   actor: '伦纳德 · 尼莫伊',
   role: '斯波克'
 }, {
