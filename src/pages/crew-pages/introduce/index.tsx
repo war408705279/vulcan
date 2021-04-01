@@ -82,6 +82,7 @@ function Content(data: ContentProps) {
     national,
     birthPlace,
     birthDay,
+    deathTime,
     constellation,
     height,
     graduateSchool,
@@ -247,6 +248,15 @@ function Content(data: ContentProps) {
       <Cell>
         <View className={styles.content}>
           {birthDay || '-'}
+        </View>
+      </Cell>
+
+      <View className={styles.title}>
+        逝世日期
+      </View>
+      <Cell>
+        <View className={styles.content}>
+          {deathTime || '-'}
         </View>
       </Cell>
 
