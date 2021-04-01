@@ -17,7 +17,7 @@ export const data: DataType[] = [{
   actor: '伦纳德 · 尼莫伊',
   role: '斯波克'
 }, {
-  code: '',
+  code: 'JacksonDeForestKelley',
   actor: '德福雷斯特 · 凯利',
   role: '莱昂纳德 · 麦考伊'
 }, {
