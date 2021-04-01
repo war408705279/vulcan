@@ -145,4 +145,4 @@ node deploy.js ${TARGET} ${AK} ${SK} ${BUCKET}
 
 ## 常见问题
 
-参考 [ISSUES.md](./ISSUES.md)
+参考 [Issues](https://github.com/war408705279/vulcan/issues)
