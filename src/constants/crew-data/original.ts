@@ -5,6 +5,7 @@
 
 import IconWilliamShatner from './images/original/icon-william-shatner.jpg'
 import IconLeonardNimoy from './images/original/icon-leonard-nimoy.jpg'
+import IconJacksonDeForestKelley from './images/original/icon-jackson-deForest-kelley.jpg'
 
 import { DataType } from '.'
 
@@ -25,7 +26,7 @@ export const data: DataType = {
     birthplace: '加拿大魁北克省蒙特利尔市',
     birthday: '1931 年 3 月 22 日',
     constellation: '白羊座',
-    height: '177 cm',
+    height: '177cm',
     graduateSchool: '麦吉尔大学',
     profession: [
       '演员',
@@ -95,6 +96,36 @@ export const data: DataType = {
       '2015 年 2 月 23 日，尼莫伊在推特上写下了最后的文字："人生就像一座花园。完美时刻曾经有过，却无法长存，除非留在记忆之中。LLAP" LLAP 是 Live Long and Prosper 的缩写，这是尼莫伊发推特的习惯',
       '伦纳德 · 尼莫伊出生于波士顿，他的父母是从俄罗斯移民到美国的母语为意第绪语的犹太人。他的母亲是一名家庭主妇，他的父亲开了一家理发馆。他从 8 岁左右开始表演，17 岁时获得了一个主角。他在洛杉矶加利福尼亚大学学摄影，但是没有结束他的学业。1953 年他在波士顿学院（BOSTON COLLEGE）获得了教育艺术硕士的学位，又在俄亥俄州的安提俄克大学获得了一个荣誉博士学位。他早年在许多 B 级片和电视剧里担任小角色。他回忆说他参加打牌比赛和医学试验来交付跳舞班的学费。从他的口音中可以听得出他是在波士顿长大的',
       '他在美国陆军预备队中服役，1955 年 11 月最后以中士的军衔退役。据美国国家档案管理局的报道尼莫伊在美国陆军的服役记录在 1973 年国家人事档案中心的大火中被毁'
+    ],
+    evaluation: []
+  },
+  JacksonDeForestKelley: {
+    icon: IconJacksonDeForestKelley,
+    zhName: '德福雷斯特 · 凯利',
+    enName: [
+      'Jackson DeForest Kelley'
+    ],
+    alias: [],
+    nationality: '美国',
+    national: '',
+    birthplace: '美国乔治亚州托科阿',
+    birthday: '1920 年 1 月 20 日',
+    constellation: '摩羯座 / 水瓶座',
+    height: '178cm',
+    graduateSchool: '',
+    profession: [
+      '演员',
+      '编剧',
+      '诗人',
+      '歌手'
+    ],
+    representativeWorks: [
+      '《星际旅行：初代》'
+    ],
+    mainAchievements: [],
+    hobby: [],
+    information: [
+      'Jackson DeForest Kelley (January 20, 1920 – June 11, 1999), known to colleagues as "Dee", was an American actor, screenwriter, poet, and singer known for his roles in Westerns and as Dr. Leonard "Bones" McCoy of the USS Enterprise in the television and film series Star Trek (1966–1991).'
     ],
     evaluation: []
   }
