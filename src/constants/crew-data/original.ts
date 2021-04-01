@@ -14,7 +14,7 @@ export const data: DataType = {
     icon: IconWilliamShatner,
     zhName: '威廉 · 夏特纳',
     enName: [
-      '本命：William Alan Shatner',
+      '本名：William Alan Shatner',
       '昵称：Billy / The Shat / Bill'
     ],
     alias: [
@@ -103,7 +103,8 @@ export const data: DataType = {
     icon: IconJacksonDeForestKelley,
     zhName: '德福雷斯特 · 凯利',
     enName: [
-      'Jackson DeForest Kelley'
+      '本名：Jackson DeForest Kelley',
+      '昵称：Dee'
     ],
     alias: [],
     nationality: '美国',
@@ -125,7 +126,7 @@ export const data: DataType = {
     mainAchievements: [],
     hobby: [],
     information: [
-      'Jackson DeForest Kelley (January 20, 1920 – June 11, 1999), known to colleagues as "Dee", was an American actor, screenwriter, poet, and singer known for his roles in Westerns and as Dr. Leonard "Bones" McCoy of the USS Enterprise in the television and film series Star Trek (1966–1991).'
+      '杰克逊 · 德福雷斯特 · 凯利（1920 年 1 月 20 日 - 1999 年 6 月 11 日），是一位美国演员、编剧、诗人和歌手。因在西部片中的角色而闻名，在电视和电影连续剧《星际迷航》（1966 年 - 1991 年）中扮演美国企业号的伦纳德 · 麦考伊医生'
     ],
     evaluation: []
   }
