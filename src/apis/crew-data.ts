@@ -21,9 +21,9 @@ export type GetCrewDataResp = {
   // 民族
   national: string
   // 出生地
-  birthplace: string
+  birthPlace: string
   // 出生日期
-  birthday: string
+  birthDay: string
   // 星座
   constellation: string
   // 身高

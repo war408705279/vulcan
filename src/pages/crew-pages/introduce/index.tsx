@@ -80,8 +80,8 @@ function Content(data: ContentProps) {
     alias,
     nationality,
     national,
-    birthplace,
-    birthday,
+    birthPlace,
+    birthDay,
     constellation,
     height,
     graduateSchool,
@@ -237,7 +237,7 @@ function Content(data: ContentProps) {
       </View>
       <Cell>
         <View className={styles.content}>
-          {birthplace || '-'}
+          {birthPlace || '-'}
         </View>
       </Cell>
 
@@ -246,7 +246,7 @@ function Content(data: ContentProps) {
       </View>
       <Cell>
         <View className={styles.content}>
-          {birthday || '-'}
+          {birthDay || '-'}
         </View>
       </Cell>
 
