@@ -12,6 +12,7 @@ type ScaffoldProps = {
 
 export default function Scaffold({ appBar, children }: ScaffoldProps) {
   const { statusBarHeight, appBarHeight } = useSystemInfo()
+  const placeholderHeight = appBar ? statusBarHeight + appBarHeight : 0
 
   return (
     <View>
@@ -20,7 +21,7 @@ export default function Scaffold({ appBar, children }: ScaffoldProps) {
       <View
         style={{
           width: '100%',
-          height: appBar ? statusBarHeight + appBarHeight + 'px' : 0
+          height: `${placeholderHeight}px`
         }}
       />
       <View>

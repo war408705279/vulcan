@@ -25,8 +25,8 @@ export default function AppBar({
     <View
       className={styles.nav}
       style={{
-        height: appBarHeight + statusBarHeight + 'px',
-        paddingTop: statusBarHeight + 'px',
+        height: `${appBarHeight + statusBarHeight}px`,
+        paddingTop: `${statusBarHeight}px`,
         backgroundColor
       }}
     >

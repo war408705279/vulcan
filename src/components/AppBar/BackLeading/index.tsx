@@ -14,7 +14,7 @@ export default function BackLeading() {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    height: appBarHeight + 'px'
+    height: `${appBarHeight}px`
   }
 
   return (

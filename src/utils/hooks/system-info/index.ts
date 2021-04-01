@@ -37,8 +37,14 @@ export function getSystemInfo(): Promise<SystemInfo | undefined> {
 
 function transformWechatSystemInfo(systemInfo: WechatMiniprogram.GetSystemInfoSuccessCallbackResult): SystemInfo {
   const menuRect = wechat.getMenuButtonBoundingClientRect()
+  // ios 真机有时拿到的 menuRect 各项值均为 0
+  // 采用给初始值的方式解决
+  // 安卓 && ios 真机胶囊高度均为 32px
+  const menuRectHeight = menuRect.height || 32
+  // 如果拿不到 menuRect.top 则 gap 默认 8px
+  const gap = menuRect.top ? (menuRect.top - systemInfo.statusBarHeight) * 2 : 8
   // 微信平台高度不对，增加 4px
-  const appBarHeight = menuRect.height + (menuRect.top - systemInfo.statusBarHeight) * 2 + 4
+  const appBarHeight = menuRectHeight + gap + 4
 
   return {
     statusBarHeight: systemInfo.statusBarHeight,
