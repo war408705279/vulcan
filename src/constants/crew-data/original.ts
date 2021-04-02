@@ -6,6 +6,7 @@
 import IconWilliamShatner from './images/original/icon-william-shatner.jpg'
 import IconLeonardNimoy from './images/original/icon-leonard-nimoy.jpg'
 import IconJacksonDeForestKelley from './images/original/icon-jackson-deForest-kelley.jpg'
+import IconJamesMontgomeryDoohan from './images/original/icon-james-montgomery-doohan.jpg'
 
 import { DataType } from '.'
 
@@ -130,6 +131,43 @@ export const data: DataType = {
     hobby: [],
     information: [
       '杰克逊 · 德福雷斯特 · 凯利（1920 年 1 月 20 日 - 1999 年 6 月 11 日），是一位美国演员、编剧、诗人和歌手。因在西部片中的角色而闻名，在电视和电影连续剧《星际迷航》（1966 年 - 1991 年）中扮演美国企业号的伦纳德 · 麦考伊医生'
+    ],
+    evaluation: []
+  },
+  JamesMontgomeryDoohan: {
+    icon: IconJamesMontgomeryDoohan,
+    zhName: '詹姆斯 · 蒙哥马利 · 杜汉 / 詹姆斯 · 杜汉',
+    enName: [
+      '本名：James Montgomery Doohan',
+      '昵称：吉米'
+    ],
+    alias: [],
+    nationality: '加拿大',
+    national: '',
+    birthPlace: '加拿大英属哥伦比亚省温哥华市',
+    birthDay: '1920 年 3 月 3 日',
+    deathTime: '2005 年 7 月 20 日',
+    constellation: '双鱼座',
+    height: '',
+    graduateSchool: '萨尼亚科技大学',
+    profession: [
+      '演员',
+      '配音演员',
+      '作家'
+    ],
+    representativeWorks: [
+      '《星际旅行：初代》'
+    ],
+    mainAchievements: [],
+    hobby: [],
+    information: [
+      '詹姆斯 · 蒙哥马利 · 杜汉（James Montgomery Doohan，1920 年 3 月 3 日 － 2005 年 7 月 20 日）是加拿大籍的演员与配音演员。最为人所知的演出是在电视系列剧与电影《星际旅行》系列里面饰演斯科提（Scotty，全名为 Montgomery Scott）',
+      '杜汉出生于加拿大英属哥伦比亚省温哥华市，是威廉（William）与莎拉（Sarah）· 杜汉四个孩子中最小的一个。父母是英爱战争期间，从大部分是新教徒的贝尔法斯特逃离的天主教徒难民。他的家庭后来搬到安大略省萨尼亚市（Sarnia），他也进入了萨尼亚科技大学（SCITS）就读，主修数学和科学',
+      '二战爆发后，19 岁的吉米（詹姆斯的昵称）· 杜汉加入了加拿大皇家炮兵团，最后在 13 野战军团、D 连、温尼派（Winnipeg）步枪队担任中尉',
+      '战后，杜汉展开了他的演艺事业。在对广播戏剧可笑的品质感到灰心之后，他开始苦读莎士比亚。他的第一份工作是 1946 年 1 月 12 日在加拿大广播公司（CBC）的广播节目演出',
+      '斯科提在星舰进取号上担任总工程师的成就辉煌、令人敬畏，这也启发了许多学生想去从事工程师的职业。基于此，密尔瓦基工学院特地颁给杜汉荣誉工程学学位。2004 年 8 月 31 日，好莱坞星光大道置放了刻着他名字的星星，永垂不朽',
+      '杜汉晚年苦于帕金森氏症、糖尿病、肺纤维化（DPLD）等疾病。2004 年，杜汉被诊断出有老年痴呆症。2005 年 7 月 20 日当地时间早上 5:30，他死于华盛顿州雷德蒙德的家中，随侍在侧的是他的妻子温德 · 布朗伯格和长年好友与经纪人史提夫 · 史提文斯（Steve Stevens）。他的经纪人证实死因是肺炎和老年痴呆症',
+      '杜汉的骨灰也将应他的要求被送往太空。负责举办太空葬礼的公司 Space Services, Inc. 证实他们已经安排好将杜汉的骨灰送入地球轨道'
     ],
     evaluation: []
   }
