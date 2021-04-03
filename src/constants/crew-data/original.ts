@@ -7,6 +7,7 @@ import IconWilliamShatner from './images/original/icon-william-shatner.jpg'
 import IconLeonardNimoy from './images/original/icon-leonard-nimoy.jpg'
 import IconJacksonDeForestKelley from './images/original/icon-jackson-deForest-kelley.jpg'
 import IconJamesMontgomeryDoohan from './images/original/icon-james-montgomery-doohan.jpg'
+import IconGeorgeTakei from './images/original/icon-george-takei.jpg'
 
 import { DataType } from '.'
 
@@ -168,6 +169,48 @@ export const data: DataType = {
       '斯科提在星舰进取号上担任总工程师的成就辉煌、令人敬畏，这也启发了许多学生想去从事工程师的职业。基于此，密尔瓦基工学院特地颁给杜汉荣誉工程学学位。2004 年 8 月 31 日，好莱坞星光大道置放了刻着他名字的星星，永垂不朽',
       '杜汉晚年苦于帕金森氏症、糖尿病、肺纤维化（DPLD）等疾病。2004 年，杜汉被诊断出有老年痴呆症。2005 年 7 月 20 日当地时间早上 5:30，他死于华盛顿州雷德蒙德的家中，随侍在侧的是他的妻子温德 · 布朗伯格和长年好友与经纪人史提夫 · 史提文斯（Steve Stevens）。他的经纪人证实死因是肺炎和老年痴呆症',
       '杜汉的骨灰也将应他的要求被送往太空。负责举办太空葬礼的公司 Space Services, Inc. 证实他们已经安排好将杜汉的骨灰送入地球轨道'
+    ],
+    evaluation: []
+  },
+  GeorgeTakei: {
+    icon: IconGeorgeTakei,
+    zhName: '乔治 · 竹井',
+    enName: [
+      'George Takei'
+    ],
+    alias: [],
+    nationality: '美国',
+    national: '',
+    birthPlace: '美国',
+    birthDay: '1937 年 4 月 20 日',
+    deathTime: '',
+    constellation: '白羊座 / 金牛座',
+    height: '',
+    graduateSchool: '加利福尼亚大学',
+    profession: [
+      '演员',
+      '作家',
+      '歌手'
+    ],
+    representativeWorks: [
+      '《Playhouse 90》',
+      '《星际旅行》',
+      '《星际旅行 VI：未来之城》',
+      '《星际旅行：航海家号》',
+      '《红色警戒 3》'
+    ],
+    mainAchievements: [
+      '好莱坞深度演员'
+    ],
+    hobby: [],
+    information: [
+      '乔治 · 竹井（George Takei），1937 年 4 月 20 日出生于美国，演员。因演出美国电视剧《星际旅行》而出名',
+      '2005 年首度公开承认自己是同性恋。参演作品有《Playhouse 90》、《星际旅行》、《星际旅行 VI：未来之城》和《星际旅行：航海家号》、《红色警戒 3》等',
+      '乔治 · 竹井的父亲是个亲英派人士。由于英王乔治六世在 1937 年加冕，所以他把同年出世的儿子取名"乔治"（George）。乔治 · 竹井出生后不久就遇上"珍珠港事件"。他的家庭被送进了阿肯色州的日裔美国人强制集中营。在整个二战期间，乔治 · 竹井的家庭流离于不同的集中营之间。直到二战结束，他们才返回洛杉矶',
+      '乔治 · 竹井在 1956 年就读于帕特里克莱加利福尼亚大学。他一开始学习的是建筑。但是一个广告改变了他的人生',
+      '在大学期间乔治 · 竹井还参加过多部电视剧的拍摄，1964 年他拿着硕士学位大学毕业',
+      '1965 年，乔治 · 竹井遇到了事业的转折点。制片人吉恩 · 罗登伯里邀请他在《星际旅行》（1966）中扮演光 · 苏鲁（Hikaru Sulu）少校，企业号星舰的舵手。这部经典科幻电视剧里的角色为乔治 · 竹井带来了巨大的知名度。后来他还在《星际旅行 VI：未来之城》（1991）和《星际旅行：航海家号》（1995）出演同样的角色。（在《星际旅行 VI：未来之城》中，他的角色晋升为上校舰长）',
+      '同时，他在《红色警戒 3》的动画里面，扮演天皇芳朗，旭日帝国的领导人。还客串演出过《生活大爆炸》、《歪星撞地球》'
     ],
     evaluation: []
   }
