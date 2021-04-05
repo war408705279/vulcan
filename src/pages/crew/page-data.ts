@@ -29,7 +29,7 @@ export const data: DataType[] = [{
   actor: '乔治 · 竹井',
   role: '光 · 苏鲁'
 }, {
-  code: '',
+  code: 'WalterKoenig',
   actor: '沃特尔 · 科尼格',
   role: '帕维尔 · 安德烈维奇 · 契科夫'
 }, {
