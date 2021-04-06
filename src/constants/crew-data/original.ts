@@ -9,6 +9,7 @@ import IconJacksonDeForestKelley from './images/original/icon-jackson-deForest-k
 import IconJamesMontgomeryDoohan from './images/original/icon-james-montgomery-doohan.jpg'
 import IconGeorgeTakei from './images/original/icon-george-takei.jpg'
 import IconWalterKoenig from './images/original/icon-walter-koenig.jpg'
+import IconNichelleNichols from './images/original/icon-nichelle-nichols.jpg'
 
 import { DataType } from '.'
 
@@ -41,8 +42,8 @@ export const data: DataType = {
       '配音'
     ],
     representativeWorks: [
+      '星际迷航原初系列',
       '《波士顿法律》',
-      '《星际迷航：原初系列》',
       '《T · J · 胡克》'
     ],
     mainAchievements: [
@@ -88,6 +89,7 @@ export const data: DataType = {
       '摄影师'
     ],
     representativeWorks: [
+      '星际迷航原初系列',
       '《星际迷航：初代》'
     ],
     mainAchievements: [
@@ -127,6 +129,7 @@ export const data: DataType = {
       '歌手'
     ],
     representativeWorks: [
+      '星际迷航原初系列',
       '《星际迷航：初代》'
     ],
     mainAchievements: [],
@@ -158,6 +161,7 @@ export const data: DataType = {
       '作家'
     ],
     representativeWorks: [
+      '星际迷航原初系列',
       '《星际迷航：初代》'
     ],
     mainAchievements: [],
@@ -194,10 +198,9 @@ export const data: DataType = {
       '歌手'
     ],
     representativeWorks: [
-      '《Playhouse 90》',
-      '《星际迷航》',
-      '《星际迷航 VI：未来之城》',
+      '星际迷航原初系列',
       '《星际迷航：航海家号》',
+      '《Playhouse 90》',
       '《红色警戒 3》'
     ],
     mainAchievements: [
@@ -234,11 +237,42 @@ export const data: DataType = {
       '演员'
     ],
     representativeWorks: [
-      '《星际迷航：初代》'
+      '星际迷航原初系列'
     ],
     mainAchievements: [],
     hobby: [],
     information: [],
+    evaluation: []
+  },
+  NichelleNichols: {
+    icon: IconNichelleNichols,
+    zhName: '妮切尔 · 尼科尔斯',
+    enName: [
+      'Nichelle Nichols'
+    ],
+    alias: [],
+    nationality: '美国',
+    national: '',
+    birthPlace: '美国伊利诺斯州罗宾斯',
+    birthDay: '1932 年 12 月 28 日',
+    deathTime: '',
+    constellation: '摩羯座',
+    height: '',
+    graduateSchool: '',
+    profession: [
+      '演员'
+    ],
+    representativeWorks: [
+      '星际迷航原初系列',
+      '《史酷比：湖怪的诅咒》',
+      '《迷航国度》',
+      '《这个苦涩的世界》'
+    ],
+    mainAchievements: [],
+    hobby: [],
+    information: [
+      '妮切尔 · 尼科尔斯（Nichelle Nichols），演员，主要作品有星际迷航原初系列、《史酷比：湖怪的诅咒》、《迷航国度》、《这个苦涩的世界》等'
+    ],
     evaluation: []
   }
 }
