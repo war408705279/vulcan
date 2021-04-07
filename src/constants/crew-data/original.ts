@@ -10,6 +10,7 @@ import IconJamesMontgomeryDoohan from './images/original/icon-james-montgomery-d
 import IconGeorgeTakei from './images/original/icon-george-takei.jpg'
 import IconWalterKoenig from './images/original/icon-walter-koenig.jpg'
 import IconNichelleNichols from './images/original/icon-nichelle-nichols.jpg'
+import IconPatrickStewart from './images/original/icon-patrick-stewart.jpg'
 
 import { DataType } from '.'
 
@@ -274,5 +275,46 @@ export const data: DataType = {
       '妮切尔 · 尼科尔斯（Nichelle Nichols），演员，主要作品有星际迷航原初系列、《史酷比：湖怪的诅咒》、《迷航国度》、《这个苦涩的世界》等'
     ],
     evaluation: []
+  },
+  PatrickStewart: {
+    icon: IconPatrickStewart,
+    zhName: '帕特里克 · 斯图尔特',
+    enName: [
+      'Patrick Stewart'
+    ],
+    alias: [],
+    nationality: '英国',
+    national: '',
+    birthPlace: '英国约克郡西区莫菲尔德',
+    birthDay: '1940 年 7 月 13 日',
+    deathTime: '',
+    constellation: '巨蟹座',
+    height: '178cm',
+    graduateSchool: '布里斯托老维克戏剧学院',
+    profession: [
+      '演员'
+    ],
+    representativeWorks: [
+      '《星际迷航：下一代》',
+      '《X 战警》'
+    ],
+    mainAchievements: [
+      '英国爵士头衔',
+      '饰演漫威英雄 X 教授',
+      '西区最佳男配角奖',
+      '伦敦 Fringe 戏剧奖最佳男演员',
+      '饰演漫威超级英雄时间最长的吉尼斯世界纪录认证'
+    ],
+    hobby: [],
+    information: [
+      '帕特里克 · 斯图尔特 1940 年 7 月 13 日生于英国约克郡 Mirfield。12 岁时已经在多个小剧院登台表演。15 岁时辍学进入当地一家报社做见习记者，一年后因被主编责备他花在剧院的时间过多，而离开报社。此后又做了一年的家具推销员，攒够钱后于 1957 年进入 Bristol Old Vic Theatre 学院专修表演。1959 年正式登台演出，首次登上舞台在《金银岛》（Treasure Island）中扮演 Morgan，并参加了布里斯托尔的 Old Vic 剧院公司在澳洲、新西兰和南美的巡演。1966 年加入英国皇家莎士比亚戏剧公司，在伦敦出演了舞台剧《The Investigation》并担任了几年的助理美术师',
+      '1974 年帕特里克出演了电视、电影版的莎士比亚剧《安东尼与克里奥佩特拉》（Antony and Cleopatra），这是他的荧屏处女作，此后他的影视作品有《海达》、《罗马帝国兴亡史》、《Jackanory》、《When the Actors Come》等',
+      '在导演彼得 · 布鲁克（Peter Brook）执导的《安东尼与克里奥佩特拉》中他再度演绎了 Enobarbus 这个人物，该角为他赢得西区最佳男配角奖',
+      '20 世纪 80 年代他出演了《王子复仇记》、《黑暗时代》、《医生与魔鬼》（The Doctor and the Devils）等影视剧，并为动画片《疫病犬》（The Plague Dogs）献声',
+      '1986 年，他凭借舞台剧《灵欲春宵》中的表现获得伦敦 Fringe 戏剧奖最佳男演员头衔。同年他主演的历史剧情片《九日皇后》（Lady Jane）引起了吉恩 · 罗登伯里（Gene Roddenberry）的注意，邀其在电视系列剧《星际迷航：下一代》（Star Trek: The Next Generation）中扮演 Jean-Luc Picard 舰长，该剧从 1987 年一直播到 1994 年，并因此于 1995 年获得演员公会奖提名'
+    ],
+    evaluation: [
+      '单从形象上，大鹰钩鼻子深眼窝而且还是个光头的帕特里克 · 斯图尔特更适合演反派。不过，在《X 战警》系列中 X 教授一角显然更深入人心，拥有强大的心灵感应以及控制能力的他不但是X战警的创始人，更是他们永远的精神领袖，并以其强大的个人魅力感染着每一位刚加入的变种人。使他们坚定信心，让他们相信正义，X 教授也成为 X 战警中一切善良的缘起'
+    ]
   }
 }
