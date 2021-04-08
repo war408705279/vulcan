@@ -11,6 +11,7 @@ import IconGeorgeTakei from './images/original/icon-george-takei.jpg'
 import IconWalterKoenig from './images/original/icon-walter-koenig.jpg'
 import IconNichelleNichols from './images/original/icon-nichelle-nichols.jpg'
 import IconPatrickStewart from './images/original/icon-patrick-stewart.jpg'
+import IconBrentJaySpiner from './images/original/icon-brent-jay-spiner.jpg'
 
 import { DataType } from '.'
 
@@ -316,5 +317,42 @@ export const data: DataType = {
     evaluation: [
       '单从形象上，大鹰钩鼻子深眼窝而且还是个光头的帕特里克 · 斯图尔特更适合演反派。不过，在《X 战警》系列中 X 教授一角显然更深入人心，拥有强大的心灵感应以及控制能力的他不但是X战警的创始人，更是他们永远的精神领袖，并以其强大的个人魅力感染着每一位刚加入的变种人。使他们坚定信心，让他们相信正义，X 教授也成为 X 战警中一切善良的缘起'
     ]
+  },
+  BrentJaySpiner: {
+    icon: IconBrentJaySpiner,
+    zhName: '布伦特 · 杰 · 斯派尔',
+    enName: [
+      'Brent Jay Spiner'
+    ],
+    alias: [],
+    nationality: '美国',
+    national: '',
+    birthPlace: '美国德克萨斯州休斯顿',
+    birthDay: '1949 年 2 月 2 日',
+    deathTime: '',
+    constellation: '水瓶座',
+    height: '',
+    graduateSchool: '休斯顿大学',
+    profession: [
+      '演员'
+    ],
+    representativeWorks: [
+      '《星际迷航：下一代》',
+      '《星际迷航 7：星空奇兵》',
+      '《星际迷航 8：第一次接触》',
+      '《星际迷航 9：起义》',
+      '《星际迷航 10：复仇女神》',
+      '《独立日》'
+    ],
+    mainAchievements: [
+      '土星奖最佳电影男配角提名'
+    ],
+    hobby: [],
+    information: [
+      '布伦特生与德克萨斯州休斯顿，他的母亲名叫西尔维亚，父亲名叫杰克，是一件家具店的老板。布伦特的父亲死后，他与母亲和继父生活在一起。布伦特曾在百利高中就读，当时的戏剧老师塞西尔对他影响很大，这种影响也使得他走上了表演道路。布伦特曾加入高中的演讲小组，后来获得了全国性的冠军。高中毕业后，布伦特前往休斯顿大学就读',
+      '大学毕业后，布伦特搬去纽约，在百老汇剧院做表演工作，曾出演史蒂芬 · 桑坦编剧的戏剧，有时他也出演一些外百老汇音乐剧。除戏剧外，在这一时期布伦特也参与过电影《星尘往事》的表演，在这部电影中，布伦特只是作为一个背景群众演员，没有任何对白。布伦特曾在电视剧《寒窗恋》第二季中出演一位多媒体工程师。1984 年，布伦特搬去洛杉矶，随后他在一些电视剧试播集中出演一些小角色，后来在《Night Court》中，布伦特成为了一名常驻演员，在这部电视剧中他出演鲍勃。1986 年，布伦特在哥伦比亚广播公司旗下的电视剧《Twilight Zone》中的一集出现',
+      '1987 年，布伦特开始在《星际旅行：下一代》中扮演一个名叫 Data 的仿生人；布伦特出演了 7 季电视剧和 4 部电影，他总共扮演了 15 年的 Data。作为《星际旅行：下一代》中的主角之一，他共出演 178 集，只有一集没有出现布伦特的身影。除电视剧外，布伦特也在基于《星际旅行：下一代》的四部电影中扮演 Data，分别是：《星际迷航 7：星空奇兵》、《星际迷航 8：第一次接触》、《星际迷航 9：起义》和《星际迷航 10：复仇女神》。虽然制作公司声称《星际迷航 10：复仇女神》是下一代系列最后一部电影，但复仇女神的结尾却暗示将会有续集；不过，布伦特声称自己年龄过大，已经不适合继续扮演在剧中不会变老的仿生人 Data。除此之外，布伦特也曾为几部星际旅行电子游戏配音'
+    ],
+    evaluation: []
   }
 }
