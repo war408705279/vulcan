@@ -45,7 +45,7 @@ export const data: DataType[] = [{
   actor: '布伦特 · 杰 · 斯派尔',
   role: '数据'
 }, {
-  code: '',
+  code: 'ChrisPine',
   actor: '克里斯 · 派恩',
   role: '詹姆斯 · T · 柯克'
 }, {
