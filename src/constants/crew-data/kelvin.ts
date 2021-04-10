@@ -4,6 +4,7 @@
  */
 
 import IconChrisPine from './images/kelvin/icon-chris-pine.jpg'
+import IconZacharyQuinto from './images/kelvin/icon-zachary-quinto.jpg'
 
 import { DataType } from '.'
 
@@ -29,8 +30,8 @@ export const data: DataType = {
       '演员'
     ],
     representativeWorks: [
-      '《公主日记 2：皇室婚约》',
       '星际迷航开尔文时间线系列',
+      '《公主日记 2：皇室婚约》',
       '《危情时速》',
       '《赴汤蹈火》',
       '《神奇女侠》'
@@ -55,6 +56,47 @@ export const data: DataType = {
     evaluation: [
       '克里斯 · 派恩被称为为马特 · 达蒙和布拉德 · 皮特综合体的大男孩，从骨子里就散发着一股浓郁的美国派味儿',
       '克里斯饰演的詹姆斯 · T · 柯克舰长在《星际迷航》中算是一个大胆的尝试'
+    ]
+  },
+  ZacharyQuinto: {
+    icon: IconZacharyQuinto,
+    zhName: '扎克瑞 · 昆图',
+    enName: [
+      'Zachary Quinto',
+      'Zachary John Quinto'
+    ],
+    alias: [],
+    nationality: '美国',
+    national: '',
+    birthPlace: '美国宾夕法尼亚州匹兹堡',
+    birthDay: '1977 年 6 月 2 日',
+    deathTime: '',
+    constellation: '双子座',
+    height: '193cm',
+    graduateSchool: '卡耐基梅隆大学',
+    profession: [
+      '演员'
+    ],
+    representativeWorks: [
+      '星际迷航开尔文时间线系列',
+      '《终局》',
+      '莎翁名剧《无事生非》',
+      '《Stone》',
+      '《彭赞斯的海盗》'
+    ],
+    mainAchievements: [
+      '很可惜艾美奖、土星奖、人民选择奖以及青少年选择奖均为提名'
+    ],
+    hobby: [],
+    information: [
+      '扎克瑞 · 昆图（Zachary Quinto），1977 年 6 月 2 日出生于美国宾夕法尼亚州匹兹堡，毕业于卡耐基梅隆大学的戏剧学院，美国影视演员',
+      '在《24 小时》第三季中，扎克瑞 · 昆图扮演了 CTU 分析家亚当 · 考夫门，还在《英雄》中出演复杂的邪恶人物塞拉。2008 年，他确认出演《星际迷航》电影系列新作，并两度登上了《娱乐周刊》的封面。2010 年，扎克瑞 · 昆图在外百老汇剧《天使在美国》担任主演。2011 年 10 月，扎克瑞 · 昆图正式宣布出柜。2013 年 5 月 17 日，他主演的《星际迷航：暗黑无界》在美国上映。7 月，他因出演《美国恐怖故事》而获得第 65 届艾美奖最佳迷你剧 / 电影电视男配提名',
+      '扎克瑞 · 昆图出生在美国宾西法尼亚州匹兹堡的天主教家庭，有一半意大利血统、一半爱尔兰血统。7 岁，失去父亲；11 岁开始，就已经是童星',
+      '2011 年 10 月，扎克瑞 · 昆图在接受杂志访问时公开性取向，正式出柜'
+    ],
+    evaluation: [
+      '他因为在电影版《星际迷航》中饰演企业号大副斯波克而为影迷们所知',
+      '扎克瑞 · 昆图自身性格中拥有学院派的浓重气息，有他自己严肃而又不可思议的幽默感，这样的混合很好的诠释了史波克角色复杂的欺骗性'
     ]
   }
 }
