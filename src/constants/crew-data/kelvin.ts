@@ -5,6 +5,7 @@
 
 import IconChrisPine from './images/kelvin/icon-chris-pine.jpg'
 import IconZacharyQuinto from './images/kelvin/icon-zachary-quinto.jpg'
+import IconKarlUrban from './images/kelvin/icon-karl-urban.jpg'
 
 import { DataType } from '.'
 
@@ -98,5 +99,47 @@ export const data: DataType = {
       '他因为在电影版《星际迷航》中饰演企业号大副斯波克而为影迷们所知',
       '扎克瑞 · 昆图自身性格中拥有学院派的浓重气息，有他自己严肃而又不可思议的幽默感，这样的混合很好的诠释了史波克角色复杂的欺骗性'
     ]
+  },
+  KarlUrban: {
+    icon: IconKarlUrban,
+    zhName: '卡尔 · 厄本',
+    enName: [
+      'Karl Urban'
+    ],
+    alias: [
+      'Karl-Heinz Urban'
+    ],
+    nationality: '新西兰',
+    national: '',
+    birthPlace: '新西兰惠灵顿',
+    birthDay: '1972 年 6 月 7 日',
+    deathTime: '',
+    constellation: '双子座',
+    height: '185cm',
+    graduateSchool: '',
+    profession: [
+      '演员'
+    ],
+    representativeWorks: [
+      '《星际迷航》',
+      '《星际迷航 2》',
+      '《星际迷航 3》',
+      '《谍影重重 2》',
+      '《雷神 3》'
+    ],
+    mainAchievements: [],
+    hobby: [],
+    information: [
+      '卡尔 · 厄本（Karl Urban），1972 年 6 月 7 日出生于新西兰惠灵顿，新西兰影视演员',
+      '1992 年，因参演个人第一部电视系列剧《肖特兰街》，在演艺圈出道',
+      '1998 年，出演个人首部电影《欢迎光临天堂酒吧》',
+      '从 2002 年开始，在《魔戒三部曲》后半部分，均饰演伊欧墨（Éomer）',
+      '2004 年，出演电影《谍影重重 2》',
+      '从 2009 年开始，在《星际迷航》系列片中，均饰演配角麦考伊医生',
+      '2012 年，主演电影《特警判官》',
+      '2017 年，与克里斯 · 海姆斯沃斯等人出演电影《雷神 3：诸神黄昏》',
+      '2019 年，开始在 Amazon 反英雄漫改美剧《黑袍纠察队》中饰演 Billy Butcher 一角'
+    ],
+    evaluation: []
   }
 }
