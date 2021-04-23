@@ -65,7 +65,7 @@ export const data: DataType[] = [{
   actor: '约翰 · 赵',
   role: '光 · 苏鲁'
 }, {
-  code: '',
+  code: 'AntonYelchin',
   actor: '安东 · 尤金',
   role: '帕维尔 · 安德烈维奇 · 契科夫'
 }, {
