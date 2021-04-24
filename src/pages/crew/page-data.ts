@@ -69,7 +69,7 @@ export const data: DataType[] = [{
   actor: '安东 · 尤金',
   role: '帕维尔 · 安德烈维奇 · 契科夫'
 }, {
-  code: '',
+  code: 'ZoeSaldana',
   actor: '佐伊 · 索尔达娜',
   role: '尼欧塔 · 乌胡拉'
 }, {
